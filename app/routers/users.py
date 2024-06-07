@@ -1,6 +1,6 @@
 import json
 from fastapi import APIRouter, HTTPException
-from app.dependencies import functions, chatbot, llm, thread_storage, client
+from app.dependencies import functions, chatbot, llm, client
 from app.dependencies import CreateAssistant
 from app.dependencies import CreateMessage
 
