@@ -298,7 +298,7 @@ async def get_thread_messages(thread_id: str):
 # Code Breakdown Overview
 # main
 
-### Imports
+> ### Imports
 ```python
  from fastapi import FastAPI
  from fastapi.middleware.cors import CORSMiddleware
@@ -307,7 +307,7 @@ async def get_thread_messages(thread_id: str):
 Import necessary dependencies and modules
 
 ***
-### Initialize FastAPI and Router
+> ### Initialize FastAPI and Router
 ```python
 app = FastAPI()
 
@@ -317,7 +317,7 @@ Initialize a FastAPI application named app
 Include routes from the "users" module
 
 ***
-### CORS Middleware configuration
+> ### CORS Middleware configuration
 ```python
 app.add_middleware(
     CORSMiddleware,
@@ -338,7 +338,7 @@ Specify the allowed HTTP methods and headers
 Include routes from the "users" module
 
 ***
-### Root Endpoint
+> ### Root Endpoint
 ```python
 @app.get("/")
 async def root():
@@ -349,7 +349,7 @@ Define a GET endpoint at the root URL and returns a JSON response
 ***
 # chatbot
 
-### Imports
+> ### Imports
 ```python
 from dotenv import load_dotenv
 from fastapi import HTTPException
@@ -367,7 +367,7 @@ load_dotenv()
 Import necessary dependencies and modules and load environment variables
 
 ***
-### Class
+> ### Class
 ```python
 class Chatbot:
     def __init__(self):
@@ -381,7 +381,7 @@ Initialize an LLM
 Set up a retrieval-augmented generation (RAG) chain
 
 ***
-### Load File
+> ### Load File
 ```python
 def setup_rag_chain(self):
     loader = PyPDFLoader("Technology Services FAQs.pdf")
@@ -390,7 +390,7 @@ def setup_rag_chain(self):
 Load and split the PDF file into individual pages
 
 ***
-### Splitting
+> ### Splitting
 ```python
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 splits = text_splitter.split_documents(pages)
@@ -400,14 +400,14 @@ Split documents into chunks of 1000 characters with an overlap of 200 characters
 Split the loaded pages into smaller text chunks
 
 ***
-### Storing
+> ### Storing
 ```python
 vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings())
 ```
 Create a vector store from the document splits using OpenAI embeddings
 
 ***
-### Retreival 
+> ### Retreival 
 ```python
 retriever = vectorstore.as_retriever()
 prompt = hub.pull("rlm/rag-prompt")
@@ -417,7 +417,7 @@ Set up the vector store as a retriever
 Pull a prompt template from a hub
 
 ***
-### Formatting
+> ### Formatting
 ```python
 def format_docs(docs):
        return "\n\n".join(doc.page_content for doc in docs)
@@ -425,7 +425,7 @@ def format_docs(docs):
 Format documents into a single string
 
 ***
-### RAG Chain
+> ### RAG Chain
 ```python
  rag_chain = (
         {"context": retriever | format_docs, "question": RunnablePassthrough()}
@@ -444,7 +444,7 @@ Pass the question through and applies the prompt
 Parse the output into a string
 
 ***
-### Response
+> ### Response
 ```python
 def get_response(self, user_input):
     try:
@@ -459,7 +459,7 @@ Catch any exceptions and raises an HTTPException with a status code of 500, incl
 
 ***
 # dependencies
-### Imports
+> ### Imports
 ```python
 from .chatbot import Chatbot
 from openai import AsyncOpenAI
@@ -469,7 +469,7 @@ Import necessary dependencies
 Import Chatbot class from chatbot module
 
 ***
-### Chatbot and OpenAI Initialization
+> ### Chatbot and OpenAI Initialization
 ```python
 llm = "gpt-4o"
 
@@ -484,7 +484,7 @@ Create an instance of the Chatbot class
 Create an instance of the AsyncOpenAI client for asynchronous interactions with OpenAI
 
 ***
-### Assistant & Message Model Definitions
+> ### Assistant & Message Model Definitions
 ```python
 class CreateAssistant(BaseModel):
     name: str
@@ -499,7 +499,7 @@ Define a Pydantic model "CreateAssistant" with name and instruction fields
 Define a Pydantic model "CreateMessage" with assistant_id and content fields
 
 ***
-### Assistant Function Definitions
+> ### Assistant Function Definitions
 ```python
 functions = [
     {
@@ -525,7 +525,7 @@ Define a list of functions, where each function includes:
 
 ***
 # users
-### Imports
+> ### Imports
 ```python
 import json
 from fastapi import APIRouter
@@ -540,7 +540,7 @@ Import necessary modules and dependencies
 Create instance of APIRouter
 
 ***
-### Get assistant info
+> ### Get assistant info
 ```python
 @router.get("/api/assistant/{assistant_id}")
 async def get_assistant_info(assistant_id: str):
@@ -561,7 +561,7 @@ Retrieve an assistant object from a client's beta assistants using the provided 
 Return a JSON response containing the assistant's ID, name, and instructions.
 
 ***
-### Create new assistant
+> ### Create new assistant
 ```python
 @router.post("/api/assistant")
 async def create_new_assistant(data: CreateAssistant):
@@ -586,7 +586,7 @@ Creates a new assistant using the client.beta.assistants.create method, passing 
 After the assistant is created, the function returns a dictionary containing the assistant_id, which is the ID of the newly created assistant.
 
 ***
-### Create new thread
+> ### Create new thread
 ```python
 @router.post("/api/threads/{assistant_id}")
 async def create_thread(assistant_id: str):
@@ -623,7 +623,7 @@ Initiate a run of the assistant in the thread using the client.beta.threads.runs
 Return a JSON response containing the thread ID, run ID, and the status of the run.
 
 ***
-### Create new message
+> ### Create new message
 ```python
 @router.post("/api/threads/{thread_id}/messages")
 async def create_message(thread_id: str, message: CreateMessage):
@@ -656,7 +656,7 @@ Initiate a run of the assistant in the specified thread using the client.beta.th
 Return a dictionary containing the run ID, thread ID, run status, and the last error (if any) from the run.
 
 ***
-### Get status of run
+> ### Get status of run
 ```python
 @router.get("/api/threads/{thread_id}/runs/{run_id}/status")
 async def get_status(thread_id: str, run_id: str):
@@ -715,7 +715,7 @@ If the run status is "requires_action", it processes the required actions:
 Return a dictionary containing the thread ID, run ID, and run status.
 
 ***
-### Get all messages in thread
+> ### Get all messages in thread
 ```python
 @router.get("/api/threads/{thread_id}/messages")
 async def get_thread_messages(thread_id: str):
