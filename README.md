@@ -50,7 +50,6 @@ For detailed information on structuring your FastAPI project, please refer to th
 #### chatbot.py
 > Chatbot functionality
 ```python
-> Chatbot functionality
 from dotenv import load_dotenv
 from fastapi import HTTPException
 from langchain_openai import ChatOpenAI
@@ -137,8 +136,6 @@ functions = [
         }
     }
 ]
-
-thread_storage = {}
 ```
 ***
 # routers
@@ -148,8 +145,8 @@ thread_storage = {}
 > Handle API routes for assistants, threads, and messages  
 ```python
 import json
-from fastapi import APIRouter, HTTPException
-from app.dependencies import functions, chatbot, llm, thread_storage, client
+from fastapi import APIRouter
+from app.dependencies import functions, chatbot, llm, client
 from app.dependencies import CreateAssistant
 from app.dependencies import CreateMessage
 
@@ -185,7 +182,7 @@ async def create_thread(assistant_id: str):
 
     await client.beta.threads.messages.create(
         thread_id=thread.id,
-        content="Greet the user and ask how you can help.",
+        content="Greet the user and tell it about yourself and ask how you can help.",
         role="user",
         metadata={
             "type": "hidden"
@@ -196,11 +193,6 @@ async def create_thread(assistant_id: str):
         thread_id=thread.id,
         assistant_id=assistant_id
     )
-
-    # Store the thread ID associated with the assistant ID
-    if assistant_id not in thread_storage:
-        thread_storage[assistant_id] = []
-    thread_storage[assistant_id].append(thread.id)
 
     return {
         "thread_id": thread.id,
@@ -288,13 +280,6 @@ async def get_thread_messages(thread_id: str):
     ]
 
     return result
-
-@router.get("/api/assistant/{assistant_id}/threads")
-async def get_threads_for_assistant(assistant_id: str):
-    if assistant_id not in thread_storage:
-        raise HTTPException(status_code=404, detail="Assistant ID not found")
-    
-    return {"assistant_id": assistant_id, "thread_ids": thread_storage[assistant_id]}
 ```
 ***
 # internal
@@ -460,11 +445,6 @@ functions = [
 * Description of the function's purpose
 * Required parameters for the function
 
-```python
-thread_storage = {}
-```
-* Initializes an empty dictionary to store thread IDs associated with assistant IDs
-
 ***
 
 ## users
@@ -506,7 +486,7 @@ async def create_thread(assistant_id: str):
 
     await client.beta.threads.messages.create(
         thread_id=thread.id,
-        content="Greet the user and ask how you can help.",
+        content="Greet the user and tell it about yourself and ask how you can help.",
         role="user",
         metadata={
             "type": "hidden"
@@ -517,11 +497,6 @@ async def create_thread(assistant_id: str):
         thread_id=thread.id,
         assistant_id=assistant_id
     )
-
-    # Store the thread ID associated with the assistant ID
-    if assistant_id not in thread_storage:
-        thread_storage[assistant_id] = []
-    thread_storage[assistant_id].append(thread.id)
 
     return {
         "thread_id": thread.id,
@@ -620,13 +595,3 @@ async def get_thread_messages(thread_id: str):
     return result
 ```
 * Retrieves messages from a specific thread_id, displaying the conversation history between the user and the assistant.
-
-```python
-@router.get("/api/assistant/{assistant_id}/threads")
-async def get_threads_for_assistant(assistant_id: str):
-    if assistant_id not in thread_storage:
-        raise HTTPException(status_code=404, detail="Assistant ID not found")
-    
-    return {"assistant_id": assistant_id, "thread_ids": thread_storage[assistant_id]}
-```
-* Retrieves the list of threads_ids associated with a specific assistant based of assistant_id
