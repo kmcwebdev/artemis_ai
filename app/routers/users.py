@@ -82,10 +82,8 @@ async def get_status(thread_id: str, run_id: str):
     )
 
     if (run.status == "requires_action"):
-        print("Function needs to be invoked")
-        tool_calls = run.required_action.submit_tool_outputs.tool_calls
-
         tools_output = []
+        tool_calls = run.required_action.submit_tool_outputs.tool_calls
 
         available_functions = {
             "answer_query": chatbot.get_response,
@@ -95,9 +93,11 @@ async def get_status(thread_id: str, run_id: str):
             function_name = tool_call.function.name
             function_to_call = available_functions[function_name]
             function_args = json.loads(tool_call.function.arguments)
-            function_response = function_to_call(
-                user_input=function_args.get("question")
-            )
+
+            if function_name == "answer_query":
+                function_response = function_to_call(
+                    user_input=function_args.get("question")
+                )    
 
             tools_output.append({
                 "tool_call_id": tool_call.id,
