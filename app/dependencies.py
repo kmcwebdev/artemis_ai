@@ -32,6 +32,3 @@ functions = [
         }
     }
 ]
-
-thread_storage = {}
-
