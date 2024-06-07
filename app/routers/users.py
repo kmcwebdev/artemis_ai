@@ -48,11 +48,6 @@ async def create_thread(assistant_id: str):
         assistant_id=assistant_id
     )
 
-    # Store the thread ID associated with the assistant ID
-    if assistant_id not in thread_storage:
-        thread_storage[assistant_id] = []
-    thread_storage[assistant_id].append(thread.id)
-
     return {
         "thread_id": thread.id,
         "run_id": run.id,
@@ -139,10 +134,3 @@ async def get_thread_messages(thread_id: str):
     ]
 
     return result
-
-@router.get("/api/assistant/{assistant_id}/threads")
-async def get_threads_for_assistant(assistant_id: str):
-    if assistant_id not in thread_storage:
-        raise HTTPException(status_code=404, detail="Assistant ID not found")
-    
-    return {"assistant_id": assistant_id, "thread_ids": thread_storage[assistant_id]}
