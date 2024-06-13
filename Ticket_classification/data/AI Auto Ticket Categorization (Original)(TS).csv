@@ -1,0 +1,452 @@
+Ref. SR Number,SR Number,Email Subject,AI Categorization,Is the AI Categorization  Correct?,"If NO, what should be the Correct Category?",AI Sub-categorization,Is the AI Sub-categorization Correct?,"If NO, what should be the Correct Sub-category?",AI Technician Group,Is the Group Routing Correct?,"If NO, what should be the Correct Technician Group?",Is the Initial Notes Accurate?,Initial Notes,Is the Priority Level correct?,"If NO, what should be the Correct Priority Level?",Pass/Fail,
+SR-834658,SR-836704,Solara NT Account Inquiry,IT,No,User Account,Account Management,No,NT Login Creation,IT Team,No,NOC Systems,No,The request is for the creation of 2 NT accounts for Solara employees transitioning to onsite working setup. The accounts are needed for audit requirements and specific configurations. The IT Team should review the request and proceed with creating the necessary accounts with the specified settings,No,P3 - Planned,Fail,
+,SR-836921,Solara NT Account Inquiry,Development,No,User Account,OSP,No,NT Login Creation,Dev Team,No,NOC Systems,No,"The request is regarding the creation of 2 NT accounts for Solara employees transitioning to onsite working setup.
+The accounts are needed for audit requirements and specific configurations.
+The priority for this request is set to P3 - Planned, and it has been assigned to the Dev Team for further action.",No,P3 - Planned,Fail,
+SR-834680,SR-836705,PICA 20TH (TS): Returned Asset of Sir Peter Fernandez,Asset Management,No,Off Boarding,Returned Asset,No,Item Retrieval,Asset Team,No,"Asset Management
+On-site Support",Yes,The IT asset from Sir Peter Fernandez has been returned and needs to be processed by the Asset Team. Please verify the details provided and update the asset records accordingly.,No,P3 - Planned,Fail,
+,SR-836922,PICA 20TH (TS): Returned Asset of Sir Peter Fernandez,Asset Management,No,Off Boarding,N/A,No,Item Retrieval,Asset Team,No,Asset Management,Yes,"The IT asset from Sir Peter Fernandez has been returned and needs to be properly documented by the Asset team.
+Please ensure that the Dell Latitude 3310 and JABRA EVOLVE 20 MS HEADSET are accounted for in the asset inventory.",No,P3 - Planned,Fail,
+SR-834702,SR-836706,Cyber Sigma (TS): Request for Goo Gone and Wipe Out Cleaners,IT Procurement,No,TPMO,Cleaning Supplies,No,General IT Services,IT Procurement Team,No,Technical Project Management,No,"The IT Procurement team has been requested to provide one (1) Goo Gone and one (1) Wipe Out cleaners for cleaning IT assets at Cyber Sigma. This falls under the Cleaning Supplies sub-category of IT Procurement. The priority for this request is Planned (P3), indicating that it can be scheduled and addressed in due time.",No,P4 - Project,Fail,
+,SR-836925,Cyber Sigma (TS): Request for Goo Gone and Wipe Out Cleaners,N/A,No,TPMO,N/A,No,General IT Services,IT Procurement Team,No,Technical Project Management,No,"The request is for Goo Gone and Wipe Out cleaners for Cyber Sigma.
+The IT Procurement team should handle this request and provide the requested cleaning supplies for the IT assets at the specified location.
+",No,P4 - Project,Fail,
+SR-834726,SR-836707,KMC IT x EXL (IT related discussion),Development,No,TPMO,OSP,No,General IT Services,Dev Team,No,Technical Project Management,No,"The ticket falls under the Development category, specifically related to OSP. The priority level is set to P3 - Planned, indicating that this discussion is part of planned IT activities. The ticket has been assigned to the Dev Team for further handling.",Yes,-,Fail,
+,SR-836926,KMC IT x EXL (IT related discussion),Development,No,TPMO,OSP,No,General IT Services,Dev Team,No,Technical Project Management,No,"The issue reported seems to be related to the Outage Notification feature in the OSP system.
+The priority for this request is set to Planned (P3) as it requires attention but is not critical.
+The Dev Team is assigned to address this issue.
+",Yes,-,Fail,
+SR-834744,SR-836708,CEBU Lexmark 2F(EY GDS)Printer Procurement,Development,No,TPMO,OSP,No,Hardware Purchase,Dev Team,No,Technical Project Management,No,The issue reported by the NOC engineers regarding the outage notification not being generated properly needs to be addressed promptly. The Dev Team should investigate the root cause of this issue and implement a fix to ensure smooth operation.,No,P3 - Planned,Fail,
+,SR-836927,CEBU Lexmark 2F(EY GDS)Printer Procurement,Procurement,No,TPMO,N/A,No,Hardware Purchase,Cebu Office,No,Technical Project Management,No,"The request is for procuring a printer for EY.
+The priority is set to Planned (P3) as it is a planned procurement request.
+The responsible group for handling this ticket is the Cebu Office.",Yes,-,,
+SR-834746,SR-836709,Additional Bio Reader - EY,Development,No,TPMO,OSP,No,General IT Services,Dev Team,No,Technical Project Management,No,"The issue reported by the NOC engineers regarding the outage notification not being generated properly needs to be addressed.
+The Dev Team should investigate the root cause and implement a fix to ensure that all clients receive the necessary notifications.
+",No,P3 - Planned,Fail,
+,SR-836928,Additional Bio Reader - EY,Development,No,TPMO,OSP,No,General IT Services,Dev Team,No,Technical Project Management,No,"The request from EY for additional bio readers falls under the Development category, specifically related to OSP.
+It has been prioritized as P3 - Planned, and the Dev Team has been assigned to handle this request.
+Please coordinate with the suppliers to gather the necessary information and provide a response to EY by Tuesday.",Yes,-,Fail,
+SR-834750,SR-836710,Zenni: Request for Badge Cards and Bio Enrollment,Access Request,No,On Boarding,Badge Cards and Bio Enrollment,No,New Joinee,KMC Service Desk,No,Service Desk,Yes,"The request is for the preparation of badge card access and bio enrollment for a Zenni team member. The badge card access needs to be prepared for Kevin Jung, the Technical Program Manager of Zenni Optical, who will be visiting the site on March 11, 2024. Additionally, a ticket has been created for the enrollment of his biometric access for Frabelle 17th floor. The priority for this request is set to P3 - Planned, and the responsible group for handling this ticket is the KMC Service Desk.",Yes,-,Fail,
+,,Zenni: Request for Badge Cards and Bio Enrollment,N/A,No,On Boarding,N/A,No,New Joinee,N/A,No,"Service Desk
+",No,"The request is for the preparation of badge cards and bio enrollment for a Zenni team member.
+The access needs to be ready for Kevin Jung, the Technical Program Manager of Zenni, who will be visiting on March 11, 2024.
+The badge card access and biometric enrollment should be completed in a planned manner to ensure a smooth process for the visitor.
+",No,P3 - Planned,Fail,
+SR-834753,SR-836711,TS(Team Building): Request for Bus Quotation,Development,No,Procurement,OSP,No,Quotation Request,Dev Team,No,TS Procurement,No,"The request is for a bus quotation for a team building event on May 25-26, 2024. The priority is set to P3 - Planned, and the ticket has been assigned to the Dev Team for handling.",No,P4 - Project,Fail,
+,SR-836930,TS(Team Building): Request for Bus Quotation,N/A,No,Procurement,N/A,No,Quotation Request,Team Building,No,TS Procurement,No,"The request for a bus quotation for a Team Building event on May 25-26, 2024, has been received.
+The priority for this request is set to Planned (P3).
+The Team Building group has been informed and will get in touch with you soon to provide the necessary assistance.
+",No,P4 - Project,Fail,
+SR-834759,SR-836712,Onboarding - Sheila Marie Dagooc Comabig- AGS HEALTH LLC,Onboarding,No,On Boarding,New Employee Setup,No,New Joinee,IT Service Desk Team,No,"Service Desk
+",Yes,"The ticket is related to the onboarding process for a new employee, Sheila Marie Dagooc Comabig, at AGS HEALTH LLC.
+The request includes setting up biometrics access, login credentials, desktop/laptop setup, and ensuring no IP phone or work from home access is needed.
+The priority for this ticket is P3 - Planned, as it involves planned onboarding activities.
+The IT Service Desk Team is responsible for handling this request.
+",Yes,-,Fail,
+,SR-836931,Onboarding - Sheila Marie Dagooc Comabig- AGS HEALTH LLC,N/A,No,On Boarding,N/A,No,New Joinee,N/A,No,Service Desk,No,N/A,No,P3 - Planned,Fail,
+SR-834763,SR-836713,Onboarding - Harold Lee Chavez Magnaye- CORAL ACTIVE,IT Department,No,On Boarding,Onboarding,No,New Joinee,IT Department,No,"Service Desk
+",No,"The request is related to onboarding Harold Lee Chavez Magnaye as a Senior Software Tester Manual at KMC / CORAL ACTIVE.
+The start date is mentioned as 04-08-2024, and the request includes details such as contact information and work setup requirements.
+The IT Department should proceed with the onboarding process and ensure all necessary equipment and access are provided to the new employee.",No,P3 - Planned,Fail,
+,SR-836932,Onboarding - Harold Lee Chavez Magnaye- CORAL ACTIVE,N/A,No,On Boarding,N/A,No,New Joinee,IT Department,No,Service Desk,No,"The ticket is related to the onboarding process of Harold Lee Chavez Magnaye at CORAL ACTIVE.
+The request includes details such as the employee's position, contact information, start date, and work setup requirements.
+The priority assigned is P3 - Planned, as it involves planned onboarding activities.
+The ticket has been correctly categorized under IT > Onboarding, and it has been assigned to the IT Department for further assistance.",Yes,-,Fail,
+SR-834764,SR-836714,Deactivation Request: Offboarding,Human Resources,No,Off Boarding ,N/A,No,Employee Leaving,N/A,No,Service Desk,No,"This ticket is a request for deactivation of an offboarding employee.
+The employee details are provided, and the effective date for deactivation is specified.
+No further action is required in terms of category, sub-category, or group assignment.
+",No,P3 - Planned,Fail,
+,SR-836933,Deactivation Request: Offboarding,N/A,No,Off Boarding ,N/A,No,Employee Leaving,SME Admin Team,No,Service Desk,No,"The request is for the deactivation of an employee from SB Bookkeeping Solutions effective 29-Feb-24.
+This falls under the SME Admin Team category and is classified as a Planned priority (P3).
+The responsible group for handling this request should be the SME Admin Team.",Yes,-,,
+SR-834766,SR-836715,"OFF-BOARDING TICKET - ILAGAN, RIGIL KENT MARTIN/DEEP SENTINEL CORPORATION: LATE NOTICE",N/A,No,Off Boarding ,N/A,No,Employee Leaving,HR Team,No,Service Desk,No,"The off-boarding request for ILAGAN, RIGIL KENT MARTIN from DEEP SENTINEL CORPORATION has been received.
+The separation date is set for Feb 21, 2024, with deactivation scheduled for Mar 15, 2024.
+The HR team will handle the process and send a confirmation email upon completion.",No,P3 - Planned,Fail,
+,SR-836934,"OFF-BOARDING TICKET - ILAGAN, RIGIL KENT MARTIN/DEEP SENTINEL CORPORATION: LATE NOTICE",N/A,No,Off Boarding ,N/A,No,Employee Leaving,HR Team,No,Service Desk,No,"The off-boarding process for employee ILAGAN, RIGIL KENT MARTIN from DEEP SENTINEL CORPORATION is in progress.
+The separation date is set for February 21, 2024, with deactivation scheduled for March 15, 2024.
+The HR team is handling the request.",No,P3 - Planned,Fail,
+SR-834774,SR-836716,Re: Podium - Branded (Badge Request and Replacement),Internal Message,No,Deployment / Movement,Badge Request and Replacement,No,Deployment Request,N/A,No,On-Site Support,No,"This ticket is an internal message regarding a badge request and replacement.
+The request includes the need for 2 new badges and one replacement for lost access card.
+The priority assigned is P2 - General.
+No specific group assignment is provided in the ticket.",No,P3 - Planned,Fail,
+,SR-836935,Re: Podium - Branded (Badge Request and Replacement),N/A,No,Deployment / Movement,N/A,No,Deployment Request,N/A,No,On-Site Support,No,"The request is for 2 new badges and one replacement for members at Podium - Branded.
+The new badges are for Michelle Anne Reyes and Jienelle Fei Fernando, while the replacement is for Celso Bonbon due to a lost card.
+The request is planned and can be scheduled accordingly.
+",No,P3 - Planned,Fail,
+SR-834791,SR-836717,ZETA(pythacadcam.sg): Request for Assistance,Development,No,Hardware,OSP,No,TV/Projector/Sound System,Dev Team,No,On-Site Support,No,"The request is related to setting up equipment for an event at the 9th floor training room.
+The team needs assistance with the projector and HDMI connector.
+The event is scheduled from 9:00 am to 2:00 pm.
+The priority for this request is P3 - Planned, and it should be assigned to the Dev Team for further assistance.
+",Yes,-,Fail,
+,SR-836936,ZETA(pythacadcam.sg): Request for Assistance,Network,No,Hardware,N/A,No,TV/Projector/Sound System,On-site Support,Yes,On-Site Support,No,"The ticket has been categorized under Network > Wi-Fi Performance.
+The priority level is set to P2 - General, indicating a general urgency.
+The ticket has been assigned to the On-site Support team for resolution.
+The user is experiencing slow Wi-Fi connectivity, which may be due to various factors such as network congestion, signal interference, or hardware issues.
+The On-site Support team should investigate the issue by checking the network infrastructure, signal strength, and potential sources of interference to improve the Wi-Fi performance.",No,P3 - Planned,,
+SR-834804,SR-836718,Re: [Client Inquiry] Gaming Room Set-up (To entertain companions of FGD participants),Client Inquiry,No,Hardware,Gaming Room Set-up,No,TV/Projector/Sound System,Utility Team,No,On-Site Support,No,"The client, Hazel Venida, has requested the set-up of a gaming area for companions of FGD participants.
+She specifically mentioned the need for an Xbox and games to be available.
+She also requested a key point of contact from the Utility team for coordination.
+The priority for this request is classified as P3 - Planned, and the responsible group for handling this ticket is the Utility Team.
+",Yes,-,Fail,
+,SR-836937,Re: [Client Inquiry] Gaming Room Set-up (To entertain companions of FGD participants),,No,Hardware,,No,TV/Projector/Sound System,Dev Team,No,On-Site Support,No,"The client, Hazel Venida from UNA Market, has requested the set-up of a gaming area to entertain companions of FGD participants.
+The request includes preparing an Xbox and games in advance.
+The client also seeks a contact person from the Utility team for coordination.
+The priority for this request is classified as P3 - Planned, and the ticket is assigned to the Dev Team for action.
+",Yes,-,,
+SR-834852,SR-836719,RT1 6F (IFIVE) Re:[## 177188 ##] PC Doesn't Open,Development,No,Hardware,OSP,No,Desktop/Laptop Problem,Dev Team,No,"On-Site Support
+",No,"The ticket is related to a PC that doesn't open at station V-130.
+The request has been acknowledged, and the Dev Team has been assigned to address this planned issue.
+The ticket falls under the Development category with a sub-category of OSP.
+The priority level is set to P3 - Planned.",No,P2 - General,Fail,
+,SR-836938,RT1 6F (IFIVE) Re:[## 177188 ##] PC Doesn't Open,Network,No,Hardware,N/A,No,Desktop/Laptop Problem,On-site Support,Yes,On-Site Support,No,"The user is reporting slow Wi-Fi connectivity in the office, affecting their ability to load web pages and download files.
+This issue needs to be addressed promptly to ensure smooth operations.
+The ticket has been correctly categorized as a Network - Wi-Fi Performance problem, and it should be assigned to the On-site Support team for resolution.
+",No,P2 - General,,
+SR-834925,SR-836720,ZETA(IFIVE):Re:[## 177190 ##] PC Monitor Resolution,Development,No,Hardware,OSP,No,Desktop/Laptop Problem,Dev Team,No,"On-Site Support
+",No,"The ticket is related to adjusting the resolution on a second monitor.
+The request has been acknowledged, and the iFive IT team has been notified.
+The issue falls under the Development category, specifically OSP.
+The priority assigned is P3 - Planned, and the ticket has been assigned to the Dev Team for resolution.
+",No,P2 - General,Fail,
+,SR-836939,ZETA(IFIVE):Re:[## 177190 ##] PC Monitor Resolution,Development,No,Hardware,OSP,No,Desktop/Laptop Problem,Dev Team,No,On-Site Support,No,"The ticket is related to adjusting the resolution on the second monitor.
+The request has been acknowledged and requires assistance from the Dev Team for planned resolution.
+The issue is categorized under Development > OSP with a priority level of P3 - Planned.
+",No,P2 - General,,
+SR-834987,SR-836721,FourNEO 12F (WTW): Monitor Rental,Hardware,No,Asset Management,Monitor,No,Item Request,ITS Team,No,Asset Management,No,"The request is for a monitor rental for the WTW: FourNEO 12F (WTW) on March 4, 2024.
+The priority for this request is Planned (P3) as it is scheduled for deployment.
+The ITS team is assigned to handle this request.",Yes,-,Fail,
+,SR-836940,FourNEO 12F (WTW): Monitor Rental,N/A,No,Asset Management,N/A,No,Item Request,Service Delivery,No,Asset Management,No,"The request is for a monitor rental at FourNEO 12F (WTW) on March 4, 2024.
+The priority for this request is P3 - Planned.
+The Service Delivery Team is responsible for handling this request.",Yes,-,,
+SR-834991,SR-836722,Change Timezone Remotely,Service Desk Team,No,Software,Timezone Change,No,Configuration Assistance,N/A,No,"On-Site Support
+Voice and Email",No,"The agent is experiencing issues with the timezone on their computer, which is affecting their work tools.
+It is crucial to resolve this promptly to ensure they can work efficiently.
+Please verify the timezone settings and make the necessary adjustments remotely to correct the issue.",No,P3 - Planned,Fail,
+,SR-836941,Change Timezone Remotely,N/A,No,Software,N/A,No,Configuration Assistance,N/A,No,"On-Site Support
+Voice and Email",No,"The agent is facing an issue with the computer clock timezone being incorrect despite attempts to change it.
+This is impacting their work as their tools require the computer's clock to be set to EST.
+It is recommended to prioritize this request to ensure the agent can go online promptly.
+Check the computer settings and ensure the timezone is correctly set to EST.
+",No,P3 - Planned,,
+SR-835009,SR-836723,"ZETA(IFIVE):Re:[## 177179 ##] Secondary Monitor Deployment: 2 Team Lead Stations | March 4, 2024",IT Deployment,No,Deployment / Movement,Monitor Deployment,No,Deployment Request,iFive IT Team,No,On-Site Support,No,"The request is for the deployment of 2 secondary monitors for team lead stations on March 4, 2024.
+The monitors are to be set up in specific offices by a certain time.
+The request includes details on the office assignments and port numbers.
+The monitors are to be deployed once transferred from another location.
+The priority for this request is classified as P3 - Planned, as it involves a scheduled deployment.
+The iFive IT team is responsible for handling this request.",Yes,-,Fail,
+,SR-836942,"ZETA(IFIVE):Re:[## 177179 ##] Secondary Monitor Deployment: 2 Team Lead Stations | March 4, 2025",N/A,No,Deployment / Movement,N/A,No,Deployment Request,KMC Zeta Team,No,On-Site Support,No,"The request is for the deployment of 2 KMC monitors at Zeta Tower.
+The monitors are already requested to be transferred from RBC to Zeta.
+The KMC Zeta Team is responsible for deploying the monitors once they arrive at Zeta.
+The deployment is planned and not critical.",No,P3 - Planned,,
+SR-835029,SR-836724,ZETA(IFIVE):Re:[## 177242 ##] install cebod in V-372 port,Development,No,Software ,OSP,No,Software Installation/ Uninstallation (Application Installation/Uninstallation),Zeta iFive Team,No,"On-Site Support
+Service Desk",No,"The request is related to installing Cebod on port V-372.
+It falls under the Development category, specifically OSP.
+The priority assigned is P3 - Planned, indicating that it requires attention but is not critical.
+The ticket has been successfully sent to the Zeta iFive Team for further action.
+",Yes,-,Fail,
+,SR-836943,ZETA(IFIVE):Re:[## 177242 ##] install cebod in V-372 port,N/A,No,Software ,OSP,No,Software Installation/ Uninstallation (Application Installation/Uninstallation),Zeta iFive Team,No,"On-Site Support
+Service Desk",No,"The ticket is a request for the installation of Cebod in V-372 port by the Zeta IFive Team.
+The priority level assigned is P4 - Project, indicating that this is a project-related task.
+The group assignment is the Zeta IFive Team, responsible for handling the installation request.
+",No,P3 - Planned,,
+SR-835036,SR-836725,Armstrong (TS): Joan 6 Battery Low - room Armstrong 12th Meeting Room 2 5pax,Facilities,No,Hardware,Charging Request,No,Joan Device,Joan Team,No,On-Site Support,No,"The Joan device in Armstrong 12th Meeting Room 2 with 5 seating capacity is running low on battery at 16%.
+It is recommended to charge the device to ensure seamless scheduling.
+The Joan Team has been notified for assistance.",No,P2 - General,Fail,
+,SR-836944,Armstrong (TS): Joan 6 Battery Low - room Armstrong 12th Meeting Room 2 5pax,N/A,No,Hardware,N/A,No,Joan Device,N/A,No,On-Site Support,No,"The on-site technician has been coordinated to charge Joan 6 at Armstrong 12th Meeting Room 2 to ensure continuous operation.
+It is recommended to monitor the battery levels regularly to avoid disruptions in scheduling.
+",No,P2 - General,,
+SR-835029,SR-836741,ZETA(IFIVE):Re:[## 177242 ##] install cebod in V-372 port,Network,No,Software ,Wi-Fi Performance,No,Software Installation/ Uninstallation (Application Installation/Uninstallation),On-site Support,Yes,On-site Support,No,"The user is facing slow Wi-Fi connectivity issues in the office, affecting their ability to load web pages and download files.
+The On-site Support team should investigate the Wi-Fi performance and address any potential network issues causing the slowdown.",No,P3 - Planned,Fail,
+,SR-836945,ZETA(IFIVE):Re:[## 177242 ##] install cebod in V-372 port,Development,No,Software ,OSP,No,Software Installation/ Uninstallation (Application Installation/Uninstallation),Dev Team,No,On-site Support,No,"The ticket is a request to install Cebod in V-372 port.
+The priority is classified as P3 - Planned, and the ticket is assigned to the Dev Team for assistance.
+The requester is Xyrus Ezekiel Cuenca from iFive Global.
+The installation should be planned and scheduled accordingly.
+",Yes,-,,
+SR-835059,SR-836742,Re:[## 177265 ##] ReleasePoint Employee Separation Notification | Mac Gemver Sambeli,Access Management,No,Off Boarding ,Deactivation,No,Employee Leaving ,IT Team,No,"Service Desk
+",No,"The user, Mac Gemver Sambeli, is requesting the deactivation of accesses due to separation from the company.
+The accesses to be deactivated include Badge Card Access, Biometrics, and NT Login.
+The separation reason provided is resignation and studies.
+The priority for this ticket is P3 - Planned, as it involves planned access deactivation.
+The IT Team is responsible for handling this request.",Yes,,Fail,
+,SR-836946,Re:[## 177265 ##] ReleasePoint Employee Separation Notification | Mac Gemver Sambeli,N/A,No,Off Boarding ,N/A,No,Employee Leaving ,N/A,No,"Service Desk
+",No,"The ticket is related to the critical task of deactivating all accesses for an employee separation.
+It includes revoking badge card access, biometrics, and NT login for Mac Gemver Sambeli.
+The urgency of this request is high as it involves security measures for a departing employee.
+Immediate action is required to ensure data and physical access security.
+",No,P3 - Planned,,
+SR-835101,SR-836743,Re: Cotiviti - Cyber Gamma Fitout & IT Coordination Call Requested,Development,No,Network,OSP,No,General Network Activity,Dev Team,No,"Network Design Team
+NOC",No,"The request is related to an outage notification issue in the OSP system.
+The NOC engineers are facing difficulties with the bcc function not working correctly.
+The Dev Team should investigate and resolve this issue promptly to ensure smooth operations.
+",No,P3 - Planned,Fail,
+,SR-836947,Re: Cotiviti - Cyber Gamma Fitout & IT Coordination Call Requested,Development,No,Network,OSP,No,General Network Activity,Dev Team,No,"Network Design Team
+NOC",No,"The request is related to an issue in the OSP system where outage notifications are not being generated properly for all clients.
+The Dev Team should investigate this issue and work on a solution to ensure proper notification generation for all clients.
+",No,P3 - Planned,Fail,
+SR-835102,SR-836744,PROC : GAMMA(COTIVITI) : RFQ FOR PROJECTOR AND SCREEN WITH INSTALLATION,Vendor Management,No,Procurement,RFQ for Projector and Screen,No,Quotation Request,Vendor Management Team,No,TS Procurement,No,"The request is for an RFQ for a projector and screen installation based on client requirements.
+The priority is classified as Planned (P3) as it is not an urgent request.
+The Vendor Management Team is assigned to handle this request.",No,P4 - Project,Fail,
+,SR-836948,PROC : GAMMA(COTIVITI) : RFQ FOR PROJECTOR AND SCREEN WITH INSTALLATION,Procurement,Yes,Procurement,N/A,No,Quotation Request,Procurement,No,TS Procurement,No,"The request is for the procurement of a projector and screen with installation.
+The client's specific requirements for the projector and screen have been outlined.
+The RFQ process needs to be initiated to fulfill this request.
+The Procurement Team should handle this request and proceed with obtaining quotations for the required items.
+",No,P4 - Project,,
+SR-835120,SR-836745,Lag laptop,Development,No,Hardware,OSP,No,Desktop/Laptop Problem,Dev Team,No,On-Site Support,No,"The request is related to a software defect in the OSP system.
+The priority is set to P3 - Planned, and the ticket has been assigned to the Dev Team for resolution.
+Please investigate the issue and ensure that the outage notifications are generated correctly for all clients.",No,P2 - General,Fail,
+,SR-836949,Lag laptop,N/A,No,Hardware,N/A,No,Desktop/Laptop Problem,N/A,No,On-Site Support,No,"The laptop is experiencing lagging issues, which can impact productivity.
+It's important to investigate the root cause of the lag and address it promptly to ensure smooth operation.
+Possible solutions may include checking for background processes consuming resources, updating drivers, or performing maintenance tasks.",No,P2 - General,,
+SR-835260,SR-836746,Access Request - Joan Admin Portal,Access Request,No,Services Management,Joan Admin Portal,No,Access Permission,Systems Team,No,NOC Systems,No,"The requester, Leanna Pedragosa, is seeking access to the Joan admin config portal to better understand the system features for a potential in-house project.
+The request is planned and falls under the category of Access Request - Joan Admin Portal.
+The Systems Team is assigned to address this request.",No,P3 - Planned,Fail,
+,SR-836950,Access Request - Joan Admin Portal,N/A,No,Services Management,N/A,No,Access Permission,Dev Team,No,NOC Systems,No,"The request is for access to the Joan admin portal for the purpose of exploring and understanding the features available in the system.
+The requester, Leanna Pedragosa, is a Business Systems Analyst at kmc.
+solutions and is planning to develop an in-house version of the Joan/room panel system.
+The access is crucial for her to gather project requirements.
+The priority assigned is P3 - Planned, and the ticket has been categorized under Development > OSP with the group assignment to the Dev Team.",Yes,-,,
+SR-837249,SR-836747,Aeropark(PB Tech)Fw: Rack Access - PBTECH Aeropark,Network,No,General Assistance,Network Rack/Cabinet Access,No,Data Center Access,Network Team,No,On-site Support,No,"The request is for access to open the network rack/cabinet at PB Tech Aeropark for inspection of devices for network upgrade/update.
+The access request seems planned and not critical.
+The Network Team should handle this request and coordinate with the requester for the necessary access.",No,P3 - Planned,Fail,
+,SR-836951,Aeropark(PB Tech)Fw: Rack Access - PBTECH Aeropark,Network,No,General Assistance,N/A,No,Data Center Access,On-site Support,Yes,On-Site Support,Yes,"The request is for access to the network rack at PB Tech Aeropark for inspection related to network upgrade/update.
+The priority assigned is P3 - Planned, as it is a planned activity.
+The ticket has been categorized under Network > Network Rack Access and assigned to the On-site Support team for resolution.",Yes,-,,
+SR-837258,SR-836748,AWS UPDATE REQUEST,Development,No,Software ,AWS Update,No,Configuration Assistance,Dev Team,No,"On-site Support
+Voice and Email",No,"The ticket is a request for an AWS update from Bhenilyn Evangelista.
+The priority is set to P3 - Planned, indicating that the update can be scheduled and planned for implementation.
+The ticket falls under the Development category, specifically for AWS updates, and is assigned to the Dev Team for handling.",Yes,-,Fail,
+,SR-836952,AWS UPDATE REQUEST,Development,No,Software,N/A,No,Configuration Assistance,KMC Service Delivery,No,"On-site Support
+Voice and Email",No,"The ticket is regarding an AWS update request from Sherry Santos.
+The issue reported is that AWS is lagging and needs to be updated.
+The agent's name is Bhenilyn Evangelista, and the anydesk number provided is 431 960 368.
+The priority assigned is P3 - Planned, and the ticket has been forwarded to the KMC Service Delivery team for resolution.",Yes,-,,
+SR-837445,SR-836749,Request | Log-in Main and Back door for 8th & 9th floor,Request,No,Biometric,N/A,No,Logs Report Generation,N/A,No,Access Control and Security,No,"The request is for extracting the log-in main and back door for the 8th & 9th floor with a specified date range.
+The priority for this request is set to P3 - Planned, indicating that it can be addressed within a reasonable timeframe.
+The responsible group for handling this request is not specified in the ticket.
+It seems to be related to office and facilities access, but further clarification may be needed.",Yes,-,Fail,
+,SR-836953,Request | Log-in Main and Back door for 8th & 9th floor,N/A,No,Biometric,N/A,No,Logs Report Generation,N/A,No,Access Control and Security,No,"The request is for assistance in extracting the log-in main and back door for the 8th and 9th floor from February 1 to February 29, 2024.
+The priority assigned is P3 - Planned, indicating that this task can be scheduled and completed within a reasonable timeframe.
+The responsible group for handling this request is not specified, so it may need further clarification from the requester.",Yes,-,,
+SR-838307,SR-836750,UPT(TS): KMC UPT | CS Shared Point Increase of Storage Capacity Request,Development,No,Email,OSP,No,Email Storage,Dev Team,No,Voice and Email,No,"The request is for an increase in storage capacity for the CS Shared point due to exceeding the current limit.
+This falls under the Development category, specifically OSP.
+The priority is set to P3 - Planned, and the ticket is assigned to the Dev Team for resolution.
+",No,P2 - General,Fail,
+,SR-836954,UPT(TS): KMC UPT | CS Shared Point Increase of Storage Capacity Request,Development,No,Email,OSP,No,Email Storage,Dev Team,No,Voice and Email,No,"The issue reported by the NOC engineers regarding the outage notification not being generated properly for all clients requires attention.
+The Dev Team should investigate the root cause and implement a fix to ensure proper functionality.",No,P2 - General,,
+SR-838626,SR-836751,Jollibee Tower (TS): OSS Assistance for GLOBE CKT Transfer,Network,No,General Assistance,Wi-Fi Performance,No,On-site Assistance,On-site Support,Yes,On-Site Support,Yes,"The ticket is related to Wi-Fi performance at Jollibee Tower for the Globe CKT transfer.
+The On-site Support team should address this issue promptly to ensure smooth connectivity during the transfer.",No,P3 - Planned,Fail,
+,SR-836955,Jollibee Tower (TS): OSS Assistance for GLOBE CKT Transfer,Network,No,General Assistance,N/A,No,On-site Assistance,On-site Support,Yes,On-Site Support,Yes,"The user is facing slow Wi-Fi connectivity issues in the office, affecting their ability to load web pages and download files efficiently.
+The On-site Support team should investigate the Wi-Fi performance and address any potential network issues causing the slowdown.",No,P3 - Planned,,
+SR-845899,SR-836752,"Issue with ""Fixed Term"" Employment Type on ERP",HRIS,No,Development,ERP Issue,No,ERP,N/A,No,Product Development,No,"The issue reported seems to be related to a validation error when selecting the 'Fixed Term' employment type on ERP.
+The HRIS Team has been assigned to investigate and resolve this issue.
+Please provide your employee number and full name for further assistance.",No,P2 - General,Fail,
+,SR-836956,"Issue with ""Fixed Term"" Employment Type on ERP",Development,Yes,Development,OSP,No,ERP,Dev Team,No,Product Development,No,"The issue reported by the NOC engineers regarding the outage notification not generating bcc for all clients seems to be a software defect.
+The priority for this request is set to P3 - Planned, and it has been assigned to the Dev Team for resolution.",No,P2 - General,,
+SR-846574,SR-836753,MICROPHONE TEAMS - ERROR,Network,No,Hardware,Wi-Fi Performance,No,Peripherals,On-Site Support,Yes,On-Site Support,No,"The user is facing slow Wi-Fi connectivity in the office, affecting their ability to load web pages and download files.
+The issue seems to be related to Wi-Fi performance.
+The On-site Support team should investigate and resolve the slow Wi-Fi connection to improve the user's experience.
+",No,P2 - General,Fail,
+,SR-836957,MICROPHONE TEAMS - ERROR,Network,No,Hardware,N/A,No,Peripherals,On-site Support,Yes,On-Site Support,No,"The user is reporting slow Wi-Fi connectivity in the office, affecting web browsing and file downloads.
+The issue seems to be related to Wi-Fi performance.
+The On-site Support team should investigate and troubleshoot the Wi-Fi network to improve the connection speed.",No,P2 - General,,
+SR-846577,SR-836754,CEBU Skyrise 4B 17F(TOA) - 17F Office A4 - TOA GLOBAL CEBU,Cebu Admin,No,TPMO,Office Setup,No,General IT Services,N/A,No,Technical Project Management,No,"The Cebu Admin team needs to set up Office A.
+4 on the 17F of Skyrise 4B for TOA Global Cebu.
+This is a planned request for office setup on Monday morning.",No,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-847343,SR-836755,"Armstrong (ACS): Requesting Almer Rawlogs March 1-16,2024",Development,No,Biometric,OSP,No,Logs Report Generation,Dev Team,No,Access Control and Security,No,"The request is for the rawlogs of Almer for March 1-16, 2024 at Armstrong (ACS).
+The request is for Phase 1 located at Training Room Right 7 Floor and Phase 2 located at Office C 12 Floor.
+The priority for this request is P3 - Planned, as it is a planned data retrieval task.
+The ticket should be assigned to the Dev Team for further action.",Yes,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-851797,SR-836756,One Ayala(TS): Review of CCTV Footage,Security,No,CCTV Footage Review Request,CCTV Footage Review,No,CCTV Footage Extraction,CCTV Admin,Yes,CCTV Admin,Yes,"The request is for reviewing CCTV footage at One Ayala to locate a lost Xiaomi Smart Pen Tablet Stylus.
+The urgency is moderate as time is of the essence to recover the item.
+The CCTV Admin team is assigned to review the footage and assist in locating the lost item.",No,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-852453,SR-836757,UPTWFH (SO-Vision PF): Windows Update assistance,Development,No,Hardware,OSP,No,Desktop/Laptop Problem,Dev Team,No,On-Site Support,No,"The ticket is related to providing Windows Update assistance to a staff member working from home.
+The requestor, Edward Christian Guzman, is coordinating with the IT team to assist Jose Andres with his concern.
+The priority for this ticket is classified as P3 - Planned, as it involves planned assistance with Windows Updates.
+The ticket falls under the Development category, specifically under OSP.
+The Dev Team is assigned to handle this request.",Yes,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-852985,SR-836758,VPN access,Access Request,No,User Account,VPN,No,NT Login Password Reset,IT Support team,No,"NOC Systems
+Service Desk",No,"The user is experiencing issues with VPN access and is unable to log in.
+It is crucial to address this promptly to ensure seamless remote work.
+The IT Support team should investigate the login issue and provide assistance to the user.
+",No,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-855156,SR-836759,Clients List: IT Additional Services,Development,No,TPMO,OSP,No,General IT Services,Dev Team,No,Technical Project Management,No,"The request is for a list of clients with IT services in specific locations and their monthly fees.
+This falls under the Development category, specifically OSP, with a priority level of P3 - Planned.
+The ticket has been assigned to the Dev Team for further action.",Yes,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-855190,SR-836760,TS Sigma: Activation of Access – TSD Global PH,TS Sigma Team,No,Biometric,Activation of Access,No,Bio Enrollment,TS Sigma Team,No,"Access Control and Security
+On-site Support",No,"The request is for the activation of access for Mr.
+JP Arizobal in Cerus, Hermes, and Iris on 03/27/2024.
+The priority for this request is P3 - Planned, as it is a planned access activation.
+The TS Sigma Team is assigned to handle this request.",Yes,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-858103,SR-836761,Fw: KMC Hub - New Booking - KMC-B6B1,Noted,No,On Boarding,N/A,No,New Joinee,N/A,No,Service Desk,No,N/A,No,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-858122,SR-836762,Request for Upload of Biometrics in 10/F Sheridan & MedRisk's Offices - 04/01/2024,Request for Upload of Biometrics,No,Biometric,Paralegals in 10/F Sheridan & MedRisk's Offices,No,Bio Upload,KMC IT/ACS Team,No,N/A,No,"The request is for uploading the biometrics of Paralegals in 10/F Sheridan and MedRisk's offices.
+The priority is set to P3 - Planned as it is a routine task.
+The KMC IT/ACS Team is assigned to handle this request.",Yes,,Fail,
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-858133,SR-836763,connect to printer,Network,No,Printer,Wi-Fi Performance,No,Access Request,On-site Support,No,"On-Site Support
+Voice and Email",No,"The user is facing slow Wi-Fi connectivity issues in the office.
+It is affecting their work productivity.
+The On-site Support team should investigate the Wi-Fi performance and troubleshoot the connection to improve speed and reliability.
+",No,,Fail,
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-858173,SR-836764,"KMC SM NE | ? MOMENTARY POWER INTERRUPTION (MONTHLY GENSET LOAD TESTING) - APRIL 2, 2024",N/A,No,Notification,N/A,No,Power Maintenance,N/A,No,NOC Systems,No,N/A,No,,Fail,Email content: Image only
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-858434,SR-836765,Cyber Sigma (TS): Request to Move to Central OU,Server,No,Services Management,Move to central OU,No,Active Directory Services,Server team,No,NOC Systems,No,"The request is to move a laptop to the Central OU.
+This falls under the Server category and is planned, not critical.
+The Server Team has been assigned to handle this request.",No,,Fail,
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-858501,SR-836766,"PICADILLY: PRINTER ASSISTANCE
+",Hardware,No,Printer,Printer Assistance,No,Issue,N/A,No,On-Site Support,No,"The user at Picadilly on the 25th floor is experiencing issues with the printer, which is causing delays in their printing tasks.
+It is recommended to promptly address this issue to ensure smooth operations in that area.
+Possible solutions include checking the printer's connectivity, toner levels, and any error messages displayed on the printer's screen.
+",No,,Fail,
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-859576,SR-836767,Gamma IT (SO: Kelly Partners): Blue screen,Development,No,Hardware,OSP,No,Desktop/Laptop Problem,N/A,No,On-Site Support,No,"The request has been properly logged as a Blue Screen.
+A technician will be dispatched to assist Kimberly with her concern.",No,,Fail,
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-859616,SR-836768,TS (Team Building): For PO | Bus,TS,No,Procurement,Team Building,No,Payment/Invoices/Liquidation,N/A,No,TS Procurement,No,"The request is for processing a purchase order for 2 buses for a team building event.
+The vendor is Island Dragon Transport, and a discount is requested.
+The priority for this request is P3 - Planned.",Yes,,Fail,
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-859666,SR-836769,Onboarding - MARIE ANGELINE MONTEZA- HELPFUEL SERVICES DMCC,Onboarding,No,On Boarding,New Employee Setup,No,New Joinee,IT Service Desk,No,Service Desk,Yes,"The ticket is an onboarding request for a new employee, Marie Angeline Monteza, at Helpfuel Services DMCC.
+She will start on April 9, 2024, and will require biometrics and login access, desktop and laptop setup, and will not have an IP phone.
+She will not be working from home.
+The priority for this ticket is P3 - Planned, as the onboarding process is scheduled for a specific date.
+The IT Service Desk Team is responsible for handling this request.",Yes,,Fail,
+,,,,Yes,,,Yes,,,Yes,,,,,,,
+SR-860549,SR-836770,Having Issues Printing,Hardware,No,Printer,Printer,No,Issue,N/A,No,On-Site Support,No,N/A,No,,Fail,
+,,,,,,,Yes,,,Yes,,,,,,,
+SR-860713,SR-836771,Onboarding - GARY JOSHUA JAVELOSA RAMOS- LUCIHUB,Onboarding,No,On Boarding,Work From Home,No,New Joinee,Talent Acquisition,No,Service Desk,No,"The onboarding request for GARY JOSHUA JAVELOSA RAMOS for the position of VIDEO EDITOR at LUCIHUB has been received.
+The start date is set for 04-15-2024, and the request is for work from home setup.
+The priority for this request is classified as P3 - Planned, and it has been assigned to the Talent Acquisition Team for processing.
+",Yes,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-860798,SR-836772,PRINTER CONNECTION TO TREASURY,Network,No,Printer,Wi-Fi Performance,No,Access Request,On-site Support,No,"On-Site Support
+Voice and Email",No,"The user is facing slow Wi-Fi connectivity issues in the office, affecting their ability to load web pages and download files efficiently.
+The problem seems to be related to Wi-Fi performance.
+The On-site Support team should investigate and troubleshoot the Wi-Fi network to improve the connection speed and resolve the issue for the user.
+",No,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-862913,SR-836773,Requesting for Assistance for Laptop - Jaymerson Gonzales,Request for Assistance,No,Hardware,Laptop,No,Desktop/Laptop Problem,TS Group,No,On-Site Support,No,"The user, Jaymerson Gonzales, is experiencing slow performance on their laptop and is requesting assistance.
+It is categorized as a general priority ticket under the TSPT category.
+The TS Group is responsible for addressing this issue.
+Possible solutions include checking for background processes consuming resources, optimizing startup programs, and performing system maintenance.",No,,Fail,
+,,,,,,,,,,,,,,,,,
+SR-834675,SR-836774,Re: Access records for Anaplan - Month of Feb,Access Control and Security,No,Biometric,Access Records for Anaplan,No,Logs Report Generation,ACS Team,No,Access Control and Security,No,"The request has been acknowledged, and the Access Control and Security (ACS) Team has been assigned to assist with the access records for Anaplan for the month of February 2024.
+The details provided include the company name, office location, and the specific month for the access records.
+The ACS Team should prioritize this request as planned and ensure timely assistance to monitor the utilization of Anaplan's office access.
+",No,,,
+,,,,,,,,,,,,,,,,,
+SR-834723,SR-836775,PICA (HR): KMC Email Distro - Lagarto Jonil Lagunsad,Request for PICA (HR),No,Email,Adding KMC Email Distro,No,Distrolist/Mailbox,HR,No,Voice and Email,No,"This ticket is a request to add email distributions for a new hire in the Legal and Compliance department.
+The priority for this request is Planned (P3) as it is not urgent but needs to be completed in a timely manner.
+The responsible group for handling this ticket is HR.",Yes,,,
+,,,,,,,,,,,,,,,,,
+SR-834739,SR-836776,TS 5ECOM | Request for Utility Biometric Logs,TS,No,Biometric,Request for Biometric Logs,No,Logs Report Generation,Service Desk,No,Access Control and Security,No,"The ticket falls under the TS category with a sub-category of Request for Biometric Logs.
+The priority level assigned is P2 - General, indicating a standard urgency and importance.
+The TS Team is responsible for addressing this request.
+The request is for 5ecom Utilities Biometric Logs from a specific date range in 2024.",No,P3 - Planned,,
+,,,,,,,,,,,,,,,,,
+SR-834757,SR-836777,Gamma (Access Offshoring): Storage of 3 monitors of Access Offshoring,On-site Support,No,Deployment / Movement,Storage Assistance,No,Movement Request,On-site Support,Yes,On-site Support,Yes,"The request is for onsite support to store three monitors of Access Offshoring in the IT room over the weekend.
+Approval from the client has been obtained.
+The monitors are currently in the boardroom on the 29th floor of Gamma.
+The Onsite team is responsible for moving and storing the monitors in an appropriate location.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-834831,SR-836778,RT1(IFIVE): Re:[## 177183 ##] Unable to sign in to PC,Network,Yes,Network,Wi-Fi Performance,No,Connection Issue,On-site Support,No,"On-site Support
+NOC",Yes,"The ticket is related to a Wi-Fi performance issue where a user is unable to sign in to a PC due to domain unavailability.
+The request has been correctly categorized as a Network issue under Wi-Fi Performance.
+The On-site Support team has been assigned to address this issue.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-834880,SR-836779,CHANGE TIMEZONE REQUEST - REMOTELY,N/A,No,Software,N/A,No,Configuration Assistance,N/A,No,"On-site Support
+Voice and Email",No,N/A,No,,,
+,,,,,,,,,,,,,,,,,
+SR-834895,SR-836780,Removal of Dell Server from Office L - Cyber Sigma,Hardware,No,Deployment / Movement,Server Removal,No,Deployment Request,AGS Team,No,On-site Support,No,"The Dell servers need to be removed from Office L - Cyber Sigma to make space for AGS.
+The service tags provided are 57R20F13Z48FD15XVY1F170LFGC138XLP91.
+The removal should be planned and coordinated with the AGS team.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-834908,SR-836781,RT1 6F (IFIVE) Re:[## 177205 ##] Hard Phone Issue - No option to answer calls | D/V 082,Network,No,Telephony ,Wi-Fi Performance,No,Hardphone Issue,On-site Support,Yes,"On-site Support
+Voice and Email",No,"The user is reporting slow Wi-Fi connectivity in the office, affecting their ability to load web pages and download files.
+This issue needs to be addressed promptly to ensure smooth operations.
+The On-site Support team should investigate the Wi-Fi performance in the office and take necessary actions to improve the connection speed.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-835012,SR-836782,ZETA(IFIVE): WPS Escalation V-080,Development,No,Software,Software Installation,No,Application Installation/Uninstallation,Dev Team,No,On-site Support,No,"The request is for the installation of WPS software that has expired.
+The priority for this request is set to P3 - Planned, as it is not a critical issue.
+The ticket has been assigned to the Dev Team for further action.
+",Yes,,,
+,,,,,,,,,,,,,,,,,
+SR-835247,SR-836783,ALERT: Node of SAV-3CX-01.savills.local is Down,Alert,No,Network,Server Node Down,No,Monitoring Alerts,Network Team,No,NOC,No,"The server node SAV-3CX-01.
+savills.
+local is currently down, which is a critical issue requiring immediate attention.
+The network team should investigate the cause of the outage and work towards restoring the node to ensure minimal downtime for users.
+It is crucial to address this issue promptly to maintain the stability and functionality of the server.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-835250,SR-836784,Arthaland 10F (TD Real Estate): Request for Projector and Microphone/Speaker,Tech,No,TPMO,Audio Visual Equipment,No,Hardware Rental,Tech Team,No,Technical Project Management,No,"The request is for audio-visual equipment (projector, microphone, and speaker) for an upcoming event on April 6 and 7 at Arthaland.
+The equipment needs to be tested before the event to ensure proper functionality.
+The Tech Team should coordinate the setup and testing of the equipment to support the event successfully.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-836082,SR-836785,One Ayala (SALES): KMC ERP - New Approved COWORKING DEDICATED Contract,Sales,No,Notification,New Approved Coworking Dedicated Contract,No,New Client,Sales Team,No,Technical Project Management,No,"The ticket is a request for a new approved coworking dedicated contract for KMC ERP at One Ayala.
+The contract details and client information are provided in the content.
+The priority is set to P3 - Planned, and the ticket is assigned to the Sales Team for handling.
+",Yes,,,
+,,,,,,,,,,,,,,,,,
+SR-836191,SR-836786,KMC Picadilly | Access for Epicos website,Access Requests,No,Development,Epico's Website,No,EPICOS,IT Team,No,N/A,No,"The request is for granting access to Epico's website for the mentioned individuals.
+It is categorized as a planned task with a priority level of P3.
+The IT Team is assigned to handle this request.",Yes,,,
+,,,,,,,,,,,,,,,,,
+SR-836193,SR-836787,OSP Access,Development,No,User Account,OSP,No,OSP Access Request,Dev Team,No,Service Desk,No,"The ticket falls under the Development category, specifically related to OSP.
+The priority level is set to P3 - Planned, indicating that this request is scheduled for implementation in the near future.
+The ticket has been assigned to the Dev Team for further assistance.",Yes,,,
+,,,,,,,,,,,,,,,,,
+SR-836212,SR-836788,KMC Vcorp (CS) -Request for Revision of Work Permit Form,Development,Yes,Development,OSP,Yes,OSP,Webdev Team,No,N/A,No,"The Webdev Team is requested to revise the Work Permit Form by changing 'How Work Permit' to 'Hot Work Permit'.
+The requested adjustment is specific to a particular section.
+Please refer to the provided snippet for reference.
+If further details are required, please reach out for clarification.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-836335,SR-836789,PICA (FINANCE) - RETURNED IT ASSET FOR MAAM FRANCINE KIM VARILLA,Finance,No,Asset Management,PICA Requested for Returned Item,No,Inventory,Finance Team,No,On-Site Support,No,"The ticket is related to a returned IT asset for Ma'am Francine Kim Varilla.
+The Dell Latitude 3310 13'' Screen Display - 9GZ45B3OSP has been updated.
+The priority is set to P2 - General, and the ticket is assigned to the Finance team for handling.
+",No,P3 - Planned,,
+,,,,,,,,,,,,,,,,,
+SR-836908,SR-836790,ARTHA (MANCOM) LAPTOP CHARGER,"Noted, I will inform the team",No,Hardware,N/A,No,Equipment Loan/Retrieval,N/A,No,On-Site Support,No,"The request is for borrowing a laptop charger, with the intention to return it by 3pm today.
+This falls under a planned request category, as it can be scheduled and does not require immediate attention.
+The team can be informed about this request for coordination.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-837453,SR-836791,JBT(TS): KMC JOLLIBEE TOWER 15F - MISSING LUNCH BOX INCIDENT,CCTV Review,No,CCTV,Job Theft,No,CCTV Footage Extraction,N/A,No,CCTV Admin,No,"The incident involves a missing lunch box at the KMC Jollibee Tower 15F site, with CCTV footage showing a potential suspect.
+It is recommended to review the footage further and discuss the situation with Mr.
+Godofredo Dela Paz Jr.
+to gather more information and clarify the situation.
+It is important to handle this matter delicately and ensure all parties involved are informed and understood.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-837462,SR-836792,NTC0305246182025 (RECEIVE) - APEX RBS,Development,No,Procurement,OSP,No,Payment/Invoices/Liquidation,Dev Team,No,TS Procurement,No,"The ticket falls under the Development category, specifically related to OSP.
+The priority level is set to P3 - Planned, indicating that this request is scheduled for future development work.
+The ticket has been assigned to the Dev Team for further action.
+",No,,,
+,,,,,,,,,,,,,,,,,
+SR-838367,SR-836793,Dev Team Uniform and Jacket Request,Development,No,Procurement,Uniform and Jacket Request,No,Purchase Request,N/A,No,TS Procurement,No,"The Dev Team Uniform and Jacket Request has been categorized as a planned priority.
+Sharen has been assigned to coordinate the distribution of uniforms and jackets to the team members listed in the request.
+Please ensure timely communication and delivery to meet the team's needs.",No,,,
+,,,,,,,,,,,,,,,,,
+SR-840938,SR-836794,NT Login Password Reset,Network,No,User Account,NT Login Password Reset,No,N/A,On-site Support,No,Service Desk,No,"The user is requesting assistance with resetting their NT login password.
+This falls under the Network category, specifically related to NT login issues.
+The priority is set to P2 - General, and the ticket should be assigned to the On-site Support team for resolution.",Yes,,,
+,,,,,,,,,,,,,,,,,
+SR-845901,SR-836795,Aura 11F (GC International) : Headset request,Noted with thanks,No,Procurement,IT Procurement,No,Quotation Request,IT Procurement Team,No,TS Procurement,No,"The IT Procurement team has been requested to assist with the procurement of 3 headsets (PRO22039) for Aura 11F (GC International).
+The priority for this request is set to P3 - Planned, as it involves planned procurement activities.
+The IT Procurement Team is responsible for coordinating with the requester to provide the necessary details and facilitate the procurement process.",No,P4 - Project,,
+,,,,,,,,,,,,,,,,,
+SR-850572,SR-836796,Pica(TS): Add to Proworking Distro: BRIDGE CONSULTING. (Anna Danica Ramos),Email Administration,No,Email,Distribution List Management,No,Distrolist/Mailbox,Email Admin,No,Voice and Email,No,"The ticket is related to adding BRIDGE CONSULTING to the Proworking distribution list.
+The request comes from Joshua Lawrence, an Inside Sales Representative at kmc.
+solutions.
+The task involves adding Anna Danica Ramos to the distribution list for email blasts and updates.
+The priority is set to P3 - Planned, and the group assignment is Email Admin.",Yes,,,
+,,,,,,,,,,,,,,,,,
+SR-853101,SR-836797,"OFF-BOARDING TICKET - FERNANDO, MAIRIELLE ASHLEY DE LEON/KMC COMMUNITY, INC.: 03/29/2024 - (5-DAY NOTICE)",HR,No,Off Boarding,N/A,No,Employee Leaving,N/A,No,Service Desk,No,N/A,No,,,
+,,,,,,,,,,,,,,,,,
+SR-858417,SR-836798,Re: APPROVED PR-450345 Amazon - POC - Portable ConferenceCam with Bluetooth,IT Procurement,No,Asset Management,Asset Tagging,No,Inventory,IT Procurement,No,On-Site Support,No,"The request is related to asset tagging for the approved purchase of a Portable ConferenceCam with Bluetooth.
+The IT Procurement team should proceed with the asset tagging process as planned.",No,,,
