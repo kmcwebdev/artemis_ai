@@ -89,6 +89,9 @@ target/
 profile_default/
 ipython_config.py
 
+# PDF Files
+*.pdf
+
 # pyenv
 .python-version
 
