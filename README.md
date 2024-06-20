@@ -314,6 +314,7 @@ app = FastAPI()
 app.include_router(users.router)
 ```
 Initialize a FastAPI application named app
+
 Include routes from the "users" module
 
 ***
@@ -334,8 +335,6 @@ Specify the allowed origins for CORS
 Allow credentials to be included in requests
 
 Specify the allowed HTTP methods and headers  
-
-Include routes from the "users" module
 
 ***
 > ### Root Endpoint
