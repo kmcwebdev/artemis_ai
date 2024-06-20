@@ -25,6 +25,12 @@ techgroup_encoded_dir:
   save_args:
     index: False
 
+category_encoded_dir:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/category_encoded_dir.parquet
+  save_args:
+    index: False
+
 train_df:
   filepath: data/03_primary/train_department.csv
   type: pandas.CSVDataset
@@ -72,6 +78,7 @@ trained_model:
 # id2label:
 #   type: json.JSONDataset
 #   filepath: data/04_feature/department_label_encoded_dir/id2label.json
+
 
 
 

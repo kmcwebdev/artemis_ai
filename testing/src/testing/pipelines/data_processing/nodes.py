@@ -187,3 +187,16 @@ def create_techgroup_df(df):
         encoded_df.to_csv(output_filepath, index=False)
 
     return output_dir
+
+def create_category_df(df):
+    unique_departments = df['Department'].unique()
+    output_dir = "data/02_intermediate/category_encoded_dir"
+    os.makedirs(output_dir, exist_ok=True)
+
+    for department in unique_departments:
+        df_department = df[df['Department'] == department]
+        encoded_df = one_hot_encode_column(df_department[['Description', 'Category']], 'Description', 'Category')
+        # Save encoded DataFrame to CSV
+        output_filepath = os.path.join(output_dir, f"{department}_encoded.csv")
+        encoded_df.to_csv(output_filepath, index=False)
+    return output_dir
