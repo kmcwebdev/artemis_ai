@@ -7,7 +7,7 @@ from .nodes import (split_data,
     department_label_encoding, 
     preprocess_function,
     train_model,
-
+    split_subcategory_data
     )
 
 def create_pipeline(**kwargs) -> Pipeline:
@@ -18,6 +18,12 @@ def create_pipeline(**kwargs) -> Pipeline:
                 inputs=["department_encoded_df","params:model_options"],
                 outputs=["train_df","test_df"],
                 name="split_data_node"
+            ),
+            node(
+                func=split_subcategory_data,
+                inputs=dict(encoded_dir="subcategory_encoded_dir", parameters="params:split_parameters"),
+                outputs="split_subcategory_data",
+                name="split_subcategory_data_node"
             ),
             node(
                 func=dataframe_to_dataset,

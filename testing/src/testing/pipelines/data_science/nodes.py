@@ -12,6 +12,45 @@ def split_data(df: pd.DataFrame, parameters:Dict):
     train_df, test_df = train_test_split(df, test_size=parameters["test_size"], random_state=parameters["random_state"])
     return train_df, test_df
 
+# def split_subcategory_data(encoded_dir,df, parameters:Dict):
+#     unique_departments = df['Department'].unique()
+#     output_dir = "data/03_primary/subcategory_train_test_df_dir"
+#     os.makedirs(output_dir, exist_ok=True)
+#     for department in unique_departments:
+#     # Load the encoded DataFrame for the specified department and subcategory
+#         input_filepath = os.path.join(encoded_dir, f"{department}_encoded.csv")
+#         df = pd.read_csv(input_filepath)
+#         df_subcategory = df[df['Sub-Category'] == subcategory]
+#         train_df, test_df = train_test_split(df_subcategory, test_size=parameters["test_size"], random_state=parameters["random_state"])
+#         output_filepath = os.path.join(output_dir, f"{department}_sub.csv")
+#     return 
+
+
+from typing import Dict
+
+def split_subcategory_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
+    # Load parameters
+    test_size = parameters["test_size"]
+    random_state = parameters["random_state"]
+    
+    # Create a dictionary to store the partitioned data
+    partitioned_data = {}
+
+    # Iterate through each department's data in the encoded_dir
+    for department in parameters["departments"]:
+        input_filepath = os.path.join(encoded_dir, f"{department}_encoded.csv")
+        df = pd.read_csv(input_filepath)
+        
+        # Split the data
+        train_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
+        
+        # Store the train and test data in the partitioned_data dictionary
+        partitioned_data[f"{department}_train"] = train_df
+        partitioned_data[f"{department}_test"] = test_df
+    
+    return partitioned_data
+
+
 def dataframe_to_dataset(train,test):
     train_dataset = Dataset.from_pandas(train)
     test_dataset = Dataset.from_pandas(test)

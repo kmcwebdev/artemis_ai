@@ -201,16 +201,25 @@ def create_category_df(df):
         encoded_df.to_csv(output_filepath, index=False)
     return output_dir
 
+# def create_subcategory_df(df):
+#     unique_departments = df['Department'].unique()
+#     output_dir = "data/02_intermediate/subcategory_encoded_dir"
+#     os.makedirs(output_dir, exist_ok=True)
+
+#     for department in unique_departments:
+#         df_department = df[df['Department'] == department]
+#         encoded_df = one_hot_encode_column(df_department[['Description', 'Sub-Category']], 'Description', 'Sub-Category')
+#         # # Save encoded DataFrame to CSV
+#         # output_filepath = os.path.join(output_dir, f"{department}_encoded.csv")
+#         # encoded_df.to_csv(output_filepath, index=False)
+#         return 
+
 def create_subcategory_df(df):
     unique_departments = df['Department'].unique()
-    output_dir = "data/02_intermediate/subcategory_encoded_dir"
-    os.makedirs(output_dir, exist_ok=True)
+    partitioned_data = {}
 
     for department in unique_departments:
         df_department = df[df['Department'] == department]
-        encoded_df = one_hot_encode_column(df_department[['Description', 'Sub Category']], 'Description', 'Sub Category')
-        # Save encoded DataFrame to CSV
-        output_filepath = os.path.join(output_dir, f"{department}_encoded.csv")
-        encoded_df.to_csv(output_filepath, index=False)
-    return output_dir
-
+        encoded_df = one_hot_encode_column(df_department[['Description', 'Sub-Category']], 'Description', 'Sub-Category')
+        partitioned_data[department] = encoded_df
+    return partitioned_data

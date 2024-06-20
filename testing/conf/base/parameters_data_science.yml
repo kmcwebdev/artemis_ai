@@ -11,3 +11,15 @@ model_options:
     - iata_approved
     - company_rating
     - review_scores_rating
+  departments: 
+    - Cutomer Sucess
+    - Document Controller
+    - Engineering
+    - Finance
+    - HR
+    - Legal & Compliance
+    - Marketing
+    - Operations Team
+    - Projects & Design
+    - Service Delivery External
+    - Technology Services

@@ -7,6 +7,15 @@ original_ref:
   save_args:
     index: False
 
+cate_ref:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/update.csv
+  load_args:
+    sep: ","
+    encoding: "latin1"
+  save_args:
+    index: False
+
 preprocessed_ref:
   type: pandas.CSVDataset
   filepath: data/02_intermediate/preprocessed_ref.csv
@@ -22,14 +31,27 @@ department_encoded_df:
 techgroup_encoded_dir:
   type: pandas.ParquetDataset
   filepath: data/02_intermediate/techgroup_encoded_dir.parquet
-  save_args:
-    index: False
+  # save_args:
+  #   index: False
 
-category_encoded_dir:
-  type: pandas.ParquetDataset
-  filepath: data/02_intermediate/category_encoded_dir.parquet
-  save_args:
-    index: False
+# subcategory_encoded_dir:
+#   type: pandas.ParquetDataset
+#   filepath: data/02_intermediate/subcategory_encoded_dir
+#   save_args:
+#     index: False
+
+subcategory_encoded_dir:
+  type: partitions.PartitionedDataset
+  path: data/02_intermediate/subcategory_encoded_dir
+  dataset: pandas.CSVDataset
+  filename_suffix: ".csv"
+
+
+split_subcategory_data:
+  type: partitions.PartitionedDataset
+  path: data/03_primary/split_subcategory_data
+  dataset: pandas.CSVDataset
+
 
 train_df:
   filepath: data/03_primary/train_department.csv
