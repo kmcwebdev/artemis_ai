@@ -42,6 +42,11 @@ def create_pipeline(**kwargs) -> Pipeline:
                 inputs=["tokenized_train_dataset", "tokenized_test_dataset", "label2id", "id2label"],
                 outputs="trained_model",
                 name="train_model_node"
+            ),
+            node(
+                func=split_data,
+                inputs=["techgroup_encoded_dir","params:model_options"],
+                outputs=["train", "test"]
             )
             # node(
             #     func=data_split,

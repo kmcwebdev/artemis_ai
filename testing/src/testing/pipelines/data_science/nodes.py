@@ -35,6 +35,7 @@ model_path = 'microsoft/deberta-v3-small'
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 def preprocess_function(train_dataset, test_dataset, department2id):
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
     def process_dataset(dataset, department2id):
         texts = dataset["Description"]
         departments = [col for col in dataset.column_names if col != 'Description']
@@ -68,8 +69,10 @@ def preprocess_function(train_dataset, test_dataset, department2id):
 from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer, DataCollatorWithPadding
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 import numpy as np
+from torch.optim import AdamW
 
 def train_model(tokenized_train_dataset, tokenized_test_dataset, label2id, id2label, model_path='microsoft/deberta-v3-small'):
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
     model = AutoModelForSequenceClassification.from_pretrained(
         model_path, 
         num_labels=len(label2id),
@@ -104,6 +107,8 @@ def train_model(tokenized_train_dataset, tokenized_test_dataset, label2id, id2la
         save_strategy="epoch",
         load_best_model_at_end=True,
     )
+    # Initialize the optimizer
+    optimizer = AdamW(model.parameters(), lr=5e-5)
 
     trainer = Trainer(
         model=model,
@@ -113,11 +118,11 @@ def train_model(tokenized_train_dataset, tokenized_test_dataset, label2id, id2la
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_metrics,
-        no_deprecation_warning=True,
+        optimizers=(optimizer, None)
     )
     
     trainer.train()
-
+    trainer.save()
     return model
 
 
