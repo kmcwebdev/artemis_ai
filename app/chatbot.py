@@ -17,7 +17,7 @@ class Chatbot:
         self.rag_chain = self.setup_rag_chain()
 
     def setup_rag_chain(self):
-        loader = PyPDFLoader("./Data/Technology Services FAQs.pdf")
+        loader = PyPDFLoader("./data/Technology Services FAQs.pdf")
         pages = loader.load_and_split()
 
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
