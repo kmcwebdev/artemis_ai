@@ -1,0 +1,1019 @@
+Department,Tech Group,Sub-Category_x,Priority,Description,assistant (For Getlogs only),Category,Sub-Category_y
+Technology Services,Access Control and Security,Access Reactivation,P3 - Planned,Request to reactivate a users biometric access.,,Biometric,Access Reactivation
+Technology Services,Access Control and Security,Access Upload,P3 - Planned,Request to upload an access to another biometric device.,,Biometric,Access Upload
+Technology Services,Access Control and Security,Badge Card Re-assignment,P3 - Planned,Request to re-assign a badge card to a different user.,,Biometric,Badge Card Re-assignment
+Technology Services,Access Control and Security,Badge Card Request,P3 - Planned,Request for badge card (ITS is already present or not needed).,,Biometric,Badge Card Request
+Technology Services,Access Control and Security,Bio Disable,P3 - Planned,Request to disable a biometric access.,,Biometric,Bio Disable
+Technology Services,Access Control and Security,Bio Enrollment,P3 - Planned,Request for biometric enrollment.,,Biometric,Bio Enrollment
+Technology Services,Access Control and Security,Biometric Issue,P2 - General,"Ticket related to a biometric, magnetic lock, push button, and exit sensor issue.",,Biometric,Biometric Issue
+Technology Services,Access Control and Security,Device Configuration,P3 - Planned,Request to configure a setting in the biometric device.,,Biometric,Device Configuration
+Technology Services,Access Control and Security,General Biometric Services,P3 - Planned,"Ticket for active list request, monthly audit, and other general inquiry relating to the biometrics.",,Biometric,General Biometric Services
+Technology Services,Access Control and Security,Logs Report Generation,P3 - Planned,Request for a biologs report.,,Biometric,Logs Report Generation
+Technology Services,Access Control and Security,Sprout Migration,P3 - Planned,Request to sync a biometric device to Sprout.,,Biometric,Sprout Migration
+Technology Services,Access Control and Security,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,Access Control and Security,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,Access Control and Security,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,Access Control and Security,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,Access Control and Security,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,Access Control and Security,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,Access Control and Security,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Asset Management,Accountability Form,P3 - Planned,Request for accountability form creation.,,Asset Management,Accountability Form
+Technology Services,Asset Management,Disposal,P4 - Project,Ticket for disposing IT assets.,,Asset Management,Disposal
+Technology Services,Asset Management,Gatepass Processing,P3 - Planned,Request to process gate pass for KMC-owned assets.,,Asset Management,Gatepass Processing
+Technology Services,Asset Management,Inventory,P3 - Planned,"Tickets related to asset keeping, inventory, and tagging.",,Asset Management,Inventory
+Technology Services,Asset Management,Issuance Form,P3 - Planned,Request for issuance form creation.,,Asset Management,Issuance Form
+Technology Services,Asset Management,Item Request,P3 - Planned,Request for IT equipment and devices.,,Asset Management,Item Request
+Technology Services,Asset Management,Report,P3 - Planned,Ticket for reporting asset issues.,,Asset Management,Report
+Technology Services,Asset Management,Warranty,P3 - Planned,Request for warranty checking for KMC-owned assets.,,Asset Management,Warranty
+Technology Services,Asset Management,Asset Item Deployed,P2 - General,Any incident (lost/stolen asset) that needs to collate assets deployed,,Data Security Incident,Asset Item Deployed
+Technology Services,Asset Management,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,Asset Management,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,Asset Management,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,Asset Management,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,Asset Management,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,Asset Management,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,Asset Management,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Asset Management,Exit Clearance,P3 - Planned,Ticket related to the signing of clearance of a resigned employee.,,Off Boarding,Exit Clearance
+Technology Services,CCTV Admin,Camera Rotate/Disable Request,P3 - Planned,Request to rotate/disable a CCTV.,,CCTV,Camera Rotate/Disable Request
+Finance,Billing,Billing Dispute,P1 - Billing,Any ticket related to discrepancies or disagreements in billing charges or invoices.,,Billing - Teams,Account Reconciliation
+Finance,Billing,Billing Dispute,P1 - Billing,Any ticket related to discrepancies or disagreements in billing charges or invoices.,,Billing - Spaces,Billing Dispute
+Finance,Billing,Pro-forma Billing Request,P2 - Billing,Any ticket related on provisional or preliminary billing statements or invoices.,,Billing - Teams,Pro-forma Billing Request
+Finance,Billing,Pro-forma Billing Request,P2 - Billing,Any ticket related on provisional or preliminary billing statements or invoices.,,Billing - Spaces,Pro-forma Billing Request
+Finance,Billing,Info or Document Request,P2 - Billing,Any ticket related on seeking additional information or documentation related to billing matters.,,Billing - Teams,Client Deposit Refund Request
+Finance,Billing,Info or Document Request,P2 - Billing,Any ticket related on seeking additional information or documentation related to billing matters.,,Billing - Teams,Info or Document Request
+Finance,Billing,Info or Document Request,P2 - Billing,Any ticket related on seeking additional information or documentation related to billing matters.,,Billing - Spaces,Info or Document Request
+Finance,Billing,New Client for Billing,P1 - Billing,Any ticket regarding the setup or initiation of billing procedures for new clients.,,Billing - Teams,New Client for Billing
+Finance,Billing,New Client for Billing,P1 - Billing,Any ticket regarding the setup or initiation of billing procedures for new clients.,,Billing - Spaces,New Client for Billing
+Finance,Billing,Account Reconciliation,P1 - Billing,Any ticket concerning the process of comparing financial records to ensure accuracy and consistency.,,Billing - Spaces,Account Reconciliation
+Finance,Billing,Client Deposit Refund Request,P1 - Billing,Any ticket related return of deposits made by clients.,,Billing - Teams,Billing Dispute
+Finance,Billing,Client Deposit Refund Request,P1 - Billing,Any ticket related return of deposits made by clients.,,Billing - Spaces,Client Deposit Refund Request
+Finance,Billing,Customer Setup,P2 - Billing,Any ticket related to the setup or configuration of customer billing accounts.,,Billing - Spaces,Customer Setup
+Finance,Billing,Other Request,P3 - Billing,Any ticket for billing-related inquiries or requests not covered by other categories.,,Billing - Spaces,Other Request
+Finance,Billing,Billing Dispute,P1 - Billing,Any ticket related to discrepancies or disagreements in billing charges or invoices.,,Billing - Teams,Account Reconciliation
+Finance,Billing,Billing Dispute,P1 - Billing,Any ticket related to discrepancies or disagreements in billing charges or invoices.,,Billing - Spaces,Billing Dispute
+Finance,Billing,Client Deposit Refund Request,P1 - Billing,Any ticket related return of deposits made by clients.,,Billing - Teams,Billing Dispute
+Finance,Billing,Client Deposit Refund Request,P1 - Billing,Any ticket related return of deposits made by clients.,,Billing - Spaces,Client Deposit Refund Request
+Finance,Billing,Info or Document Request,P2 - Billing,Any ticket related on seeking additional information or documentation related to billing matters.,,Billing - Teams,Client Deposit Refund Request
+Finance,Billing,Info or Document Request,P2 - Billing,Any ticket related on seeking additional information or documentation related to billing matters.,,Billing - Teams,Info or Document Request
+Finance,Billing,Info or Document Request,P2 - Billing,Any ticket related on seeking additional information or documentation related to billing matters.,,Billing - Spaces,Info or Document Request
+Finance,Billing,New Client for Billing,P1 - Billing,Any ticket regarding the setup or initiation of billing procedures for new clients.,,Billing - Teams,New Client for Billing
+Finance,Billing,New Client for Billing,P1 - Billing,Any ticket regarding the setup or initiation of billing procedures for new clients.,,Billing - Spaces,New Client for Billing
+Finance,Billing,Other Concerns,P3 - Billing,Any other tickets addressing concerns or issues pertaining to billing.,,Billing - Teams,Other Concerns
+Projects & Design,BTS Design,Client Presentation,P2 - BTS Design,"Any ticket related to preparing and delivering presentations to clients, showcasing design concepts and proposals.",,BTS CLIENT MEETING REQUEST,Client Presentation
+Projects & Design,BTS Design,Project Scoping / Client Meeting,P1 - BTS Design,Any ticket related to scoping meetings or discussions with clients to understand project requirements and objectives.,,BTS CLIENT MEETING REQUEST,Project Scoping / Client Meeting
+Projects & Design,BTS Design,Site Coordination Meetings,P1 - BTS Design,Any ticket related to coordinating meetings with site personnel or stakeholders to discuss design implementation logistics.,,BTS CLIENT MEETING REQUEST,Site Coordination Meetings
+Projects & Design,BTS Design,Furniture / Joinery Details,P3 - BTS Design,Any ticket related to developing detailed designs and specifications for furniture and joinery elements within projects.,,BTS DESIGN REQUEST,Furniture / Joinery Details
+Projects & Design,BTS Design,3d Modeling + Rendering (minimum of 5 areas),P6 - BTS Design,Any ticket related to creating 3D models and rendering visualizations for a minimum of five designated areas within a project.,,BTS DESIGN REQUEST,3d Modeling + Rendering (minimum of 5 areas)
+Projects & Design,BTS Design,3d Modeling without rendering,P5 - BTS Design,Any ticket related to 3D modeling tasks without rendering visualization.,,BTS DESIGN REQUEST,3d Modeling without rendering
+Projects & Design,BTS Design,Revision of renders/3D,P4 - BTS Design,Any ticket related to revising and refining previously created renders or 3D models based on client feedback or design iterations.,,BTS DESIGN REQUEST,Revision of renders/3D
+Projects & Design,BTS Design,3D Walkthrough (1-3 areas / > 100 sqm),P3 - BTS Design,Any ticket related to creating interactive 3D walkthroughs for projects encompassing one to three designated areas larger than 100 square meters each.,,BTS DESIGN REQUEST,3D Walkthrough (1-3 areas / > 100 sqm)
+Projects & Design,BTS Design,3D Walkthrough (4-6 areas / > 300-500 sqm),P4 - BTS Design,Any ticket related to creating interactive 3D walkthroughs for projects encompassing four to six designated areas ranging from 300 to 500 square meters each.,,BTS DESIGN REQUEST,3D Walkthrough (4-6 areas / > 300-500 sqm)
+Projects & Design,BTS Design,3D Walkthrough (whole floor areas / > 1000 sqm),P5 - BTS Design,Any ticket related to creating comprehensive 3D walkthroughs covering entire floor areas exceeding 1000 square meters.,,BTS DESIGN REQUEST,3D Walkthrough (whole floor areas / > 1000 sqm)
+Projects & Design,BTS Design,Design Pegs & Cost Guide,P3 - BTS Design,"Any ticket related to sourcing design inspiration and creating cost guides for projects, including materials, finishes, and aesthetic references.",,BTS DESIGN REQUEST,Design Pegs & Cost Guide
+Projects & Design,BTS Design,Revision of Cost Guide,P2 - BTS Design,"Any ticket related to updating and revising cost guides for projects, including adjustments to material and labor costs.",,BTS DESIGN REQUEST,Revision of Cost Guide
+Projects & Design,BTS Design,Wall Accent Design / Glass Frosting Design,P3 - BTS Design,Any ticket related to designing wall accents or glass frosting elements within projects.,,BTS DESIGN REQUEST,Wall Accent Design / Glass Frosting Design
+Projects & Design,BTS Design,Material Board,P4 - BTS Design,"Any ticket related to creating material boards, showcasing selected materials and finishes for projects.",,BTS DESIGN REQUEST,Material Board
+Projects & Design,BTS Design,Furniture and Material Specifications,P3 - BTS Design,Any ticket related to involving the detailed specification of furniture and materials to be used in project designs.,,BTS DESIGN REQUEST,Furniture and Material Specifications
+Projects & Design,BTS Design,3D Walkthrough,P2 - BTS Design,"Any ticket related to creating immersive 3D walkthroughs of project designs, providing clients with virtual tours of the proposed spaces.",,BTS DESIGN REQUEST,3D Walkthrough
+Projects & Design,BTS Design,Refresh Initial Design,P5 - BTS Design,Any ticket related to refreshing and refining the initial design concepts based on client feedback or design iterations.,,BTS DESIGN REQUEST,Refresh Initial Design
+Projects & Design,BTS Design,Refresh Revision of Design,P4 - BTS Design,Any ticket related to revising and updating design concepts following client feedback or internal reviews.,,BTS DESIGN REQUEST,Refresh Revision of Design
+Projects & Design,BTS Design,Office Area / Floorplan Copy / PEZA Info (Subject for Verification of P&D),P1 - BTS Design,"Any ticket related to related to copying and updating office area floorplans, including PEZA (Philippine Economic Zone Authority) information pending verification by Planning and Design.",,BTS OFFICE INFO REQUEST,Office Area / Floorplan Copy / PEZA Info (Subject for Verification of P&D)
+Projects & Design,BTS Design,Printing & Signing + Sealing of PEZA Plans,P3 - BTS Design,"Any ticket related to printing, signing, and sealing PEZA plans in compliance with regulatory requirements.",,BTS OFFICE INFO REQUEST,Printing & Signing + Sealing of PEZA Plans
+Projects & Design,BTS Design,Canvassing OSM Alternatives / Vendor Costing Request,P3 - BTS Design,Any ticket related to exploring alternatives for OSM compliance and requesting vendor costings for related services or materials.,,BTS OSM Request,Canvassing OSM Alternatives / Vendor Costing Request
+Projects & Design,BTS Design,Initial Bid / BOM Review,P1 - BTS Design,Any ticket related to pertaining to the initial review of bids or Bills of Materials (BOM) for construction projects.,,BTS Project Design Management,Initial Bid / BOM Review
+Projects & Design,BTS Design,Revised Bid / BOM Review,P1 - BTS Design,Any ticket related to review of revised bids or Bills of Materials (BOM) following updates or modifications to project requirements.,,BTS Project Design Management,Revised Bid / BOM Review
+Projects & Design,BTS Design,MEPF Design Review,P3 - BTS Design,"Any ticket related to reviewing Mechanical, Electrical, Plumbing, and Fire Protection (MEPF) designs for construction projects.",,BTS Project Design Management,MEPF Design Review
+Projects & Design,BTS Design,Site Coordination Meetings,P1 - BTS Design,"Any ticket related to coordinating and scheduling meetings with site personnel, contractors, and stakeholders to discuss project progress and coordination efforts.",,BTS Project Design Management,Site Coordination Meetings
+Projects & Design,BTS Design,Site Walkthrough / Punchlisting,P1 - BTS Design,Any ticket related to on-site walkthroughs for inspection and identification of punch list items or deficiencies that need to be addressed.,,BTS Project Design Management,Site Walkthrough / Punchlisting
+Projects & Design,BTS Design,Site Accessorizing,P2 - BTS Design,"Any ticket related to related to accessorizing or enhancing the aesthetics and functionality of construction sites, including the addition of temporary structures or amenities.",,BTS Project Design Management,Site Accessorizing
+Projects & Design,BTS Design,Outside of Metro Manila - BTS / KMC Suites / SO,P3 - BTS Design,Any ticket related to elated to testfits or space planning activities outside of Metro Manila.,,BTS SITE INSPECTION / AUDIT REQUEST,Outside of Metro Manila - BTS / KMC Suites / SO
+Projects & Design,BTS Design,Initial Testfit (Existing BTS or Service Office Modification),P2 - BTS Design,Any ticket related to initial space planning or testfitting of existing BTS or Service Office properties undergoing modification.,,BTS SPACE PLANNING REQUEST,Initial Testfit (Existing BTS or Service Office Modification)
+Projects & Design,BTS Design,Revise Testfit (Existing BTS or Service Office Modification),P2 - BTS Design,Any ticket related to revising previously conducted testfits or space plans for existing BTS or Service Office properties undergoing modification.,,BTS SPACE PLANNING REQUEST,Revise Testfit (Existing BTS or Service Office Modification)
+Projects & Design,BTS Design,Initial Testfit (New BTS or KMC Suites) >1000 to 5000 sqm,P4 - BTS Design,Any ticket related to initial space planning or testfitting of new BTS or KMC Suites properties with a floor area ranging from more than 1000 to 5000 square meters.,,BTS SPACE PLANNING REQUEST,Initial Testfit (New BTS or KMC Suites) >1000 to 5000 sqm
+Projects & Design,BTS Design,Initial Testfit (New BTS or KMC Suites) >5000 sqm,P6 - BTS Design,Any ticket related to initial space planning or testfitting of new BTS or KMC Suites properties with a floor area exceeding 5000 square meters.,,BTS SPACE PLANNING REQUEST,Initial Testfit (New BTS or KMC Suites) >5000 sqm
+Projects & Design,BTS Design,Revise Testfit (New BTS or KMC Suites) <1000 sqm,P2 - BTS Design,Any ticket related to revising previously conducted testfits or space plans for new BTS or KMC Suites properties with a floor area of less than 1000 square meters.,,BTS SPACE PLANNING REQUEST,Revise Testfit (New BTS or KMC Suites) <1000 sqm
+Projects & Design,BTS Design,Revise Testfit (New BTS or KMC Suites) >1000 to 5000 sqm,P3 - BTS Design,Any ticket related to revising previously conducted testfits or space plans for new BTS or KMC Suites properties with a floor area ranging from more than 1000 to 5000 square meters.,,BTS SPACE PLANNING REQUEST,Revise Testfit (New BTS or KMC Suites) >1000 to 5000 sqm
+Projects & Design,BTS Design,Revise Testfit (New BTS or KMC Suites) >5000 sqm,P4 - BTS Design,Any ticket related to revising previously conducted testfits or space plans for new BTS or KMC Suites properties with a floor area exceeding 5000 square meters.,,BTS SPACE PLANNING REQUEST,Revise Testfit (New BTS or KMC Suites) >5000 sqm
+Engineering,Engineering,Bio Repair,P1 - Facilities,Any ticket related to the biometric device and magnetic lock checking and repair request,,FM Cabling,Bio Repair
+Engineering,Engineering,Bio Repair,P1 - Facilities,Any ticket related to the biometric device and magnetic lock checking and repair request,,ENG Odoo,Bio Repair
+Engineering,Engineering,Bio Installation/Uninstallation,P1 - Facilities,Any request related to the biometric device and magnetic lock installation and uninstallation,,FM Cabling,Bio Installation/Uninstallation
+Engineering,Engineering,Bio Installation/Uninstallation,P1 - Facilities,Any request related to the biometric device and magnetic lock installation and uninstallation,,ENG Odoo,Bio Installation/Uninstallation
+Engineering,Engineering,CCTV Installation/Uninstallation,P1 - Facilities,Any ticket related to the CCTV and DVR installation and uninstallation,,FM Cabling,CCTV Installation/Uninstallation
+Engineering,Engineering,CCTV Installation/Uninstallation,P1 - Facilities,Any ticket related to the CCTV and DVR installation and uninstallation,,ENG Odoo,TV Installation
+Engineering,Engineering,CCTV Installation/Uninstallation,P1 - Facilities,Any ticket related to the CCTV and DVR installation and uninstallation,,ENG Odoo,CCTV Installation/Uninstallation
+Engineering,Engineering,CCTV Repair,P1 - Facilities,Any ticket related to the CCTV and DVR checking and repair request,,FM Cabling,CCTV Repair
+Engineering,Engineering,CCTV Repair,P1 - Facilities,Any ticket related to the CCTV and DVR checking and repair request,,ENG Odoo,CCTV Repair
+Engineering,Engineering,General Cabling Works,P1 - Facilities,Any ticket related to cabling works which is not included on the list,,FM Cabling,General Cabling Works
+Engineering,Engineering,General Cabling Works,P1 - Facilities,Any ticket related to cabling works which is not included on the list,,ENG Odoo,General Cabling Works
+Engineering,Engineering,Port Additional,P1 - Facilities,Any request related to additional port/cable,,FM Cabling,Port Additional
+Engineering,Engineering,Port Additional,P1 - Facilities,Any request related to additional port/cable,,ENG Odoo,Port Additional
+Engineering,Engineering,Port Relocation,P1 - Facilities,Any request related to port/cable relocatio,,FM Cabling,Port Relocation
+Engineering,Engineering,Port Relocation,P1 - Facilities,Any request related to port/cable relocatio,,ENG Odoo,Port Relocation
+Engineering,Engineering,Port Repair,P1 - Facilities,Any ticket related to port repair,,FM Cabling,Port Repair
+Engineering,Engineering,Port Repair,P1 - Facilities,Any ticket related to port repair,,ENG Odoo,Port Repair
+Engineering,Engineering,Quotation Request,P1 - Facilities,ny ticket related to quotation/costing request,,FM Cabling,Quotation Request
+Engineering,Engineering,Quotation Request,P1 - Facilities,ny ticket related to quotation/costing request,,ENG Odoo,Quotation Request
+Engineering,Engineering,Site Build Layout,P1 - Facilities,"Any request related for new site builds layout (CCTV, Speaker)",,FM Cabling,Site Build Layout
+Engineering,Engineering,Site Build Layout,P1 - Facilities,"Any request related for new site builds layout (CCTV, Speaker)",,ENG Odoo,Site Build Layout
+Engineering,Engineering,Switch Backup Power Supply,P1 - Facilities,Any request related to power supply,,FM Cabling,Switch Backup Power Supply
+Engineering,Engineering,Switch Backup Power Supply,P1 - Facilities,Any request related to power supply,,ENG Odoo,Switch Backup Power Supply
+Engineering,Engineering,UPS Preventive Maintenance,P1 - Facilities,Any request related to UPS Semi Annual Preventive maintenance,,FM Cabling,UPS Preventive Maintenance
+Engineering,Engineering,UPS Preventive Maintenance,P1 - Facilities,Any request related to UPS Semi Annual Preventive maintenance,,ENG Odoo,UPS Preventive Maintenance
+Engineering,Engineering,UPS/PDU Failure,P1 - Facilities,Any issue related to PDU/PS,,FM Cabling,UPS/PDU Failure
+Engineering,Engineering,UPS/PDU Failure,P1 - Facilities,Any issue related to PDU/PS,,ENG Odoo,UPS/PDU Failure
+Technology Services,CCTV Admin,CCTV Checking,P3 - Planned,Ticket for weekly checking of CCTV.,,CCTV,CCTV Checking
+Technology Services,CCTV Admin,CCTV Footage Extraction,P3 - Planned,Request for an extraction of a CCTV footage.,,CCTV,CCTV Footage Extraction
+Technology Services,CCTV Admin,CCTV Issue,P2 - General,Tickets related to a CCTV issue.,,CCTV,CCTV Issue
+Technology Services,CCTV Admin,CCTV Viewing Assistance,P3 - Planned,Ticket for the On-site Support to assist the client in viewing the CCTV footage they requested.,,CCTV,CCTV Viewing Assistance
+Technology Services,CCTV Admin,DVR Password Reset,P3 - Planned,Ticket to update the password of the DVR.,,CCTV,DVR Password Reset
+Technology Services,CCTV Admin,General CCTV Inquiry,P3 - Planned,Other CCTV-related inquiries.,,CCTV,General CCTV Inquiry
+Technology Services,CCTV Admin,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,CCTV Admin,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,CCTV Admin,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,CCTV Admin,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,CCTV Admin,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,CCTV Admin,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,CCTV Admin,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Network Design Team,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+HR,Compensation & Benefits,Availability of ATM Card,P2 - Compensation & Benefits,Any tickets related to inquiries regarding the availability of their ATM cards.,,C&B - ATM,Availability of ATM Card
+HR,Compensation & Benefits,ATM Related Concern Feedback,P2 - Compensation & Benefits,Any tickets related to Addressing feedback or concerns related to ATM services provided by the company.,,C&B - ATM,ATM Related Concern Feedback
+HR,Compensation & Benefits,Request for 2316 for existing employee,P2 - Compensation & Benefits,Any tickets related to Processing requests for BIR Form 2316 for current employees.,,C&B - BIR,Request for 2316 for existing employee
+HR,Compensation & Benefits,Computation of Final Pay,P2 - Compensation & Benefits,Any tickets related with the computation of final pay for employees leaving the company.,,C&B - Final Pay,Computation of Final Pay
+HR,Compensation & Benefits,Request for 2316 for resigned employee,P2 - Compensation & Benefits,Any tickets requests for BIR Form 2316 for resigned employees.,,C&B - Final Pay,Request for 2316 for resigned employee
+HR,Compensation & Benefits,HMO Enrollment upon Hire,P2 - Compensation & Benefits,Any tickets related to Assisting new hires with the enrollment process for Health Maintenance Organization (HMO) benefits.,,C&B - HMO,HMO Enrollment upon Hire
+HR,Compensation & Benefits,HMO Related Concerns Feedback via email,P2 - Compensation & Benefits,Any tickets related to Addressing feedback or concerns related to HMO benefits via email communication.,,C&B - HMO,HMO Related Concerns Feedback via email
+HR,Compensation & Benefits,HMO Dependent Enrollment,P2 - Compensation & Benefits,Any tickets related to Assisting employees with the enrollment of their dependents in the company's HMO program.,,C&B - HMO,HMO Dependent Enrollment
+HR,Compensation & Benefits,Bank Loan Status,P2 - Compensation & Benefits,Any tickets related to Providing updates on the status of employee bank loans.,,C&B - INTERNAL LOANS,Bank Loan Status
+HR,Compensation & Benefits,Benefits availment inquiries,P2 - Compensation & Benefits,Any tickets related to Assisting employees with inquiries regarding the availment of benefits offered by the company.,,C&B - Mental Health,Benefits availment inquiries
+HR,Compensation & Benefits,Other mental health benefits-related inquiries,P2 - Compensation & Benefits,Any tickets related to Handling inquiries related to mental health benefits provided by the company.,,C&B - Mental Health,Other mental health benefits-related inquiries
+HR,Compensation & Benefits,Employee Housing Subsidy inquiries,P2 - Compensation & Benefits,Any tickets related to Assisting employees with inquiries related to housing subsidies provided by the company.,,C&B - MyTown Housing,Employee Housing Subsidy inquiries
+HR,Compensation & Benefits,Request for Pagibig Contribution Certificate,P2 - Compensation & Benefits,Any tickets related to Processing requests for certificates of Pag-IBIG Fund contributions.,,C&B - PAG-IBIG,Request for Pagibig Contribution Certificate
+HR,Compensation & Benefits,Pag ibig Loan Approval (Sign),P2 - Compensation & Benefits,Any tickets related to Facilitating the signing of documents related to Pag-IBIG Fund loan approvals.,,C&B - PAG-IBIG,Pag ibig Loan Approval (Sign)
+HR,Compensation & Benefits,Pag ibig Loan Status Request,P2 - Compensation & Benefits,Any tickets related to Providing updates on the status of employee Pag-IBIG Fund loans.,,C&B - PAG-IBIG,Pag ibig Loan Status Request
+HR,Compensation & Benefits,Pag-Ibig Related Concern Feedback,P2 - Compensation & Benefits,Any tickets related to Addressing feedback or concerns related to Pag-IBIG Fund services provided by the company.,,C&B - PAG-IBIG,Pag-Ibig Related Concern Feedback
+HR,Compensation & Benefits,Viewing of pay slip in HRIS,P2 - Compensation & Benefits,Any tickets related to Assisting employees with accessing and viewing their payslips through the Human Resource Information System (HRIS).,,C&B - Payroll,Viewing of pay slip in HRIS
+HR,Compensation & Benefits,CF1 Form MDR Request,P2 - Compensation & Benefits,Any tickets related to Processing requests for CF1 Form Member Data Record (MDR) from the Social Security System (SSS).,,C&B - PHILHEALTH,CF1 Form MDR Request
+HR,Compensation & Benefits,Certificate of Contribution - Philhealth,P2 - Compensation & Benefits,Any tickets related to Providing certificates of PhilHealth contributions to employees.,,C&B - PHILHEALTH,Certificate of Contribution - Philhealth
+HR,Compensation & Benefits,Philhealth Related Concern Feedback,P2 - Compensation & Benefits,Any tickets related to Addressing feedback or concerns related to PhilHealth services provided by the company.,,C&B - PHILHEALTH,Philhealth Related Concern Feedback
+HR,Compensation & Benefits,Instacash application-related concerns,P2 - Compensation & Benefits,Any tickets related to Handling inquiries or concerns related to the company's Instacash application.,,C&B - Sprout Loans,Instacash application-related concerns
+HR,Compensation & Benefits,Request for SSS  Certificate of Contri,P1 - Compensation & Benefits,Tickets for processing requests for certificates of contribution from the Social Security System (SSS).,,C&B - SSS,Request for SSS Certificate of Contri
+HR,Compensation & Benefits,Request for SSS Approval Online,P1 - Compensation & Benefits,Tickets related to requesting approvals from the Social Security System (SSS) through online platforms.,,C&B - SSS,Request for SSS Approval Online
+HR,Compensation & Benefits,SSS Request for Continuation of Loan (from previous ER),P1 - Compensation & Benefits,Tickets for requesting the continuation of loans from previous employers under the Social Security System (SSS).,,C&B - SSS,SSS Request for Continuation of Loan (from previous ER)
+HR,Compensation & Benefits,Sickness Notifications,P1 - Compensation & Benefits,Tickets for processing notifications related to sickness or medical leave benefits.,,C&B - SSS,Sickness Notifications
+HR,Compensation & Benefits,Expanded maternity benefits,P1 - Compensation & Benefits,Tickets related to processing requests or inquiries regarding expanded maternity benefits.,,C&B - SSS,Expanded maternity benefits
+HR,Compensation & Benefits,SSS Related Concern Feedback,P1 - Compensation & Benefits,Addressing feedback or concerns related to services provided by the Social Security System (SSS).,,C&B - SSS,SSS Related Concern Feedback
+HR,Compensation & Benefits,Request for Enrollment in the System,P3 - Compensation & Benefits,Tickets for processing requests for enrollment in the company's compensation and benefits system.,,C&B - SWAT,Request for Enrollment in the System
+HR,Compensation & Benefits,SWAT ATD-related concern,P3 - Compensation & Benefits,Tickets related to concerns or inquiries regarding the SWAT ATD system,,C&B - SWAT,SWAT ATD-related concern
+HR,Compensation & Benefits,TaaS | Employee Movements - Lateral Movement,P2 - Compensation & Benefits,Tickets related to lateral movements of employees within the organization.,,Talent as a Service,TaaS | Employee Movements - Lateral Movement
+HR,Compensation & Benefits,TaaS | Employee Movements - Promotion Request,P2 - Compensation & Benefits,Tickets for processing requests for employee promotions.,,Talent as a Service,TaaS | Employee Movements - Promotion Request
+HR,Compensation & Benefits,TaaS | Employee Movements - Regularization Inquiry,P2 - Compensation & Benefits,Tickets for inquiries regarding employee regularization processes.,,Talent as a Service,TaaS | Employee Movements - Regularization Inquiry
+HR,Compensation & Benefits,TaaS | Employee Movements - Salary Increase Request,P2 - Compensation & Benefits,Tickets for handling requests for salary increases from employees.,,Talent as a Service,TaaS | Employee Movements - Salary Increase Request
+HR,Compensation & Benefits,TaaS | General Inquiry and Consultation,P2 - Compensation & Benefits,Tickets for general inquiries or consultation requests related to payroll and benefits,,Talent as a Service,TaaS | General Inquiry and Consultation
+HR,Compensation & Benefits,Taas | Incentive Request,P2 - Compensation & Benefits,Tickets for processing requests for incentives or rewards for employees.,,Talent as a Service,Taas | Incentive Request
+HR,Compensation & Benefits,TaaS | Performance Evaluation Review,P2 - Compensation & Benefits,Tickets related to performance evaluation reviews for employees.,,Talent as a Service,TaaS | Performance Evaluation Review
+HR,Compensation & Benefits,TaaS | Offboarding Inquiry,P2 - Compensation & Benefits,Tickets for handling inquiries related to employee offboarding processes.,,Talent as a Service,TaaS | Offboarding Inquiry
+HR,Compensation & Benefits,Taas | Disciplinary Management,P2 - Compensation & Benefits,Tickets related to managing disciplinary actions or processes for employees.,,Talent as a Service,Taas | Disciplinary Management
+HR,Compensation & Benefits,TaaS | Sprout - Change in Personal Information,P2 - Compensation & Benefits,Tickets related to requests for changes in personal information in the Sprout system.,,Talent as a Service,TaaS | Sprout - Change in Personal Information
+HR,Compensation & Benefits,TaaS | Sprout - Creation/Deactivation Request,P2 - Compensation & Benefits,Tickets for requesting the creation or deactivation of accounts in the Sprout system.,,Talent as a Service,TaaS | Sprout - Creation/Deactivation Request
+HR,Compensation & Benefits,TaaS | Sprout - Sprout Payroll Unlock/ Reset Request,P2 - Compensation & Benefits,Tickets for requesting account unlock or password reset in the Sprout Payroll system.,,Talent as a Service,TaaS | Sprout - Sprout Unlock/ Reset Request
+HR,Compensation & Benefits,TaaS | Dispute Inquiry,P2 - Compensation & Benefits,Tickets for inquiries or disputes related to various aspects of talent management and payroll.,,Talent as a Service,TaaS | Dispute Inquiery
+HR,Compensation & Benefits,TaaS | General Inquiry,P2 - Compensation & Benefits,Tickets for general inquiries related to talent management processes and payroll.,,Talent as a Service,TaaS | General Inquiry
+HR,Compensation & Benefits,TaaS | Medical Emergencies,P2 - Compensation & Benefits,Tickets for handling medical emergencies or related inquiries.,,Talent as a Service,TaaS | Medical Emergencies
+HR,Compensation & Benefits,TaaS | HMO Requests,P2 - Compensation & Benefits,Tickets for processing requests related to Health Maintenance Organization (HMO) benefits.,,Talent as a Service,TaaS | HMO Requests
+HR,Compensation & Benefits,TaaS | Government Mandated Benefits (SSS PHIC and HDMF) Inquiry,P2 - Compensation & Benefits,"Tickets for inquiries related to government-mandated benefits such as Social Security System (SSS), Philippine Health Insurance Corporation (PhilHealth), and Home Development Mutual Fund (HDMF/Pag-IBIG).",,Talent as a Service,TaaS | Government Mandated Benefits (SSS PHIC and HDMF) Inquiry
+HR,Compensation & Benefits,TaaS | Canvassing/Price Quotation,P2 - Compensation & Benefits,Tickets for conducting canvassing activities or providing price quotations for services or products.,,Talent as a Service,TaaS | Canvassing/Price Quotation
+HR,Compensation & Benefits,TaaS | Delivery Confirmation,P2 - Compensation & Benefits,Tickets for confirming the delivery of goods or services.,,Talent as a Service,TaaS | Delivery Confirmation
+HR,Compensation & Benefits,TaaS | Other Inquiries and Requests,P2 - Compensation & Benefits,Tickets for handling inquiries or requests not covered by other specific categories.,,Talent as a Service,TaaS | Other Inquiries and Requests
+HR,Compensation & Benefits,TaaS | Purchase Order Processing,P2 - Compensation & Benefits,Tickets for processing purchase orders for goods or services.,,Talent as a Service,TaaS | Purchase Order Processing
+HR,Compensation & Benefits,TaaS | Account Review/Reconciliatation,P2 - Compensation & Benefits,Tickets for reviewing or reconciling accounts related to talent management processes.,,Talent as a Service,TaaS | Account Review/Reconciliatation
+HR,Compensation & Benefits,TaaS | Billing Dispute,P2 - Compensation & Benefits,Tickets for disputing billing-related issues.,,Talent as a Service,TaaS | Billing Dispute
+HR,Compensation & Benefits,TaaS | For desktops laptops monitors headsets webcams keyboards mouse etc.,P2 - Compensation & Benefits,"Tickets for inquiries or requests related to the procurement or maintenance of desktops, laptops, peripherals, and accessories.",,Talent as a Service,TaaS | For desktops laptops monitors headsets webcams keyboards mouse etc.
+HR,Compensation & Benefits,TaaS | Refund / Deposit Request,P2 - Compensation & Benefits,Tickets for processing requests for refunds or deposit refunds.,,Talent as a Service,TaaS | Refund / Deposit Request
+HR,Compensation & Benefits,TaaS | Visa Processing Inquiry,P2 - Compensation & Benefits,Tickets for inquiries related to visa processing for employees.,,Talent as a Service,TaaS | Visa Processing Inquiry
+HR,Compensation & Benefits,TaaS | General Legal and Compliance Inquiries,P2 - Compensation & Benefits,Tickets for inquiries related to legal and compliance matters in talent management.,,Talent as a Service,TaaS | General Legal and Compliance Inquiries
+HR,Compensation & Benefits,TaaS | Desktop Rental Quotation and Order Form,P2 - Compensation & Benefits,Tickets for providing quotations and processing orders for desktop rentals.,,Talent as a Service,TaaS | Desktop Rental Quotation and Order Form
+HR,Compensation & Benefits,TaaS | Laptop Rental Quotation and Order Form,P2 - Compensation & Benefits,Tickets for providing quotations and processing orders for laptop rentals.,,Talent as a Service,TaaS | Laptop Rental Quotation and Order Form
+Customer Success,Customer Success,Power Outage,P2 - Admin,Reporting and addressing power outages within the premises.,,CS Odoo,Power Outage
+Customer Success,Customer Success,Power Outage,P2 - Admin,Reporting and addressing power outages within the premises.,,CS Emergency,Power Outage
+Customer Success,Customer Success,Security Breach/ Theft,P2 - Admin,Reporting incidents of security breaches or theft.,,CS Odoo,Security Breach/ Theft
+Customer Success,Customer Success,Security Breach/ Theft,P2 - Admin,Reporting incidents of security breaches or theft.,,CS Emergency,Security Breach/ Theft
+Customer Success,Customer Success,AC Concerns,P2 - Admin,Addressing concerns related to air conditioning systems.,,CS Odoo,AC Concerns
+Customer Success,Customer Success,AC Concerns,P2 - Admin,Addressing concerns related to air conditioning systems.,,CS Emergency,AC Concerns
+Customer Success,Customer Success,Work Permit,P2 - Admin,Processing requests for work permits.,,CS Work Permit,Work Permit
+Customer Success,Customer Success,Work Permit,P2 - Admin,Processing requests for work permits.,,CS Odoo,Work Permit
+Customer Success,Customer Success,Move Out Request,P2 - Admin,Requests for moving out of the premises.,,CS Odoo,Move Out Request
+Customer Success,Customer Success,Move Out Request,P2 - Admin,Requests for moving out of the premises.,,CS Movement,Move Out Request
+Customer Success,Customer Success,Move In Request,P2 - Admin,Requests for moving into the premises.,,CS Odoo,Move In Request
+Customer Success,Customer Success,Move In Request,P2 - Admin,Requests for moving into the premises.,,CS Movement,Move In Request
+Customer Success,Customer Success,Furniture Move,P2 - Admin,Requests for moving furniture within the premises.,,CS Odoo,Furniture Move
+Customer Success,Customer Success,Furniture Move,P2 - Admin,Requests for moving furniture within the premises.,,CS Movement,Furniture Move
+Customer Success,Customer Success,Office Set-up,P2 - Admin,Requests for setting up office spaces.,,CS Odoo,Office Set-up
+Customer Success,Customer Success,Office Set-up,P2 - Admin,Requests for setting up office spaces.,,CS Movement,Office Set-up
+Customer Success,Customer Success,Supplies Request,P2 - Admin,Requests for office supplies.,,CS Support,Supplies Request
+Customer Success,Customer Success,Supplies Request,P2 - Admin,Requests for office supplies.,,CS Odoo,Supplies Request
+Customer Success,Customer Success,Supplies Request,P2 - Admin,Requests for office supplies.,,CS Admin Support,Supplies Request
+Customer Success,Customer Success,Photo / Video Request,P2 - Admin,Requests for photography or videography services.,,CS Support,Photo / Video Request
+Customer Success,Customer Success,Photo / Video Request,P2 - Admin,Requests for photography or videography services.,,CS Odoo,Photo / Video Request
+Customer Success,Customer Success,Client Viewing Request,P2 - Admin,Requests for scheduling client visits or tours.,,CS Support,Client Viewing Request
+Customer Success,Customer Success,Client Viewing Request,P2 - Admin,Requests for scheduling client visits or tours.,,CS Odoo,Client Viewing Request
+Customer Success,Customer Success,Printing/Scan request,P2 - Admin,Requests for printing or scanning documents.,,CS Support,Printing/Scan request
+Customer Success,Customer Success,Printing/Scan request,P2 - Admin,Requests for printing or scanning documents.,,CS Odoo,Printing/Scan request
+Customer Success,Customer Success,Printing/Scan request,P2 - Admin,Requests for printing or scanning documents.,,CS Admin Support,Printing/Scan request
+Customer Success,Customer Success,Storage Request,P2 - Admin,Requests for storage space or services.,,CS Support,Storage Request
+Customer Success,Customer Success,Storage Request,P2 - Admin,Requests for storage space or services.,,CS Odoo,Storage Request
+Customer Success,Customer Success,Storage Request,P2 - Admin,Requests for storage space or services.,,CS Admin Support,Storage Request
+Customer Success,Customer Success,Cleaning request,P2 - Admin,Requests for cleaning services within the premises.,,CS Support,Cleaning request
+Customer Success,Customer Success,Cleaning request,P2 - Admin,Requests for cleaning services within the premises.,,CS Odoo,Cleaning request
+Customer Success,Customer Success,Cleaning request,P2 - Admin,Requests for cleaning services within the premises.,,CS Admin Support,Cleaning request
+Customer Success,Customer Success,Parking / Car pass Requests,P2 - Admin,Requests for parking permits or car passes.,,CS Support,Parking / Car pass Requests
+Customer Success,Customer Success,Parking / Car pass Requests,P2 - Admin,Requests for parking permits or car passes.,,CS Odoo,Parking / Car pass Requests
+Customer Success,Customer Success,Parking / Car pass Requests,P2 - Admin,Requests for parking permits or car passes.,,CS Admin Support,Parking / Car pass Requests
+Customer Success,Customer Success,Planned activities,P2 - Admin,Coordination of planned activities or events.,,CS Support,Planned activities
+Customer Success,Customer Success,Planned activities,P2 - Admin,Coordination of planned activities or events.,,CS Odoo,Planned activities
+Customer Success,Customer Success,Planned activities,P2 - Admin,Coordination of planned activities or events.,,CS Admin Support,Planned activities
+Customer Success,Customer Success,Medical Emergency,P2 - Admin,Handling medical emergencies within the premises.,,CS Odoo,Medical Emergency
+Customer Success,Customer Success,Medical Emergency,P2 - Admin,Handling medical emergencies within the premises.,,CS Medical,Medical Emergency
+Customer Success,Customer Success,Medical Certificate Validation,P2 - Admin,Validating medical certificates.,,CS Odoo,Medical Certificate Validation
+Customer Success,Customer Success,Medical Certificate Validation,P2 - Admin,Validating medical certificates.,,CS Medical,Medical Certificate Validation
+Customer Success,Customer Success,HMO Enrollment,P2 - Admin,Assisting with Health Maintenance Organization (HMO) enrollment.,,CS Odoo,HMO Enrollment
+Customer Success,Customer Success,HMO Enrollment,P2 - Admin,Assisting with Health Maintenance Organization (HMO) enrollment.,,CS HMO,HMO Enrollment
+Customer Success,Customer Success,HMO Cancellation,P2 - Admin,Handling requests for canceling HMO memberships.,,CS Odoo,HMO Cancellation
+Customer Success,Customer Success,HMO Cancellation,P2 - Admin,Handling requests for canceling HMO memberships.,,CS HMO,HMO Cancellation
+Customer Success,Customer Success,HMO Account Update,P2 - Admin,Updating information related to HMO accounts.,,CS Odoo,HMO Account Update
+Customer Success,Customer Success,HMO Account Update,P2 - Admin,Updating information related to HMO accounts.,,CS HMO,HMO Account Update
+Customer Success,Customer Success,Messengerial /Courier Service Request,P2 - Admin,Requests for messenger or courier services.,,CS Support,Messengerial /Courier Service Request
+Customer Success,Customer Success,Messengerial /Courier Service Request,P2 - Admin,Requests for messenger or courier services.,,CS Odoo,Messengerial /Courier Service Request
+Customer Success,Customer Success,Messengerial /Courier Service Request,P2 - Admin,Requests for messenger or courier services.,,CS Admin Support,Messengerial /Courier Service Request
+Customer Success,Customer Success,New Office Transfer,P2 - Admin,Handling requests for transferring to a new office locat,,CS Odoo,New Office Transfer
+Customer Success,Customer Success,Reservation (Rooms & Event Space),P2 - Admin,Managing reservations for rooms or event spaces.,,CS Odoo,Reservation (Rooms & Event Space)
+Customer Success,Customer Success,Shuttle Booking,P2 - Admin,Booking shuttle services,,CS Shuttle,Shuttle Booking
+Customer Success,Customer Success,Shuttle Booking,P2 - Admin,Booking shuttle services,,CS Odoo,Shuttle Booking
+Customer Success,Customer Success,Van Repairs & Maintenance,P2 - Admin,Coordination of van repairs and maintenance,,CS Shuttle,Van Repairs & Maintenance
+Customer Success,Customer Success,Van Repairs & Maintenance,P2 - Admin,Coordination of van repairs and maintenance,,CS Odoo,Van Repairs & Maintenance
+Customer Success,Customer Success,Repairs and Maintenance Request,P2 - Admin,Handling general repair and maintenance requests,,CS Odoo,Repairs and Maintenance Request
+Customer Success,Customer Success,Visitor Access Request,P2 - Admin,Managing requests for visitor access,,CS Odoo,Visitor Access Request
+Customer Success,Customer Success,Approval Request,P2 - Admin,Handling requests for approvals,,CS Odoo,Approval Request
+Customer Success,Customer Success,Costing Request,P2 - Admin,Requests for cost estimations or quotations,,CS Odoo,Costing Request
+Customer Success,Customer Success,Info or Document Request,P2 - Admin,Requests for information or documents,,CS Odoo,Info or Document Request
+Customer Success,Customer Success,Phone / Sim Requests,P2 - Admin,Handling requests related to phones or SIM cards,,CS Odoo,Phone / Sim Requests
+Customer Success,Customer Success,Orientation / Training Request,P2 - Admin,Requests for orientation or training sessions,,CS Odoo,Orientation / Training Request
+Customer Success,Customer Success,Assistance,P2 - Admin,Providing general assistance as needed,,CS Odoo,Assistance
+Customer Success,Customer Success,Access Cards / Room or Office Access Requests,P2 - Admin,Managing requests for access cards or office access,,CS Odoo,Access Cards / Room or Office Access Requests
+Customer Success,Customer Success,PME Concerns,P2 - Admin,Addressing concerns related to Performance Management Evaluation (PME).,,CS Odoo,PME Concerns
+Customer Success,Customer Success,APE Concerns,P2 - Admin,Addressing concerns related to Annual Performance Evaluation (APE).,,CS Odoo,APE Concerns
+Customer Success,Customer Success,Safety Concerns,P2 - Admin,Reporting safety concerns within the premises.,,CS Odoo,Safety Concerns
+Customer Success,Customer Success,Other Medical Concerns,P2 - Admin,Handling other medical-related concerns.,,CS Odoo,Other Medical Concerns
+Customer Success,Customer Success,Checklists & Reports,P2 - Admin,Managing checklists and generating reports as needed.,,CS Odoo,Checklists & Reports
+Customer Success,Customer Success,SSS Concerns,P2 - Admin,Addressing concerns related to Social Security System (SSS).,,CS Odoo,SSS Concerns
+Customer Success,Customer Success,New Hire Kit Request,P2 - Admin,Handling requests for new hire kits.,,CS Odoo,New Hire Kit Request
+Customer Success,Customer Success,Invoices,P2 - Admin,Handling inquiries or requests related to invoices.,,CS Odoo,Invoices
+Customer Success,Customer Success,Gatepass Request,P2 - Admin,Handling requests for pull in/out gatepasses.,,CS Odoo,Gatepass Request
+Document Controller,Document Controller,DC Request for Document number of  new ISO process,P1 - Document Controller,Tickets for requesting document numbers for new ISO processes.,,Document Controller,DC Request for Document number of new ISO process
+Document Controller,Document Controller,DC Request to update/upload ISO process,P1 - Document Controller,Tickets for requesting updates or uploads of ISO processes.,,Document Controller,DC Request to update/upload ISO process
+Engineering,Engineering,Bio Repair,P1 - Facilities,Any ticket related to the biometric device and magnetic lock checking and repair request,,FM Cabling,Bio Repair
+Engineering,Engineering,Bio Repair,P1 - Facilities,Any ticket related to the biometric device and magnetic lock checking and repair request,,ENG Odoo,Bio Repair
+Engineering,Engineering,Bio Installation/Uninstallation,P1 - Facilities,Any request related to the biometric device and magnetic lock installation and uninstallation,,FM Cabling,Bio Installation/Uninstallation
+Engineering,Engineering,Bio Installation/Uninstallation,P1 - Facilities,Any request related to the biometric device and magnetic lock installation and uninstallation,,ENG Odoo,Bio Installation/Uninstallation
+Engineering,Engineering,CCTV Installation/Uninstallation,P1 - Facilities,Any ticket related to the CCTV and DVR installation and uninstallation,,FM Cabling,CCTV Installation/Uninstallation
+Engineering,Engineering,CCTV Installation/Uninstallation,P1 - Facilities,Any ticket related to the CCTV and DVR installation and uninstallation,,ENG Odoo,TV Installation
+Engineering,Engineering,CCTV Installation/Uninstallation,P1 - Facilities,Any ticket related to the CCTV and DVR installation and uninstallation,,ENG Odoo,CCTV Installation/Uninstallation
+Engineering,Engineering,CCTV Repair,P1 - Facilities,Any ticket related to the CCTV and DVR checking and repair request,,FM Cabling,CCTV Repair
+Engineering,Engineering,CCTV Repair,P1 - Facilities,Any ticket related to the CCTV and DVR checking and repair request,,ENG Odoo,CCTV Repair
+Engineering,Engineering,General Cabling Works,P1 - Facilities,Any ticket related to cabling works which is not included on the list,,FM Cabling,General Cabling Works
+Engineering,Engineering,General Cabling Works,P1 - Facilities,Any ticket related to cabling works which is not included on the list,,ENG Odoo,General Cabling Works
+Engineering,Engineering,Port Additional,P1 - Facilities,Any request related to additional port/cable,,FM Cabling,Port Additional
+Engineering,Engineering,Port Additional,P1 - Facilities,Any request related to additional port/cable,,ENG Odoo,Port Additional
+Engineering,Engineering,Port Relocation,P1 - Facilities,Any request related to port/cable relocatio,,FM Cabling,Port Relocation
+Engineering,Engineering,Port Relocation,P1 - Facilities,Any request related to port/cable relocatio,,ENG Odoo,Port Relocation
+Engineering,Engineering,Port Repair,P1 - Facilities,Any ticket related to port repair,,FM Cabling,Port Repair
+Engineering,Engineering,Port Repair,P1 - Facilities,Any ticket related to port repair,,ENG Odoo,Port Repair
+Engineering,Engineering,Quotation Request,P1 - Facilities,ny ticket related to quotation/costing request,,FM Cabling,Quotation Request
+Engineering,Engineering,Quotation Request,P1 - Facilities,ny ticket related to quotation/costing request,,ENG Odoo,Quotation Request
+Engineering,Engineering,Site Build Layout,P1 - Facilities,"Any request related for new site builds layout (CCTV, Speaker)",,FM Cabling,Site Build Layout
+Engineering,Engineering,Site Build Layout,P1 - Facilities,"Any request related for new site builds layout (CCTV, Speaker)",,ENG Odoo,Site Build Layout
+Engineering,Engineering,Switch Backup Power Supply,P1 - Facilities,Any request related to power supply,,FM Cabling,Switch Backup Power Supply
+Engineering,Engineering,Switch Backup Power Supply,P1 - Facilities,Any request related to power supply,,ENG Odoo,Switch Backup Power Supply
+Engineering,Engineering,UPS Preventive Maintenance,P1 - Facilities,Any request related to UPS Semi Annual Preventive maintenance,,FM Cabling,UPS Preventive Maintenance
+Engineering,Engineering,UPS Preventive Maintenance,P1 - Facilities,Any request related to UPS Semi Annual Preventive maintenance,,ENG Odoo,UPS Preventive Maintenance
+Engineering,Engineering,UPS/PDU Failure,P1 - Facilities,Any issue related to PDU/PS,,FM Cabling,UPS/PDU Failure
+Engineering,Engineering,UPS/PDU Failure,P1 - Facilities,Any issue related to PDU/PS,,ENG Odoo,UPS/PDU Failure
+Engineering,Engineering,Wall Repainting (Less than 20sqm),P1 - Facilities,Any tickets releated for repainting walls covering an area of less than 20 square meters.,,FM Civil,Wall Repainting (Less than 20sqm)
+Engineering,Engineering,Wall Repainting (Less than 20sqm),P1 - Facilities,Any tickets releated for repainting walls covering an area of less than 20 square meters.,,ENG Odoo,Wall Repainting (Less than 20sqm)
+Engineering,Engineering,Wall Repainting (Above 20sqm),P1 - Facilities,Any tickets for repainting walls covering an area of 20 square meters or more.,,FM Civil,Wall Repainting (Above 20sqm)
+Engineering,Engineering,Wall Repainting (Above 20sqm),P1 - Facilities,Any tickets for repainting walls covering an area of 20 square meters or more.,,ENG Odoo,Wall Repainting (Above 20sqm)
+Engineering,Engineering,Base Board Repair/Repainting,P1 - Facilities,Any tickets involving the repair or repainting of baseboards.,,FM Civil,Base Board Repair/Repainting
+Engineering,Engineering,Base Board Repair/Repainting,P1 - Facilities,Any tickets involving the repair or repainting of baseboards.,,ENG Odoo,Base Board Repair/Repainting
+Engineering,Engineering,Wall Crack Rectification,P1 - Facilities,Any Requests related to the repair or correction of cracks in walls.,,FM Civil,Wall Crack Rectification
+Engineering,Engineering,Wall Crack Rectification,P1 - Facilities,Any Requests related to the repair or correction of cracks in walls.,,ENG Odoo,Wall Crack Rectification
+Engineering,Engineering,Floor Crack Rectification,P1 - Facilities,Any Tickets concerning the repair or correction of cracks in floors.,,FM Civil,Floor Crack Rectification
+Engineering,Engineering,Floor Crack Rectification,P1 - Facilities,Any Tickets concerning the repair or correction of cracks in floors.,,ENG Odoo,Floor Crack Rectification
+Engineering,Engineering,Cabinet/Joineries Repair,P1 - Facilities,Any tickets Requests for repair work on cabinets or joineries within the premises.,,FM Civil,Cabinet/Joineries Repair
+Engineering,Engineering,Cabinet/Joineries Repair,P1 - Facilities,Any tickets Requests for repair work on cabinets or joineries within the premises.,,ENG Odoo,Cabinet/Joineries Repair
+Engineering,Engineering,Door Laminate Repair,P1 - Facilities,Any tickets involving the repair or replacement of laminates on door,,FM Civil,Door Laminate Repair
+Engineering,Engineering,Door Laminate Repair,P1 - Facilities,Any tickets involving the repair or replacement of laminates on door,,ENG Odoo,Door Laminate Repair
+Engineering,Engineering,Acoustic Board Replacement/Realignment,P1 - Facilities,Any tickets for the replacement or realignment of acoustic boards within the space.,,FM Civil,Acoustic Board Replacement/Realignment
+Engineering,Engineering,Acoustic Board Replacement/Realignment,P1 - Facilities,Any tickets for the replacement or realignment of acoustic boards within the space.,,ENG Odoo,Acoustic Board Replacement/Realignment
+Engineering,Engineering,Door Jamb Repair/Repainting,P1 - Facilities,Any Tickets concerning the repair or repainting of door jambs,,FM Civil,Door Jamb Repair/Repainting
+Engineering,Engineering,Door Jamb Repair/Repainting,P1 - Facilities,Any Tickets concerning the repair or repainting of door jambs,,ENG Odoo,Door Jamb Repair/Repainting
+Engineering,Engineering,Canvass,P1 - Facilities,Requests for obtaining price quotations from various sources.,,FM Costing Request,Canvass
+Engineering,Engineering,Canvass,P1 - Facilities,Requests for obtaining price quotations from various sources.,,FM Costing Request,"Costing from KMC, Contractor or Supplier"
+Engineering,Engineering,"Costing from KMC, Contractor or Supplier",P1 - Facilities,Requests for obtaining price quotations from various sources.,,FM Costing Request,Canvass
+Engineering,Engineering,"Costing from KMC, Contractor or Supplier",P1 - Facilities,Requests for obtaining price quotations from various sources.,,FM Costing Request,"Costing from KMC, Contractor or Supplier"
+Engineering,Engineering,Power Outage,P1 - Facilities,Reports or requests related to power failures or outages.,,FM Electrical,Power Outage
+Engineering,Engineering,Power Outage,P1 - Facilities,Reports or requests related to power failures or outages.,,ENG Odoo,Power Outage
+Engineering,Engineering,Busted Light Replacement,P1 - Facilities,Tickets for replacing damaged or malfunctioning lights.,,FM Electrical,Busted Light Replacement
+Engineering,Engineering,Busted Light Replacement,P1 - Facilities,Tickets for replacing damaged or malfunctioning lights.,,ENG Odoo,Busted Light Replacement
+Engineering,Engineering,Outlet Installation,P1 - Facilities,Requests for the installation of new electrical outlets.,,FM Electrical,Outlet Installation
+Engineering,Engineering,Outlet Installation,P1 - Facilities,Requests for the installation of new electrical outlets.,,ENG Odoo,Outlet Installation
+Engineering,Engineering,TV Installation,P1 - Facilities,Requests for the setup and installation of televisions.,,FM Electrical,TV Installation
+Engineering,Engineering,Resetting of Circuit Breaker,P1 - Facilities,Tickets involving the resetting of circuit breakers.,,FM Electrical,Resetting of Circuit Breaker
+Engineering,Engineering,Resetting of Circuit Breaker,P1 - Facilities,Tickets involving the resetting of circuit breakers.,,ENG Odoo,Resetting of Circuit Breaker
+Engineering,Engineering,Electricity Consumption Computation,P1 - Facilities,Requests for calculating electricity consumption.,,FM Electrical,Electricity Consumption Computation
+Engineering,Engineering,Electricity Consumption Computation,P1 - Facilities,Requests for calculating electricity consumption.,,ENG Odoo,Electricity Consumption Computation
+Engineering,Engineering,Lighting Upgrade,P1 - Facilities,Requests for upgrading lighting fixtures or systems.,,FM Electrical,Lighting Upgrade
+Engineering,Engineering,Lighting Upgrade,P1 - Facilities,Requests for upgrading lighting fixtures or systems.,,ENG Odoo,Lighting Upgrade
+Engineering,Engineering,Electrical Troubleshooting,P1 - Facilities,Tickets concerning the diagnosis and resolution of electrical issues.,,FM Electrical,Electrical Troubleshooting
+Engineering,Engineering,Electrical Troubleshooting,P1 - Facilities,Tickets concerning the diagnosis and resolution of electrical issues.,,ENG Odoo,Electrical Troubleshooting
+Engineering,Engineering,Replacement/Repair of Emergency Lights/Exit Signages,P1 - Facilities,Requests for repairing or replacing emergency lights or exit signages.,,FM Electrical,Replacement/Repair of Emergency Lights/Exit Signages
+Engineering,Engineering,Replacement/Repair of Emergency Lights/Exit Signages,P1 - Facilities,Requests for repairing or replacing emergency lights or exit signages.,,ENG Odoo,Replacement/Repair of Emergency Lights/Exit Signages
+Engineering,Engineering,Incident Report,P1 - Facilities,Reporting incidents or accidents within the premises,,FM Emergency,Incident Report
+Engineering,Engineering,Incident Report,P1 - Facilities,Reporting incidents or accidents within the premises,,ENG Odoo,Incident Report
+Engineering,Engineering,Emergency Repair,P1 - Facilities,Urgent repair requests requiring immediate attention.,,FM Emergency,Emergency Repair
+Engineering,Engineering,Emergency Repair,P1 - Facilities,Urgent repair requests requiring immediate attention.,,ENG Odoo,Emergency Repair
+Engineering,Engineering,Fire Extinguisher Checking,P1 - Facilities,Requests for inspection and maintenance of fire extinguishers.,,FM Fire Protection,Fire Extinguisher Checking
+Engineering,Engineering,Fire Extinguisher Checking,P1 - Facilities,Requests for inspection and maintenance of fire extinguishers.,,ENG Odoo,Fire Extinguisher Checking
+Engineering,Engineering,Escutheon Plate Installation,P1 - Facilities,Installation of escutcheon plates for fire safety equipment.,,FM Fire Protection,Escutheon Plate Installation
+Engineering,Engineering,Escutheon Plate Installation,P1 - Facilities,Installation of escutcheon plates for fire safety equipment.,,ENG Odoo,Escutheon Plate Installation
+Engineering,Engineering,Troubleshooting of Defective Smoke Detector,P1 - Facilities,Diagnosing and resolving issues with smoke detectors.,,FM Fire Protection,Troubleshooting of Defective Smoke Detector
+Engineering,Engineering,Troubleshooting of Defective Smoke Detector,P1 - Facilities,Diagnosing and resolving issues with smoke detectors.,,ENG Odoo,Troubleshooting of Defective Smoke Detector
+Engineering,Engineering,Troubleshooting of FDAS Panel,P1 - Facilities,Diagnosing and resolving issues with Fire Detection and Alarm System (FDAS) panels.,,FM Fire Protection,Troubleshooting of FDAS Panel
+Engineering,Engineering,Troubleshooting of FDAS Panel,P1 - Facilities,Diagnosing and resolving issues with Fire Detection and Alarm System (FDAS) panels.,,ENG Odoo,Troubleshooting of FDAS Panel
+Engineering,Engineering,Preventive Maintenance of FDAS System,P1 - Facilities,Scheduled maintenance tasks for the FDAS system to prevent failures.,,FM Fire Protection,Preventive Maintenance of FDAS System
+Engineering,Engineering,Aircon Water Leak,P1 - Facilities,Reporting and addressing water leakage issues in air conditioning systems.,,FM Mechanical,Aircon Water Leak
+Engineering,Engineering,Aircon Water Leak,P1 - Facilities,Reporting and addressing water leakage issues in air conditioning systems.,,ENG Odoo,Aircon Water Leak
+Engineering,Engineering,Aircon Error,P1 - Facilities,Troubleshooting and resolving errors or malfunctions in air conditioning units.,,FM Mechanical,Aircon Error
+Engineering,Engineering,Aircon Error,P1 - Facilities,Troubleshooting and resolving errors or malfunctions in air conditioning units.,,ENG Odoo,Aircon Error
+Engineering,Engineering,Aircon System - General Cleaning,P1 - Facilities,Regular cleaning and maintenance of air conditioning systems.,,FM Mechanical,Aircon System - General Cleaning
+Engineering,Engineering,Aircon System - General Cleaning,P1 - Facilities,Regular cleaning and maintenance of air conditioning systems.,,ENG Odoo,Aircon System - General Cleaning
+Engineering,Engineering,Aircon System - Filter Cleaning,P1 - Facilities,Cleaning and maintenance of air conditioning filters,,FM Mechanical,Aircon System - Filter Cleaning
+Engineering,Engineering,Aircon System - Filter Cleaning,P1 - Facilities,Cleaning and maintenance of air conditioning filters,,ENG Odoo,Aircon System - Filter Cleaning
+Engineering,Engineering,Aircon System  - Repair,P1 - Facilities,Repairing malfunctioning air conditioning systems.,,FM Mechanical,Aircon System - Repair
+Engineering,Engineering,Drain Line Sloping Check/Vacuuming,P1 - Facilities,Checking and cleaning drain lines to prevent clogs or leaks.,,FM Mechanical,Drain Line Sloping Check/Vacuuming
+Engineering,Engineering,Drain Line Sloping Check/Vacuuming,P1 - Facilities,Checking and cleaning drain lines to prevent clogs or leaks.,,ENG Odoo,Drain Line Sloping Check/Vacuuming
+Engineering,Engineering,Bidet/Faucet Repair/Replacement,P1 - Facilities,Repairing or replacing bidets or faucets.,,FM Plumbing,Bidet/Faucet Repair/Replacement
+Engineering,Engineering,Bidet/Faucet Repair/Replacement,P1 - Facilities,Repairing or replacing bidets or faucets.,,ENG Odoo,Bidet/Faucet Repair/Replacement
+Engineering,Engineering,Faucet/Cubicle Leak,P1 - Facilities,Addressing leaks in faucets or cubicles.,,FM Plumbing,Faucet/Cubicle Leak
+Engineering,Engineering,Faucet/Cubicle Leak,P1 - Facilities,Addressing leaks in faucets or cubicles.,,ENG Odoo,Faucet/Cubicle Leak
+Engineering,Engineering,Continous Flushing,P1 - Facilities,Troubleshooting and resolving continuous flushing issues in toilets.,,FM Plumbing,Continous Flushing
+Engineering,Engineering,Continous Flushing,P1 - Facilities,Troubleshooting and resolving continuous flushing issues in toilets.,,ENG Odoo,Continous Flushing
+Engineering,Engineering,Cleaning/Unclogging of Sanitary Line,P1 - Facilities,Clearing clogs or obstructions in sanitary line,,FM Plumbing,Cleaning/Unclogging of Sanitary Line
+Engineering,Engineering,Cleaning/Unclogging of Sanitary Line,P1 - Facilities,Clearing clogs or obstructions in sanitary line,,ENG Odoo,Cleaning/Unclogging of Sanitary Line
+Engineering,Engineering,Office Wall Installation,P1 - Facilities,Installation of office walls,,FM Project Management,Office Wall Installation
+Engineering,Engineering,Office Wall Demolition,P1 - Facilities,removal of office walls.,,FM Project Management,Office Wall Demolition
+Engineering,Engineering,Office Wall Demolition,P1 - Facilities,removal of office walls.,,ENG Odoo,Office Wall Demolition
+Engineering,Engineering,Workstation Installation,P1 - Facilities,Setting up office workstations.,,FM Project Management,Workstation Installation
+Engineering,Engineering,Workstation Installation,P1 - Facilities,Setting up office workstations.,,ENG Odoo,Workstation Installation
+Engineering,Engineering,Workstation Dismantling,P1 - Facilities,dismantling office workstations.,,FM Project Management,Workstation Dismantling
+Engineering,Engineering,Workstation Dismantling,P1 - Facilities,dismantling office workstations.,,ENG Odoo,Workstation Dismantling
+Engineering,Engineering,Furniture Set-up,P1 - Facilities,Setting up office furniture.,,FM Project Management,Furniture Set-up
+Engineering,Engineering,Furniture Set-up,P1 - Facilities,Setting up office furniture.,,ENG Odoo,Furniture Set-up
+Engineering,Engineering,Workstation Partition Installation,P1 - Facilities,Installation of workstation partitions.,,FM Project Management,Workstation Partition Installation
+Engineering,Engineering,Workstation Partition Installation,P1 - Facilities,Installation of workstation partitions.,,ENG Odoo,Workstation Partition Installation
+Engineering,Engineering,Workstation Partition Dismantling,P1 - Facilities,removal of workstation partitions.,,FM Project Management,Workstation Partition Dismantling
+Engineering,Engineering,Workstation Partition Dismantling,P1 - Facilities,removal of workstation partitions.,,ENG Odoo,Workstation Partition Dismantling
+Engineering,Engineering,Office Modification,P1 - Facilities,Requests for modifying office layouts or structures.,,FM Project Management,Office Modification
+Engineering,Engineering,Electrical/Mechanical Major Works (Repair/Replacement/Modification/Improvement),P1 - Facilities,"Major repair, replacement, modification, or improvement of electrical or mechanical systems.",,FM Renovation,Electrical/Mechanical Major Works (Repair/Replacement/Modification/Improvement)
+Engineering,Engineering,Assist Vendor/Clients & Others,P1 - Facilities,"Requests for assistance to vendors, clients, or other parties.",,FM Support,Assist Vendor/Clients & Others
+Engineering,Engineering,Assist Vendor/Clients & Others,P1 - Facilities,"Requests for assistance to vendors, clients, or other parties.",,ENG Odoo,Assist Vendor/Clients & Others
+Engineering,Engineering,Request to Update Plans/Layout,P1 - Facilities,Requests to update plans or layouts.,,FM Support,Request to Update Plans/Layout
+Engineering,Engineering,Request to Update Plans/Layout,P1 - Facilities,Requests to update plans or layouts.,,ENG Odoo,Request to Update Plans/Layout
+Engineering,Engineering,Request for Hauling/Delivery of Assets,P1 - Facilities,Requests for hauling or delivery of assets.,,FM Support,Request for Hauling/Delivery of Assets
+Engineering,Engineering,Request for Hauling/Delivery of Assets,P1 - Facilities,Requests for hauling or delivery of assets.,,ENG Odoo,Request for Hauling/Delivery of Assets
+Finance,Finance - Accounts Payables,Below 20k invoices (No PO),P2 - Finance,"Tickets related to processing invoices below the value of 20,000 without a purchase order (PO).",,ACCOUNTS PAYABLE,Below 20k invoices (No PO)
+Finance,Finance - Accounts Payables,Client Cash advance,P2 - Finance,Tickets for processing cash advances provided to clients.,,ACCOUNTS PAYABLE,Client Cash advance
+Finance,Finance - Accounts Payables,Client Refund,P2 - Finance,Tickets related to processing refunds for clients.,,ACCOUNTS PAYABLE,Client Refund
+Finance,Finance - Accounts Payables,Confidential Payments Requests,P2 - Finance,Tickets for processing payments that require confidentiality.,,ACCOUNTS PAYABLE,Confidential Payments Requests
+Finance,Finance - Accounts Payables,Complicated Report,P2 - Finance,Tickets for handling requests related to generating or analyzing complex financial reports.,,ACCOUNTS PAYABLE,Complicated Report
+Finance,Finance - Accounts Payables,"FORMS (Reimbursement, PCF, Credit Card Liquidation)",P2 - Finance,"Tickets for processing various forms including reimbursement, Petty Cash Fund (PCF), and credit card liquidation.",,ACCOUNTS PAYABLE,"FORMS (Reimbursement, PCF, Credit Card Liquidation)"
+Finance,Finance - Accounts Payables,Internal & External reimb request,P2 - Finance,Tickets for processing reimbursement requests from both internal and external sources.,,ACCOUNTS PAYABLE,Internal & External reimb request
+Finance,Finance - Accounts Payables,Petty Cash Request,P2 - Finance,Tickets related to processing requests for petty cash disbursements.,,ACCOUNTS PAYABLE,Petty Cash Request
+Finance,Finance - Accounts Payables,PO invoices,P2 - Finance,Tickets for processing invoices that are associated with purchase orders (PO).,,ACCOUNTS PAYABLE,PO invoices
+Finance,Finance - Accounts Payables,"Recurring bills (rentals, utilities, telco, etc.)",P2 - Finance,"Tickets for processing recurring bills such as rentals, utilities, telecommunications, etc.",,ACCOUNTS PAYABLE,"Recurring bills (rentals, utilities, telco, etc.)"
+Finance,Finance - Accounts Payables,Simple Report,P2 - Finance,Tickets for handling requests related to generating or analyzing simple financial reports.,,ACCOUNTS PAYABLE,Simple Report
+Finance,Finance - Accounts Payables,"Urgent requests (Business permits, other taxes etc.)",P2 - Finance,"Tickets for handling urgent requests such as business permits, tax-related matters, etc.",,ACCOUNTS PAYABLE,"Urgent requests (Business permits, other taxes etc.)"
+Finance,Finance - Treasury,Bank Request,P2 - Finance,"Any tickets related related to requests or transactions involving banks, such as transfers, account updates, or inquiries.",,TREASURY,Bank Request
+Finance,Finance - Treasury,Builds,P2 - Finance,"Any tickets related to the creation or adjustment of financial structures, investments, or portfolios.",,TREASURY,Builds
+Finance,Finance - Treasury,Cash Advance,P2 - Finance,Any tickets related to processing requests or managing transactions related to cash advances.,,TREASURY,Cash Advance
+Finance,Finance - Treasury,Client Request,P2 - Finance,"Any tickets related to handling requests or transactions initiated by clients, such as payments or inquiries.",,TREASURY,Client Request
+Finance,Finance - Treasury,Government Statutory,P2 - Finance,"Any tickets related to compliance with government regulations or statutory requirements, including filings, reports, or payments.",,TREASURY,Government Statutory
+Finance,Finance - Treasury,Last Pay,P2 - Finance,Any tickets related to related to the processing of final payments or settlements for employees leaving the company.,,TREASURY,Last Pay
+Finance,Finance - Treasury,Operations,P2 - Finance,Any tickets related to related to general financial operations or processes within the treasury department.,,TREASURY,Operations
+Finance,Finance - Treasury,Rush Payroll Request,P2 - Finance,Any tickets related to urgent or expedited processing of payroll transactions.,,TREASURY,Rush Payroll Request
+HR,HR Data Team,ID/Badge Card Request,P2 - HRDT,"Tickets for requesting ID replacements, addressing inaccuracies, and arranging for the delivery or retrieval of IDs.",,HRDT - HRBP Requests,ID/Badge Card Request
+HR,HR Data Team,HRIS - Approver Account Creation,P1 - HRDT,"Tickets for creating approver accounts in HRIS, with access levels tailored to the user's requirements.",,HRDT - HRIS,HRIS - Approver Account Creation
+HR,HR Data Team,HRIS - Offboarding,P1 - HRDT,"Tickets for deactivating accounts and removing agents under immediate supervisors' jurisdiction in HRIS, including managing withdrawal notices from new hires.",,HRDT - HRIS,HRIS - Offboarding
+HR,HR Data Team,HRIS - Work Information Update,P2 - HRDT,"Tickets for updating immediate supervisor or approver information, modifying work schedules, adjusting start dates, and altering approval process flows.",,HRDT - HRIS,HRIS - Work Information Update
+HR,HR Data Team,EAA Updates,P2 - HRDT,"Tickets for updating employment-related data such as regularization status, salary adjustments, changes in position, and HMO details.",,HRDT - HRIS,EAA Updates
+HR,HR Data Team,Other HRIS Concerns,P1 - HRDT,"Tickets for addressing various concerns, including issues related to web bundy, errors in request filing, adjustments to access levels, and inquiries about administration tools such as report generation and bulk uploads.",,HRDT - HRIS,Other HRIS Concerns
+HR,HR Data Team,Inaccurate Data Correction,P1 - HRDT,Tickets for correcting any inaccuracies in HRIS and ERP.,,HRDT - Data Updating,Inaccurate Data Correction
+HR,HR Data Team,Personal Data Updating,P1 - HRDT,"Tickets for updating personal information such as civil status, name changes, and contact details.",,HRDT - Data Updating,Personal Data Updating
+HR,HR Data Team,Complicated Report,P2 - HRDT,"Tickets for requesting complex data reports, such as headcount or other specialized reports.",,HRDT - Requested Report,Complicated Report
+HR,HR Data Team,Simple Report,P1 - HRDT,Tickets for requesting straightforward data reports that are easily extracted from the systems.,,HRDT - Requested Report,Simple Report
+HR,HR Data Team,Exit Management Concern,P1 - HRDT,Tickets for handling clearance and other offboarding documentation requirements.,,HRDT - Others,Exit Management Concern
+HR,HR Data Team,Employement Verification,P2 - HRDT,Tickets for providing employment verification for loan applications and other purposes.,,HRDT - Others,Employement Verification
+Legal & Compliance,Legal & Compliance,GENERAL LEGAL/COMPLIANCE ADVICE,P2 - Legal & Compliance,Tickets for seeking general legal or compliance advice.,,L&C ADVISORY/INQUIRIES,GENERAL LEGAL/COMPLIANCE ADVICE
+Legal & Compliance,Legal & Compliance,VISA PROCESSING (REQUIREMENTS),P2 - Legal  ,Tickets related to visa processing requirements for employees or clients.,,L&C ADVISORY/INQUIRIES,VISA PROCESSING (REQUIREMENTS)
+Legal & Compliance,Legal & Compliance,CONTRACT REVIEW,P3 - Legal,Tickets for reviewing contracts or agreements for legal compliance and risk assessment.,,L&C ADVISORY/INQUIRIES,CONTRACT REVIEW
+Legal & Compliance,Legal & Compliance,INTELLECTUAL PROPERTY CONCERNS,P3 - Legal,Tickets related to concerns regarding intellectual property rights or protection.,,L&C ADVISORY/INQUIRIES,INTELLECTUAL PROPERTY CONCERNS
+Legal & Compliance,Legal & Compliance,AMLA CONCERNS,P3 - Legal & Compliance,Tickets related to concerns or inquiries about AMLA compliance.,,L&C ADVISORY/INQUIRIES,AMLA CONCERNS
+Legal & Compliance,Legal & Compliance,BSP CONCERNS,P3 - Legal,Tickets related to concerns or inquiries about compliance with regulations from theBSP.,,L&C ADVISORY/INQUIRIES,BSP CONCERNS
+Legal & Compliance,Legal & Compliance,DATA PRIVACY CONCERNS,P2 - Legal  ,Tickets related to concerns or inquiries about compliance with data privacy laws and regulations.,,L&C ADVISORY/INQUIRIES,DATA PRIVACY CONCERNS
+Legal & Compliance,Legal & Compliance,CONSTRUCTION AGREEMENTS,P3 - Legal,Tickets related to reviewing or drafting construction agreements or contracts.,,L&C ADVISORY/INQUIRIES,CONSTRUCTION AGREEMENTS
+Legal & Compliance,Legal & Compliance,TAX RELATED INQUIRIES/ADVISORY - LOCAL (LGU'S) & NATIONAL  (BIR),P2 - Legal & Compliance,Tickets related to tax-related inquiries or seeking advisory on tax matters at the local or national level.,,L&C ADVISORY/INQUIRIES,TAX RELATED INQUIRIES/ADVISORY - LOCAL (LGU'S) & NATIONAL (BIR)
+Legal & Compliance,Legal & Compliance,IMPORTATION (REQUIREMENTS) INQUIRIES,P1 - Compliance,Request for the list of requirement for the BOC COR application,,L&C ADVISORY/INQUIRIES,IMPORTATION (REQUIREMENTS) INQUIRIES
+Legal & Compliance,Legal & Compliance,OFFSHORE (FOREIGN) CLIENT INQUIRIES,P2 - Compliance,"Inquiries on the CyberEdge, D&O, and PI insurance",,L&C ADVISORY/INQUIRIES,OFFSHORE (FOREIGN) CLIENT INQUIRIES
+Legal & Compliance,Legal & Compliance,OTHER ADVISORY/INQUIRY - LEGAL MATTERS / OPINIONS,P2 - Legal,Tickets for seeking advice or opinions on other legal matters not covered by specific categories.,,L&C ADVISORY/INQUIRIES,OTHER ADVISORY/INQUIRY - LEGAL MATTERS / OPINIONS
+Legal & Compliance,Legal & Compliance,OTHER ADVISORY/INQUIRY - COMPLIANCE RELATED,P1 - Compliance,"Request for the process, implications and advisory for PEZA, BOI, CDC, LGU, and CLIENTS",,L&C ADVISORY/INQUIRIES,OTHER ADVISORY/INQUIRY - COMPLIANCE RELATED
+Legal & Compliance,Legal & Compliance,INQUIRY/ADVISORY FOR PEZA - CLIENTS,P1 - Compliance,Tickets for seeking inquiries or advisory related to PEZA compliance for clients.,,L&C ADVISORY/INQUIRIES,INQUIRY/ADVISORY FOR PEZA - CLIENTS
+Legal & Compliance,Legal & Compliance,SEC/CORPORATE DOCUMENTS,P2 - Legal,Tickets for processing or handling SEC or corporate documents.,,L&C PROCESSING REQUEST,SEC/CORPORATE DOCUMENTS
+Legal & Compliance,Legal & Compliance,LETTER DRAFTING REQUESTS,P3 - Legal,Tickets for drafting legal letters or correspondence.,,L&C PROCESSING REQUEST,LETTER DRAFTING REQUESTS
+Legal & Compliance,Legal & Compliance,PEZA CERTIFICATIONS / INCENTIVES ,P3 - Compliance,Tickets for processing PEZA certifications or incentives.,,L&C PROCESSING REQUEST,PEZA CERTIFICATIONS / INCENTIVES FOR
+Legal & Compliance,Legal & Compliance,BUSINESS & OTHER LGU PERMITS ,P3 - Compliance,Request on a copy of the LGU permits,,L&C PROCESSING REQUEST,BUSINESS & OTHER LGU PERMITS FOR
+Legal & Compliance,Legal & Compliance,BIR/DOLE/FSIC/INSURANCE/BUILDING ADMIN CERTIFICATES/PERMITS ,P3 -Compliance,Request on a copy of permits and certifications,,L&C PROCESSING REQUEST,BIR/DOLE/FSIC/INSURANCE/BUILDING ADMIN CERTIFICATES/PERMITS FOR :
+Legal & Compliance,Legal & Compliance,PEZA CERTIFICATIONS FOR CLIENTS,P5 - Compliance,Tickets for processing PEZA certifications specifically for clients.,,L&C PROCESSING REQUEST,PEZA CERTIFICATIONS FOR CLIENTS
+Legal & Compliance,Legal & Compliance,OFFSHORE (FOREIGN) CLIENT DOCUMENT REQUESTS,P3 - Compliance,Ticket request for a copy of registration and offshore insurance coverage,,L&C PROCESSING REQUEST,OFFSHORE (FOREIGN) CLIENT DOCUMENT REQUESTS
+Legal & Compliance,Legal & Compliance,OTHER DOCUMENT REQUESTS,P3 - Compliance,"Request for other documents needed for clients, government agencies and private sector",,L&C PROCESSING REQUEST,OTHER DOCUMENT REQUESTS
+Legal & Compliance,Legal & Compliance,CRIMINAL/CIVIL/LABOR CASES CONCERNS,P3 - Legal,"Tickets for concerns related to criminal, civil, or labor cases.",,L&C REQUEST FOR DOCUMENTS,CRIMINAL/CIVIL/LABOR CASES CONCERNS
+Legal & Compliance,Legal & Compliance,KYC,P2 - Legal,Tickets related to Know Your Customer (KYC) processes for client identification and verification.,,L&C REQUEST FOR DOCUMENTS,KYC
+Legal & Compliance,Legal & Compliance,VENDOR ACCREDITATION/DUE DILIGENCE,P2 - Legal,Tickets related to vendor accreditation or due diligence processes.,,L&C REQUEST FOR DOCUMENTS,VENDOR ACCREDITATION/DUE DILIGENCE
+Legal & Compliance,Legal & Compliance,LOAN AGREEMENTS,P3 - Legal,Tickets related to reviewing or drafting loan agreements.,,L&C REQUEST FOR DOCUMENTS,LOAN AGREEMENTS
+Legal & Compliance,Legal & Compliance,INTERNAL AUDITS (PWC),P2 - Legal,"Tickets related to internal audit processes, possibly involving external auditors such as PricewaterhouseCoopers (PWC).",,L&C REQUEST FOR DOCUMENTS,INTERNAL AUDITS (PWC)
+Legal & Compliance,Legal & Compliance,BUSINESS REGISTRATION PROCESSING,P5 - Compliance,Request for LGU permits applicable for NEW SITES AND COMPANIES,,L&C REQUEST FOR DOCUMENTS,BUSINESS REGISTRATION PROCESSING FOR
+Legal & Compliance,Legal & Compliance,IMPORTATION (IMPORT PERMIT),P7 - Compliance,Request for new BOC COR application applicable for,,L&C REQUEST FOR DOCUMENTS,IMPORTATION (IMPORT PERMIT)
+Legal & Compliance,Legal & Compliance,PEZA REGISTRATION,P5 - Compliance,Tickets related to the registration process with the PEZA.,,L&C REQUEST FOR DOCUMENTS,PEZA REGISTRATION
+Legal & Compliance,Legal & Compliance,PEZA CERTIFICATIONS/INCENTIVES PROCESSING FOR CLIENTS,P5 - Compliance,Tickets for processing PEZA certifications or incentives specifically for clients.,,L&C REQUEST FOR DOCUMENTS,PEZA CERTIFICATIONS/INCENTIVES PROCESSING FOR CLIENTS
+Legal & Compliance,Legal & Compliance,PEZA CERTIFICATIONS/INCENTIVES PROCESSING-INTERNAL,P5 - Compliance,Tickets for processing PEZA certifications or incentives for internal purposes.,,L&C REQUEST FOR DOCUMENTS,PEZA CERTIFICATIONS/INCENTIVES PROCESSING-INTERNAL
+Legal & Compliance,Legal & Compliance,BIR PROCESSING REQUESTS,P6 - Compliance,Tickets for processing requests or inquiries related to the Bureau of Internal Revenue (BIR).,,L&C REQUEST FOR DOCUMENTS,BIR PROCESSING REQUESTS
+Legal & Compliance,Legal & Compliance,OFFSHORE (FOREIGN) CLIENT PROCESSING REQUESTS,,Tickets for processing requests or inquiries related to offshore or foreign clients.,,L&C REQUEST FOR DOCUMENTS,OFFSHORE (FOREIGN) CLIENT PROCESSING REQUESTS
+Legal & Compliance,Legal & Compliance,REQUEST FOR COPIES OF CONTRACTS,P2 - Legal,Tickets for requesting copies of contracts or agreements.,,L&C REQUEST FOR DOCUMENTS,REQUEST FOR COPIES OF CONTRACTS
+Legal & Compliance,Legal & Compliance,OFFSHORE (FOREIGN) CLIENT CONCERNS,P2 - Compliance,Inquiries for processing and scope of Offshore registrations and insurance,,LEGAL & COMPLIANCE (INTERNAL),OFFSHORE (FOREIGN) CLIENT CONCERNS
+Legal & Compliance,Legal & Compliance,OTHERS - LEGAL & COMPLIANCE RELATED,P2 - Compliance,"General inquiries for process, advisory and other concerns",,LEGAL & COMPLIANCE (INTERNAL),OTHERS - LEGAL & COMPLIANCE RELATED
+Marketing,Marketing,Signage Request,P2 - Marketing,Tickets related to requesting the creation or installation of signage for marketing purposes.,,MKTG Creatives & Content (Graphics Creation Request),Signage Request
+Marketing,Marketing,Creative Collateral Request,P2 - Marketing,"Tickets for requesting the creation of creative collateral materials such as posters, infographics, or presentations.",,MKTG Creatives & Content (Graphics Creation Request),Creative Collateral Request
+Marketing,Marketing,Social Media Access,P2 - Marketing,Tickets for requesting access to social media accounts for marketing purposes.,,MKTG KMC Web Account Access/ Creation Request,Social Media Access
+Marketing,Marketing,"Third Party Account Access (Google, Paypal, Mailchimp, Website, etc.)",P2 - Marketing,Tickets for requesting access to third-party accounts necessary for marketing activities.,,MKTG KMC Web Account Access/ Creation Request,"Third Party Account Access (Google, Paypal, Mailchimp, Website, etc.)"
+Marketing,Marketing,Hubspot Account Access/creation/ Revision,P2 - Marketing,"Tickets related to HubSpot account management, including access, creation, or revision.",,MKTG KMC Web Account Access/ Creation Request,Hubspot Account Access/creation/ Revision
+Marketing,Marketing,Hubspot Reports Creation,P2 - Marketing,Tickets for creating reports using HubSpot for marketing analytics and insights.,,MKTG KMC Web Account Access/ Creation Request,Hubspot Reports Creation
+Marketing,Marketing,"Supplies Distribution/ Acquisition (Flyers, stickers, Tarps, etc.)",P2 - Marketing,"Tickets for acquiring or distributing marketing supplies such as flyers, stickers, or tarps.",,MKTG Marketing Supplies,"Supplies Distribution/ Acquisition (Flyers, stickers, Tarps, etc.)"
+Marketing,Marketing,Borrowing of Equipment,P2 - Marketing,Tickets for requesting the borrowing of equipment needed for marketing activities.,,MKTG Marketing Supplies,Borrowing of Equipment
+Marketing,Marketing,Request for Approval,P2 - Marketing,"Tickets for obtaining approvals for marketing campaigns, materials, or strategies.",,MKTG TV Advertisement,Request for Approval
+Marketing,Marketing,Social Media/ Web Posting Request,P2 - Marketing,Tickets for requesting the posting of content on social media platforms or websites.,,MKTG Website/ Online Activities,Social Media/ Web Posting Request
+Marketing,Marketing,"Email Blasting (to clients, external, etc)",P2 - Marketing,Tickets for requesting the distribution of marketing emails to clients or external contacts.,,MKTG Website/ Online Activities,"Email Blasting (to clients, external, etc)"
+Marketing,Marketing,Website Content Revisions,P2 - Marketing,Tickets for requesting revisions to website content for marketing purposes.,,MKTG Website/ Online Activities,Website Content Revisions
+Marketing,Marketing,Website Design Revisions,P2 - Marketing,Tickets for requesting revisions to website design elements for marketing purposes.,,MKTG Website/ Online Activities,Website Design Revisions
+Marketing,Marketing,Website Design Creation,P2 - Marketing,Tickets for requesting the creation of new website designs for marketing campaigns.,,MKTG Website/ Online Activities,Website Design Creation
+Marketing,Marketing,Website Service Error Troubleshooting,P2 - Marketing,Tickets for troubleshooting and resolving errors on the marketing department's website.,,MKTG Website/ Online Activities,Website Service Error Troubleshooting
+Marketing,Marketing,Website landing page Content,P2 - Marketing,Tickets for creating or updating content on website landing pages.,,MKTG Content/Copy,Website landing page Content
+Marketing,Marketing,Articles/essays Content,P2 - Marketing,Tickets for creating or editing written content such as articles or essays for marketing purposes.,,MKTG Content/Copy,Articles/essays Content
+Marketing,Marketing,Ads/image copy,P2 - Marketing,Tickets for creating or editing advertising copy or imagery for marketing campaigns.,,MKTG Content/Copy,Ads/image copy
+Marketing,Marketing,Social media captions - 1 day,P2 - Marketing,Tickets for creating or editing social media captions for posts within a short timeframe.,,MKTG Content/Copy,Social media captions - 1 day
+Marketing,Marketing,Emails,P2 - Marketing,Tickets for creating or editing email content for marketing campaigns.,,MKTG Content/Copy,Emails
+Technology Services,Network Design Team,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,Network Design Team,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,Network Design Team,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,Network Design Team,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,Network Design Team,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,Network Design Team,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Network Design Team,Connection Issue,P2 - General,Tickets related to an internet issue (LAN & wireless connection).,,Network,Connection Issue
+Technology Services,Network Design Team,Connection Checking,P3 - Planned,"Request to run network testing (ping test, trace route, speed test).",,Network,Connection Checking
+Technology Services,Network Design Team,General Network Activity,P3 - Planned,Any network-related activity that is not on the list.,,Network,General Network Activity
+Technology Services,Network Design Team,Maintenance,P3 - Planned | P4 - Project,Ticket for any network-related maintenance.,,Network,Maintenance
+Technology Services,Network Design Team,Monitoring Alerts,P2 - General,Ticket for the network alerts from SolarWinds.,,Network,Monitoring Alerts
+Technology Services,Network Design Team,Network Diagram Creation/Update,P3 - Planned,Creation/Updating of internal network diagram (KMC infrastructure),,Network,Network Diagram Creation/Update
+Technology Services,Network Design Team,Network Gear Mount/Unmount,P3 - Planned,Ticket for mounting or unmounting any network device in the server rack.,,Network,Network Gear Mount/Unmount
+Technology Services,Network Design Team,Operational Readiness Test,P4 - Project,Ticket for Operational Readiness Test (ORT).,,Network,Operational Readiness Test
+Technology Services,Network Design Team,Port Tracing,P3 - Planned,Ticket for a port tracing activity.,,Network,Port Tracing
+Technology Services,Network Design Team,Report Generation,P3 - Planned,"Request for a network report (bandwidth utilization, etc).",,Network,Report Generation
+Technology Services,Network Design Team,Site Build,P4 - Project,Network-side site build tickets.,,Network,Site Build
+Technology Services,Network Design Team,VLAN Change/Create,P3 - Planned,Request for VLAN changing/creating,,Network,VLAN Change/Create
+Technology Services,Network Design Team,Website Issue,P2 - General,Tickets related any website issue.,,Network,Website Issue
+Technology Services,Network Design Team,Whitelist/Blacklist,P3 - Planned,Request to whitelist or blacklist a URL. Ticket for the creation of access rules.,,Network,Whitelist/Blacklist
+Technology Services,Network Design Team,Wired/Wireless Connection,P3 - Planned,Request to be connected to the WiFi or LAN.,,Network,Wired/Wireless Connection
+Technology Services,Network Design Team,IP Request,P3 - Planned,"Tickets relating to IP Addressing for hosts in network, both Public and Private IPs",,Network and Infrastructure Design,IP Request
+Technology Services,Network Design Team,Traffic Engineering,P3 - Planned,"Tickets relating to access rules, routing, switching, and the likes",,Network and Infrastructure Design,Traffic Engineering
+Technology Services,Network Design Team,Client High Level Network Design,P3 - Planned,Tickets for creation of high level network map for clients,,Network and Infrastructure Design,Client High Level Network Design
+Technology Services,Network Design Team,Client Requirement Discovery,P3 - Planned,Tickets for request of the presence of Design Team during Discovery calls for clients,,Network and Infrastructure Design,Client Requirement Discovery
+Technology Services,NOC,Disconnect,P3 - Planned | P4 - Project,Ticket to disconnect links or dedicated BW service.,,Circuit,Disconnect
+Technology Services,NOC,Order,P3 - Planned | P4 - Project,Request for dedicated/separate link or dedicated BW.,,Circuit,Order
+Technology Services,NOC,Provisioning,P3 - Planned | P4 - Project,Ticket to turn up CKT order.,,Circuit,Provisioning
+Technology Services,NOC,Upgrade,P3 - Planned | P4 - Project,Upgrade request for an existing CKT.,,Circuit,Upgrade
+Technology Services,NOC,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,NOC,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,NOC,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,NOC,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,NOC,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,NOC,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,NOC,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,NOC,Network Outage,P1 - Critical,"Any outage ticket related to the switches, firewall, and other network devices that the KMC NOC team maintains",,Outage,Network Outage
+Technology Services,NOC,ISP Outage,P1 - Critical,Any outage ticket related to the ISP,,Outage,ISP Outage
+Technology Services,NOC,Power Outage,P1 - Critical,Any outage ticket related to power issue/failure,,Outage,Power Outage
+Technology Services,NOC,Connection Issue,P2 - General,Tickets related to an internet issue (LAN & wireless connection).,,Network,Connection Issue
+Technology Services,NOC,Connection Checking,P3 - Planned,"Request to run network testing (ping test, trace route, speed test).",,Network,Connection Checking
+Technology Services,NOC,General Network Activity,P3 - Planned,Any network-related activity that is not on the list.,,Network,General Network Activity
+Technology Services,NOC,Maintenance,P3 - Planned | P4 - Project,Ticket for any network-related maintenance.,,Network,Maintenance
+Technology Services,NOC,Monitoring Alerts,P2 - General,Ticket for the network alerts from SolarWinds.,,Network,Monitoring Alerts
+Technology Services,NOC,Network Diagram Creation/Update,P3 - Planned,Creation/Updating of internal network diagram (KMC infrastructure),,Network,Network Diagram Creation/Update
+Technology Services,NOC,Network Gear Mount/Unmount,P3 - Planned,Ticket for mounting or unmounting any network device in the server rack.,,Network,Network Gear Mount/Unmount
+Technology Services,NOC,Operational Readiness Test,P4 - Project,Ticket for Operational Readiness Test (ORT).,,Network,Operational Readiness Test
+Technology Services,NOC,Port Tracing,P3 - Planned,Ticket for a port tracing activity.,,Network,Port Tracing
+Technology Services,NOC,Report Generation,P3 - Planned,"Request for a network report (bandwidth utilization, etc).",,Network,Report Generation
+Technology Services,NOC,Site Build,P4 - Project,Network-side site build tickets.,,Network,Site Build
+Technology Services,NOC,VLAN Change/Create,P3 - Planned,Request for VLAN changing/creating,,Network,VLAN Change/Create
+Technology Services,NOC,Website Issue,P2 - General,Tickets related any website issue.,,Network,Website Issue
+Technology Services,NOC,Whitelist/Blacklist,P3 - Planned,Request to whitelist or blacklist a URL. Ticket for the creation of access rules.,,Network,Whitelist/Blacklist
+Technology Services,NOC,Wired/Wireless Connection,P3 - Planned,Request to be connected to the WiFi or LAN.,,Network,Wired/Wireless Connection
+Technology Services,NOC,IP Request,P3 - Planned,"Tickets relating to IP Addressing for hosts in network, both Public and Private IPs",,Network and Infrastructure Design,IP Request
+Technology Services,NOC,Traffic Engineering,P3 - Planned,"Tickets relating to access rules, routing, switching, and the likes",,Network and Infrastructure Design,Traffic Engineering
+Technology Services,NOC,Client High Level Network Design,P3 - Planned,Tickets for creation of high level network map for clients,,Network and Infrastructure Design,Client High Level Network Design
+Technology Services,NOC,Client Requirement Discovery,P3 - Planned,Tickets for request of the presence of Design Team during Discovery calls for clients,,Network and Infrastructure Design,Client Requirement Discovery
+Technology Services,NOC,Vulnerability Remediation,P2 - General,Any tickets regarding network security concerns or findings that require attention from either the SOC (Security Operations Center) or the Network Team.,,Network Security,Vulnerability Remediation
+Technology Services,NOC,Emergency Maintenance,P3 - Planned,Any request related to emergency maintenance notification,,Notification,Emergency Maintenance
+Technology Services,NOC,ISP Maintenance,P3 - Planned,Any request related to ISP maintenance notification,,Notification,ISP Maintenance
+Technology Services,NOC,Network Maintenance,P3 - Planned,Any request related to network maintenance notification,,Notification,Network Maintenance
+Technology Services,NOC,Power Maintenance,P3 - Planned,Any request related to power maintenance notification,,Notification,Power Maintenance
+Technology Services,NOC,VoIP Maintenance,P3 - Planned,Any request related to Voice maintenance notification,,Notification,VoIP Maintenance
+Technology Services,NOC Systems,Emergency Maintenance,P3 - Planned,Any request related to emergency maintenance notification,,Notification,Emergency Maintenance
+Technology Services,NOC Systems,ISP Maintenance,P3 - Planned,Any request related to ISP maintenance notification,,Notification,ISP Maintenance
+Technology Services,NOC Systems,Network Maintenance,P3 - Planned,Any request related to network maintenance notification,,Notification,Network Maintenance
+Technology Services,NOC Systems,Power Maintenance,P3 - Planned,Any request related to power maintenance notification,,Notification,Power Maintenance
+Technology Services,NOC Systems,VoIP Maintenance,P3 - Planned,Any request related to Voice maintenance notification,,Notification,VoIP Maintenance
+Technology Services,NOC Systems,Server Outage,P1 - Critical,Any outage ticket related to servers maintained by KMC Server Team,,Outage,Server Outage
+Technology Services,NOC Systems,Vulnerability Remediation,P2 - General,Any tickets associated with system/server security concerns or findings and evaluation results that require resolution from both the SOC (Security Operations Center) or the Systems Team.,,System Security,Vulnerability Remediation
+Technology Services,NOC Systems,Server Backup Management,P2 - General | P3 - Planned,"Backup management services to ensure data security, integrity, and accessibility & Issue with the backup process, seeking resolution to ensure data integrity and system reliability. Requests for data backup, disaster recovery planning, and restoration of server data in case of data loss or system failures. Issue with the backup process, seeking resolution to ensure data integrity and system reliability.",,Server Management,Server Backup Management
+Technology Services,NOC Systems,Server Decommissioning,P3 - Planned,"Request to decommission a server, including data backup, service termination, and hardware disposal in a secure and compliant manner.",,Server Management,Server Decommissioning
+Technology Services,NOC Systems,Server Deployment and Configuration,P3 - Planned,"Requests related to setting up new servers, configuring server hardware and software, and ensuring they are ready for use.",,Server Management,Server Deployment and Configuration
+Technology Services,NOC Systems,Server Health Monitoring,P3 - Planned,A routine server health monitoring and performance to ensure optimal operation and proactive issue detection.,,Server Management,Server Health Monitoring
+Technology Services,NOC Systems,Server Issue,P2 - General,"Requests to address server-related issues, diagnose problems, and implement solutions to restore server functionality.",,Server Management,Server Issue
+Technology Services,NOC Systems,Server Security and Access Control,P3 - Planned,"Requests concerning server security measures, access permissions, and authentication protocols to safeguard server data and resources.",,Server Management,Server Security and Access Control
+Technology Services,NOC Systems,Server Upgrade and Hardware Replacement,P3 - Planned,"Requests for server hardware upgrades, component replacements, and technology refreshes.",,Server Management,Server Upgrade and Hardware Replacement
+Technology Services,NOC Systems,Server VM Management,P3 - Planned,"Requests related to virtual server environments, including provisioning, management, and optimization of virtualized servers.",,Server Management,Server VM Management
+Technology Services,NOC Systems,SSL License,P3 - Planned,"Tickets related to SSL license provisioning, renewal, removal.",,Server Management,SSL License
+Technology Services,NOC Systems,Server New Service Implementation,P4 - Project,"Initiating a server-based project for implementing a new service, ensuring seamless integration and efficient deployment.",,Server Projects,Server New Service Implementation
+Technology Services,NOC Systems,Server Rebuild,P4 - Project,Initiating a Server Rebuild Project to enhance system performance and security by rebuilding and upgrading server infrastructure.,,Server Projects,Server Rebuild
+Technology Services,NOC Systems,Server Refresh,P4 - Project,"Comprehensive server refresh project implementation to enhance performance, security, and overall system efficiency within the organization's IT infrastructure.",,Server Projects,Server Refresh
+Technology Services,NOC Systems,Systems Audit,P4 - Project,Initiating a comprehensive systems audit project to assess and enhance the security and efficiency of IT infrastructure.,,Server Projects,Systems Audit
+Technology Services,NOC Systems,Active Directory Services,P2 - General | P3 - Planned,"Any ticket related to the Active Directory (i.e., Computer, Group Policy, and Security Group)",,Services Management,Active Directory Services
+Technology Services,NOC Systems,Access Permission,P3 - Planned,Any ticket requesting access to shared drives & VPN,,Services Management,Access Permission
+Technology Services,NOC Systems,Adobe Product,P3 - Planned,"Support or assistance with an Adobe product, such as installation, troubleshooting, or licensing inquiries.",,Services Management,Adobe Product
+Technology Services,NOC Systems,BitDefender,P3 - Planned,"Support or assistance with BitDefender, our antivirus and cybersecurity solution, to address security concerns or resolve software-related issues.",,Services Management,BitDefender
+Technology Services,NOC Systems,Kiosk Management,P3 - Planned,"Kiosk tablet management support, including setup, maintenance, and troubleshooting to ensure optimal functionality.",,Services Management,Kiosk Management
+Technology Services,NOC Systems,Microsoft Dynamics NAV Issue,P2 - General,"Resolve an issue with the Microsoft Dynamics NAV application, ensuring seamless functionality.",,Services Management,Microsoft Dynamics NAV Issue
+Technology Services,NOC Systems,PaperCut ID,P3 - Planned,Any request for paper cut ID or printer pin ID. This only applies for the printers links to papercut system.,,Services Management,PaperCut ID
+Technology Services,NOC Systems,Printer Configuration,P3 - Planned,Assistance with the setup and configuration of a printer for seamless and efficient printing operations.,,Services Management,Printer Configuration
+Technology Services,NOC Systems,Rublon,P3 - Planned,"Assistance with Rublon, a multi-factor authentication solution, to enhance security and access control for user accounts.",,Services Management,Rublon
+Technology Services,NOC Systems,Sophos - Machine Removal,P3 - Planned,"Removal of a machine from Sophos, the antivirus and security management system, to ensure proper system management and security compliance.",,Services Management,Sophos - Machine Isolation/Removal
+Technology Services,NOC Systems,NT Login Account Unlock,P2 - General,Login issues that will require an account unlock in the Active Directory.,,User Account,NT Login Account Unlock
+Technology Services,NOC Systems,NT Login Creation,P3 - Planned,Request to create an NT login account.,,User Account,NT Login Creation
+Technology Services,NOC Systems,NT Login Disable,P3 - Planned,Request to disable an NT login account.,,User Account,NT Login Disable
+Technology Services,NOC Systems,NT Login Information Update,P3 - Planned,Request to update an information in a NT login account.,,User Account,NT Login Information Update
+Technology Services,NOC Systems,NT Login Password Reset,P2 - General,Login issues that will require a password reset in the Active Directory.,,User Account,NT Login Password Reset
+Technology Services,NOC Systems,NT Login Re-enable,P3 - Planned,Request to re-enable an already disabled account in the Active Directory.,,User Account,NT Login Re-enable
+Technology Services,NOC Systems,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,NOC Systems,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,NOC Systems,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,NOC Systems,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,NOC Systems,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,NOC Systems,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,NOC Systems,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,On-Site Support,Accountability Form,P3 - Planned,Request for accountability form creation.,,Asset Management,Accountability Form
+Technology Services,On-Site Support,Inventory,P3 - Planned,"Tickets related to asset keeping, inventory, and tagging.",,Asset Management,Inventory
+Technology Services,On-Site Support,Badge Card Request,P3 - Planned,Request for badge card (ITS is already present or not needed).,,Biometric,Badge Card Request
+Technology Services,On-Site Support,Bio Enrollment,P3 - Planned,Request for biometric enrollment.,,Biometric,Bio Enrollment
+Technology Services,On-Site Support,Biometric Issue,P2 - General,"Ticket related to a biometric, magnetic lock, push button, and exit sensor issue.",,Biometric,Biometric Issue
+Technology Services,On-Site Support,Device Configuration,P3 - Planned,Request to configure a setting in the biometric device.,,Biometric,Device Configuration
+Technology Services,On-Site Support,Camera Rotate/Disable Request,P3 - Planned,Request to rotate/disable a CCTV.,,CCTV,Camera Rotate/Disable Request
+Technology Services,On-Site Support,CCTV Issue,P2 - General,Tickets related to a CCTV issue.,,CCTV,CCTV Issue
+Technology Services,On-Site Support,CCTV Viewing Assistance,P3 - Planned,Ticket for the On-site Support to assist the client in viewing the CCTV footage they requested.,,CCTV,CCTV Viewing Assistance
+Technology Services,On-Site Support,Common Area and Conference Room Checking,P3 - Planned,Ticket for updating the common are and conference room checklist.,,Checklist,Common Area and Conference Room Checking
+Technology Services,On-Site Support,Daily Checking,P3 - Planned,Ticket for updating the daily checklist.,,Checklist,Daily Checking
+Technology Services,On-Site Support,Server Room Checking,P3 - Planned,Ticket for updating the server room daily and temperature checklist.,,Checklist,Server Room Checking
+Technology Services,On-Site Support,Server Room Log Sheet Checking,P3 - Planned,Ticket for updating the server room log sheet.,,Checklist,Server Room Log Sheet Checking
+Technology Services,On-Site Support,Deployment Request,P3 - Planned,Request for IT asset deployment.,,Deployment / Movement,Deployment Request
+Technology Services,On-Site Support,Deployment Request,P3 - Planned,Request for IT asset deployment.,,CASA,Deployment Request
+Technology Services,On-Site Support,Movement Request,P3 - Planned,Request for IT asset movement.,,Deployment / Movement,Movement Request
+Technology Services,On-Site Support,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,On-Site Support,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,On-Site Support,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,On-Site Support,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,On-Site Support,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,On-Site Support,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,On-Site Support,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,On-Site Support,Email Issue,P2 - General,Any issue within the O365 solutions.,,Email,Email Issue
+Technology Services,On-Site Support,Port Checking,P2 - General | P3 - Planned,Tickets related to port checking and issue.,,General Assistance,Port Checking
+Technology Services,On-Site Support,Data Center Access,P3 - Planned,Request assistance to access the server room.,,General Assistance,Data Center Access
+Technology Services,On-Site Support,General Inquiry,P3 - Planned,Any ticket requesting or seeking information or updates. This can be used by all technician groups except those groups that already has the 'General' sub-category on their dedicated category (i.e ACS > TS Biometric > General Biometric Services). Also used for Grab booking assistance.,,General Assistance,General Inquiry
+Technology Services,On-Site Support,On-site Assistance,P3 - Planned,Other on-site/physical assistance done by the OSS that doesn't have a dedicated category. Only use this if there are no applicable categories/sub-categories,,General Assistance,On-site Assistance
+Technology Services,On-Site Support,Pull In/Out Assistance,P3 - Planned,Request assistance for pulling in and out of IT assets. This is also used for dismantling requests leading to pulling out of assets (WFH employees).,,General Assistance,Pull-In/Out Assistance
+Technology Services,On-Site Support,Site Walkthrough / Round Check,P3 - Planned,"Ticket for site walkthroughs, site surveys, and round checking.",,General Assistance,Site Walkthrough / Round Check
+Technology Services,On-Site Support,Cable Management,P3 - Planned,Request to do a cable management.,,Hardware,Cable Management
+Technology Services,On-Site Support,Data Center UPS/PDU Issue,P2 - General,Issue with a UPS and PDU in the server room.,,Hardware,Data Center UPS/PDU Issue
+Technology Services,On-Site Support,Desktop UPS Issue,P2 - General,Issue with a desktop UPS.,,Hardware,Desktop UPS Issue
+Technology Services,On-Site Support,Desktop/Laptop Problem,P2 - General,Any issue with a desktop or laptop.,,Hardware,Desktop/Laptop Problem
+Technology Services,On-Site Support,Desktop/Laptop Set-up,P3 - Planned,Request to setup a desktop or laptop.,,Hardware,Desktop/Laptop Setup
+Technology Services,On-Site Support,Device/Equipment Checking,P3 - Planned,"Any ticket requesting to check an equipment to determine if the unit is still in good working condition for possible re-deployment or components upgrade. May also be used for asset maintenance | Additional sub-category usage: Physical checking of all kinds of hardware devices (network device, IP phones, biometric devices) to possibly identify their status",,Hardware,Device/Equipment Checking
+Technology Services,On-Site Support,Equipment Loan/Retrieval,P3 - Planned,"Ticket requesting to borrow IT assets such as laptop, mouse, other peripherals, etc. and retrieval of hardware that's not from a resigned employee",,Hardware,Equipment Loan/Retrieval
+Technology Services,On-Site Support,Joan Device,P2 - General | P3 - Planned,"Ticket related the Joan device like low battery, charging request, calendar syncing, and other requests/issues. Initial troubleshooting must assign to OSS first.",,Hardware,Joan Device
+Technology Services,On-Site Support,Peripherals,P2 - General | P3 - Planned,"Any request or issue related computer peripherals and cables like HDMI, LAN, etc.",,Hardware,Peripherals
+Technology Services,On-Site Support,Raspberry Pi/Hygrometer,P2 - General | P3 - Planned,"Any request or issue related to the EpicOS, Raspberry Pi, and Hygrometer",,Hardware,Raspberry Pi/Hygrometer
+Technology Services,On-Site Support,Sonos,P2 - General | P3 - Planned,Any request or issue related to the sonos device,,Hardware,Sonos
+Technology Services,On-Site Support,Tablet,P2 - General | P3 - Planned,Any issue or request related to the tablet deployed in the reception area,,Hardware,Tablet
+Technology Services,On-Site Support,TV/Projector/Sound System,P2 - General | P3 - Planned,"Any request or issue related to the TV, Projector, Speaker, or Mic (ex. projector setup, laptop to TV connection, etc)",,Hardware,TV/Projector/Sound System
+Technology Services,On-Site Support,Video Conference,P2 - General | P3 - Planned,Any request or issue related to the video conferencing device located on boardrooms,,Hardware,Video Conference
+Technology Services,On-Site Support,Connection Issue,P2 - General,Tickets related to an internet issue (LAN & wireless connection).,,Network,Connection Issue
+Technology Services,On-Site Support,Connection Checking,P3 - Planned,"Request to run network testing (ping test, trace route, speed test).",,Network,Connection Checking
+Technology Services,On-Site Support,Network Gear Mount/Unmount,P3 - Planned,Ticket for mounting or unmounting any network device in the server rack.,,Network,Network Gear Mount/Unmount
+Technology Services,On-Site Support,Website Issue,P2 - General,Tickets related any website issue.,,Network,Website Issue
+Technology Services,On-Site Support,Item Retrieval,P3 - Planned,Any ticket related to the retrieval of and request to receive an asset from a resigned employee,,Off Boarding,Item Retrieval
+Technology Services,On-Site Support,Access Request,P3 - Planned,Request access/connection to the printer.,,Printer,Access Request
+Technology Services,On-Site Support,Change Toner,P3 - Planned,Request to change the printer toner.,,Printer,Change Toner
+Technology Services,On-Site Support,Issue,P2 - General,Issue related to the printer.,,Printer,Issue
+Technology Services,On-Site Support,Printing Services,P3 - Planned,Request to print or scan a document.,,Printer,Printing Services
+Technology Services,On-Site Support,Set up,P3 - Planned,Request to setup a printer (physically setting up the printer).,,Printer,Set up
+Technology Services,On-Site Support,Application Issue,P2 - General,Issues with any desktop application.,,Software,Application Issue
+Technology Services,On-Site Support,Application Installation/Uninstallation,P3 - Planned,Request to install/uninstall an application.,,Software,Application Installation/Unistallation
+Technology Services,On-Site Support,Configuration Assistance,P3 - Planned,Request to configure or update an application.,,Software,Configuration Assistance
+Technology Services,On-Site Support,Hardphone Issue,P2 - General,Ticket for IP phone-related issues.,,Telephony,Hardphone Issue
+Technology Services,On-Site Support,Softphone Issue,P1 - Critical | P2 - General,Ticket for 3CX softphone issues.,,Telephony,Softphone Issue
+Technology Services,On-Site Support,Setup,P3 - Planned,"Request to display a banner, image, videos, or movie Wednesday in the TV.",,TV Advertisement,Setup
+Technology Services,On-Site Support,Digital Signage,P2 - General | P3 - Planned,Ticket related to KMCs official digital signage software. (handled by the TV Ads Team),,TV Advertisement,Digital Signage
+Technology Services,On-Site Support,Removal,P3 - Planned,Request to remove an advertisement or other files displayed on the TV.,,TV Advertisement,Removal
+Technology Services,Product Development,VMS ,P4 - Project | P3 - Planned | P2 - General,"Any request or issue related to access request, tablet issue, test tickets from Dev",,Development,VMS
+HR,People and Culture (Internal),OT Allowance reimbursement,P2 - People & Culture,Ticket for submission of reimbursable overtime allowance requests of eligible employees.,,P&C Allowance,OT Allowance reimbursement
+HR,People and Culture (Internal),Reimbursable allowance (part of compensation),P1 - People & Culture,Requests for processing of reimbursable allowances that form part of employee compensation.,,P&C Payroll,Submission of Reimbursement Form and Receipts
+HR,People and Culture (Internal),Reimbursable allowance (part of compensation),P1 - People & Culture,Requests for processing of reimbursable allowances that form part of employee compensation.,,P&C Allowance,Reimbursable allowance (part of compensation)
+HR,People and Culture (Internal),Endorsement for Salary Increase,P3 - People & Culture,Endorsements for salary increases of employees.,,P&C Employee Movement/EAA Request,Endorsement for Salary Increase
+HR,People and Culture (Internal),Endorsement for Promotion,P3 - People & Culture,"Endorsements for promotion, upward or vertical movement of employees.",,P&C Employee Movement/EAA Request,Endorsement for Promotion
+HR,People and Culture (Internal),Endorsement for Lateral Movement,P3 - People & Culture,Endorsements for lateral movements or transfers within the organization.,,P&C Employee Movement/EAA Request,Endorsement for Lateral Movement
+HR,People and Culture (Internal),Endorsement for Communication Allowance,P3 - People & Culture,Ticket for submission of communication allowance reimbursement requirements including reimbursement form and receipts.,,P&C Employee Movement/EAA Request,Endorsement for Communication Allowance
+HR,People and Culture (Internal),Other movement endorsement/process inquiries,P2 - People & Culture,Other movement endorsement or employee movement-related inquiries.,,P&C Employee Movement/EAA Request,Other movement endorsement/process inquiries
+HR,People and Culture (Internal),Certificate of Employment Request,P3 - People & Culture,Requests for certificates of employment of existing and former employee.,,P&C HR Documents,Certificate of Employment Request
+HR,People and Culture (Internal),Non-Disclosure Agreement Request,P3 - People & Culture,Requests for issuance of non-disclosure agreements to specific employees.,,P&C HR Documents,Non-Disclosure Agreement Request
+HR,People and Culture (Internal),Memo Request,P3 - People & Culture,"Any ticket related to requests for memos or internal communications within the organization. This involves announcements and memorandums for specific teams, departments, or organization-wide.",,P&C HR Documents,Memo Request
+HR,People and Culture (Internal),Employment Contract / Consultancy Agreement request,P1 - People & Culture,Requests for issuance of employment contracts or consultancy agreements for internal personnel.,,P&C HR Documents,Employment Contract / Consultancy Agreement request
+HR,People and Culture (Internal),Personal information update,P1 - People & Culture,"Requests to update personal information such as contact details, emergency contacts, or marital status in the HRIS.",,P&C HRIS,Personal information update
+HR,People and Culture (Internal),Marriage Certificate/Birth Certificate/Death Certificate/Solo Parent ID upload,P1 - People & Culture,"Requests to upload official documents such as marriage certificates, birth certificates, death certificates, or Solo Parent IDs to the HRIS.",,P&C HRIS,Marriage Certificate/Birth Certificate/Death Certificate/Solo Parent ID upload
+HR,People and Culture (Internal),HRIS unlock request,P1 - People & Culture,Requests to unlock accounts or access in the HRIS.,,P&C HRIS,HRIS unlock request
+HR,People and Culture (Internal),HRIS approver change request,P1 - People & Culture,Request to change approvers or immediate supervisor assigned in the HRIS.,,P&C HRIS,HRIS approver change request
+HR,People and Culture (Internal),HRIS work schedule change request,P1 - People & Culture,Requests for changes on official work schedules assigned in the HRIS.,,P&C HRIS,HRIS work schedule change request
+HR,People and Culture (Internal),HRIS filing error / system glitch,P1 - People & Culture,Report errors or glitches in the HRIS.,,P&C HRIS,HRIS filing error / system glitch
+HR,People and Culture (Internal),Cancellation of Leave/Schedule Adjustment/Official Business,P1 - People & Culture,"Requests for cancelling leave applications, schedule adjustment applications, and official business applications.",,P&C HRIS,Cancellation of Leave/Schedule Adjustment/Official Business
+HR,People and Culture (Internal),Access level change,P1 - People & Culture,Requests for changes to access levels in the HRIS. This is usually applicable for first time people managers.,,P&C HRIS,Access level change
+HR,People and Culture (Internal),Location update,P1 - People & Culture,Tickets for updating location or office assignment details in the HRIS. This is necessary for accurate location tagging and correct payment of location-based holiday premium.,,P&C HRIS,Location update
+HR,People and Culture (Internal),Other HRIS requests and inquiries,P1 - People & Culture,Tickets for any other requests or inquiries related to the HRIS that do not fit into the other categories.,,P&C HRIS,Other HRIS requests and inquiries
+HR,People and Culture (Internal),Incident Report template,P1 - People & Culture,Request for incident report template.,,P&C Incident Report/Employee Discipline,Incident Report template
+HR,People and Culture (Internal),Incident Report submission / Notice to Explain (NTE) issuance request,P5 - People & Culture,Submission of incident reports or requests for issuance of Notice to Explain (NTE) documents.,,P&C Incident Report/Employee Discipline,Incident Report submission / Notice to Explain (NTE) issuance request
+HR,People and Culture (Internal),Employee Counselling Form (ECF) submission,P1 - People & Culture,Submission of Employee Counselling Forms (ECF) for HR records.,,P&C Incident Report/Employee Discipline,Employee Counselling Form (ECF) submission
+HR,People and Culture (Internal),Return to Work Order Request,P1 - People & Culture,Request for return to work order for employees who have been on unauthorized leave or absence without official leave (AWOL).,,P&C Incident Report/Employee Discipline,Return to Work Order Request
+HR,People and Culture (Internal),Generic inquiries - individual contributor,P1 - People & Culture,"Generic inquiries from individual contributors regarding HR policies, benefits, procedures, or other related matters.",,P&C Inquiries,Generic inquiries  individual contributor
+HR,People and Culture (Internal),Team management-related inquiries - inquiries from people managers/leadership team (for People Managers only),P1 - People & Culture,"Inquiries from people managers related to team management, leadership, performance management, or other managerial responsibilities, specifically intended for people managers or the leadership team.",,P&C Inquiries,Team management-related inquiries  inquiries from people managers/leadership team (for People Managers only)
+HR,People and Culture (Internal),Certificate of Partial Completion,P3 - People & Culture,Requests for certificate of partial completion of interns enrolled in the internship program.,,P&C Internship,Certificate of Partial Completion
+HR,People and Culture (Internal),Certificate of Completion,P3 - People & Culture,Requests for certificate of completion of interns who successfully completed the internship program.,,P&C Internship,Certificate of Completion
+HR,People and Culture (Internal),Internship allowance follow up,P3 - People & Culture,Follow ups or inquiries pertaining to internship allowances.,,P&C Internship,Internship allowance follow up
+HR,People and Culture (Internal),Other Internship Inquiries,P1 - People & Culture,Any other inquiries related to internships that do not fit into the other categories.,,P&C Internship,Other Internship Inquiries
+HR,People and Culture (Internal),Paternity leave,P2 - People & Culture,"Tickets related to inquiries, requests, or processing of paternity leave benefits for eligible employees.",,P&C Leave Benefits,Paternity leave
+HR,People and Culture (Internal),Bereavement benefit,P1 - People & Culture,"Tickets related to inquiries, requests, or processing of bereavement benefits based on exisitng bereavement guidelines.",,P&C Leave Benefits,Bereavement benefit
+HR,People and Culture (Internal),Solo parent leave,P2 - People & Culture,"Tickets related to inquiries, requests, or processing of solo parent leave benefits for eligible employees.",,P&C Leave Benefits,Solo parent leave
+HR,People and Culture (Internal),Maternity benefit,P2 - People & Culture,"Tickets related to inquiries, requests, or processing of maternity leave benefits for eligible employees.",,P&C Leave Benefits,Maternity benefit
+HR,People and Culture (Internal),Company-initiated leave benefit,P1 - People & Culture,Tickets related to inquiries or requests regarding company-intiated or standard KMC leave benefits.,,P&C Leave Benefits,Company-initiated leave benefit
+HR,People and Culture (Internal),Special leave for women and other leave benefits,P2 - People & Culture,"Tickets related to inquiries, requests, or processing of special leave benefits for women and other leave benefits that do not fall under the other categories.",,P&C Leave Benefits,Special leave for women and other leave benefits
+HR,People and Culture (Internal),Compensatory Time Off,P1 - People & Culture,"Tickets related to compensatory time off requests, inquiries, or adjustments based on the existing Compensatory Time Off Guidelines.",,P&C Leave Benefits,Compensatory Time Off
+HR,People and Culture (Internal),All mental health-related inquiries/requests,P2 - People & Culture,"Tickets related to inquiries or requests concerning mental health support, benefits, resources and policies.",,P&C Mental Health / MindNation,All mental health-related inquiries/requests
+HR,People and Culture (Internal),Request for Bonus / Incentive Computation,P2 - People & Culture,Tickets for requesting computation or clarification of bonuses or incentives.,,P&C Payroll,Request for Bonus / Incentive Computation
+HR,People and Culture (Internal),Request for Sample Payout Computation,P1 - People & Culture,"Tickets for requesting sample computations or estimates of payouts, such as bonuses or final pay.",,P&C Payroll,Request for Sample Payout Computation
+HR,People and Culture (Internal),Pay dispute/payroll concern,P2 - People & Culture,"Tickets for addressing disputes or concerns regarding pay, payroll processing, or discrepancies.",,P&C Payroll,Pay dispute/payroll concern
+HR,People and Culture (Internal),Request for Computation of Final Pay,P1 - People & Culture,Tickets for requesting computation of final pay for terminated or resigning employees.,,P&C Payroll,Request for Computation of Final Pay
+HR,People and Culture (Internal),Request for Computation of Intern Allowance,P2 - People & Culture,Tickets for requesting computation of allowances or stipends for interns.,,P&C Payroll,Request for Computation of Intern Allowance
+HR,People and Culture (Internal),Verification of Salary Range Status,P1 - People & Culture,Tickets for verifying the status or details of an employee's salary range or band.,,P&C Payroll,Verification of Salary Range Status
+HR,People and Culture (Internal),Request for Issuance of Authorization To Deduct,P1 - People & Culture,Tickets for requesting the issuance of authorization to deduct forms for various purposes.,,P&C Payroll,Request for Issuance of Authorization To Deduct
+HR,People and Culture (Internal),Concerns Related to Sprout and Savii Loans,P1 - People & Culture,"Tickets for addressing concerns or inquiries related to Sprout and Savii loans, including application, repayment, terms, or eligibility.",,P&C Payroll,Concerns Related to Sprout and Savii Loans
+HR,People and Culture (Internal),Other Payroll-related concerns,P1 - People & Culture,"Tickets for addressing payroll-related concerns not covered by specific categories, such as tax inquiries, deductions, or adjustments.",,P&C Payroll,Other Payroll-related concerns
+HR,People and Culture (Internal),Submission of Reimbursement Form and Receipts,P2 - People & Culture,Requests for processing of reimbursable allowances that form part of employee compensation.,,P&C Payroll,Submission of Reimbursement Form and Receipts
+HR,People and Culture (Internal),Submission of Reimbursement Form and Receipts,P2 - People & Culture,Requests for processing of reimbursable allowances that form part of employee compensation.,,P&C Allowance,Reimbursable allowance (part of compensation)
+HR,People and Culture (Internal),3rd Month Performance Review upload,P1 - People & Culture,Submission of 3rd month performance review documents or evaluations for upload in HRIS.,,P&C Performance/Coaching,3rd Month Performance Review upload
+HR,People and Culture (Internal),5th Month Performance Review upload,P1 - People & Culture,Submission of 5th month performance review documents or evaluations for upload in HRIS.,,P&C Performance/Coaching,5th Month Performance Review upload
+HR,People and Culture (Internal),Request for Performance Review Form,P1 - People & Culture,Requests for performance review forms or templates for employee evaluations.,,P&C Performance/Coaching,Request for Performance Review Form
+HR,People and Culture (Internal),Coaching Logs upload,P1 - People & Culture,Submission of coaching logs or feedback records for upload in HRIS.,,P&C Performance/Coaching,Coaching Logs upload
+HR,People and Culture (Internal),Request for Coaching Logs Form,P1 - People & Culture,Requests for coaching log forms or templates for documenting employee coaching sessions.,,P&C Performance/Coaching,Request for Coaching Logs Form
+HR,People and Culture (Internal),Performance Improvement Plan Inquiry/Orientation,P2 - People & Culture,Inquiries related to Performance Improvement Plans (PIPs) designed to help employees improve their performance.,,P&C Performance/Coaching,Performance Improvement Plan Inquiry/Orientation
+HR,People and Culture (Internal),Failed Probationary Period / End of Probationary Notice,P2 - People & Culture,Tickets related to employees who have failed their probationary period or are receiving notices regarding the end of their probationary period.,,P&C Performance/Coaching,Failed Probationary Period / End of Probationary Notice
+HR,People and Culture (Internal),Other performance-related inquiries,P1 - People & Culture,"Tickets for inquiries related to performance management, evaluations, feedback, or any other performance-related matters not covered by specific categories.",,P&C Performance/Coaching,Other performance-related inquiries
+HR,People and Culture (Internal),Simple Reports,P3 - People & Culture,"Tickets for requesting or generating simple, straightforward reports that do not require extensive data analysis or interpretation.",,P&C Reports,Simple Reports
+HR,People and Culture (Internal),Complex Reports / Reports Requiring Analytics,P5 - People & Culture,"Tickets for requesting or generating complex reports that involve data analysis, interpretation and/or recommendation.",,P&C Reports,Complex Reports / Reports Requiring Analytics
+HR,People and Culture (Internal),Offboarding request (for People Managers only),P1 - People & Culture,Tickets for People Managers to initiate offboarding processes for resigned employees.,,P&C Resignation/Offboarding,Offboarding request (for People Managers only)
+HR,People and Culture (Internal),Computation of remaining leave credits,P1 - People & Culture,Tickets for employees requesting the computation of their remaining leave credits upon separation.,,P&C Resignation/Offboarding,Computation of remaining leave credits
+HR,People and Culture (Internal),Clearance follow up,P1 - People & Culture,"Follow ups or status checks on the clearance of departing employees, ensuring all necessary steps are completed.",,P&C Resignation/Offboarding,Clearance follow up
+HR,People and Culture (Internal),Offboarding-related inquiries,P1 - People & Culture,"Tickets for inquiries related to offboarding processes, procedures, documentation, or other related matters.",,P&C Resignation/Offboarding,Offboarding-related inquiries
+HR,People and Culture (Internal),Request for Online Certification of Government Loan Application,P2 - People & Culture,"Tickets for requesting online certification of government loan applications, such as Pag-IBIG or SSS loans.",,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for Online Certification of Government Loan Application
+HR,People and Culture (Internal),Request for Continuation of Government Loan from Previous Employer,P2 - People & Culture,"Tickets for requesting continuation of government loans from a previous employer, such as Pag-IBIG or SSS loans.",,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for Continuation of Government Loan from Previous Employer
+HR,People and Culture (Internal),Request for Certificate of Contribution - SSS|Philhealth|Pag-Ibig,P2 - People & Culture,"Tickets for requesting certificates of contribution for SSS, PhilHealth, or Pag-IBIG contributions.",,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for Certificate of Contribution - SSS|Philhealth|Pag-Ibig
+HR,People and Culture (Internal),Request for Manual Certification of Pag-Ibig Loan Application,P2 - People & Culture,Tickets for requesting manual certification of Pag-IBIG loan applications.,,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for Manual Certification of Pag-Ibig Loan Application
+HR,People and Culture (Internal),Request for Philhealth forms (for hospitalization purposes),P1 - People & Culture,Tickets for requesting PhilHealth forms for hospitalization purposes.,,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for Philhealth forms (for hospitalization purposes)
+HR,People and Culture (Internal),Request for Increase in Pag-Ibig Contribution,P1 - People & Culture,Tickets for requesting an increase in Pag-IBIG contributions.,,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for Increase in Pag-Ibig Contribution
+HR,People and Culture (Internal),Request for Salary Deduction of MP2 savings,P1 - People & Culture,Tickets for requesting salary deductions for Pag-IBIG MP2 savings.,,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for Salary Deduction of MP2 savings
+HR,People and Culture (Internal),Request for TIN Verification,P1 - People & Culture,Tickets for requesting verification of Taxpayer Identification Numbers (TINs).,,P&C SSS | Pag-Ibig | Philhealth | BIR,Request for TIN Verification
+HR,People and Culture (Internal),"Other SSS, Philhealth, Pag-Ibig, and BIR Concerns",P1 - People & Culture,"Tickets for inquiries or requests related to other concerns regarding SSS, PhilHealth, Pag-IBIG, or BIR.",,P&C SSS | Pag-Ibig | Philhealth | BIR,"Other SSS, Philhealth, Pag-Ibig, and BIR Concerns"
+HR,People and Culture (Internal),Eligibility for Rehire (for Talent Acquisition Only),P2 - People & Culture,"Tickets regarding inquiries or requests for determining an individual's eligibility for rehire, to be handled exclusively by the Talent Acquisition team.",,P&C Verification,Eligibility for Rehire (for Talent Acquisition Only)
+HR,People and Culture (Internal),Credit Card/Cash Advance Limit (for Finance Only),P2 - People & Culture,"Tickets pertaining to inquiries or requests regarding credit card or cash advance limits, specifically designated for the Finance team's attention.",,P&C Verification,Credit Card/Cash Advance Limit (for Finance Only)
+HR,People and Culture (Internal),All other concerns raised to C&B Internal that do not fall under the above categories,P2 - People & Culture,"Tickets categorized as ""Other Concerns"" raised to the Compensation and Benefits (C&B) Internal team encompass inquiries, requests, or issues that do not align.",,P&C Others,All other concerns raised to C&B Internal that do not fall under the above categories
+Projects & Design,PM and Design,Urgent: RFA/RFI Response for Builds,Priority 2,Request for information context of construction or building projects to provide comprehensive infromation packet to address the outlined,,PM Design Management,Urgent: RFA/RFI Response for Builds
+Projects & Design,PM and Design,RFA/RFI/Techinical Coordination,Priority 4,"providing request of infromation relevant to methodologies, specifications and details",,PM Design Management,RFA/RFI/Techinical Coordination
+Projects & Design,PM and Design,Site Check,Priority 4,Requesting designer to visit a site to gather infroamation,,PM Design Management,Site Check
+Projects & Design,PM and Design,PEZA Office Areas,Priority 2,Generates Peza office site square meter requirement for PEZA,,PM Office Info Request,PEZA Office Areas
+Projects & Design,PM and Design,PEZA As-built print signed and sealed,Priority 4,Generates request from PEZA renewal business permit requirements,,PM Office Info Request,PEZA As-built print signed and sealed
+Projects & Design,PM and Design,Floorplan / Evacuation Plan Updating,Priority 5,Generates evacuation plans per site and request for update,,PM Office Info Request,Floorplan / Evacuation Plan Updating
+Projects & Design,PM and Design,Floorplan Copy Request,Priority 1,Floor plan request as updated and reference.,,PM Office Info Request,Floorplan Copy Request
+Projects & Design,PM and Design,Construction Bond Refund,Priority 8,Securing of construction deposit/bond posted to the building landlords,,PM Request,Construction Bond Refund
+Projects & Design,PM and Design,Engineering Consultation,Priority 4,Technical consulation on PM side,,PM Request,Engineering Consultation
+Projects & Design,PM and Design,Floorplan/As-built Review & Approval (Audit/BP/OP/),Priority 2,"Review of vetting, construction, built plans and similar drawings",,PM Request,Floorplan/As-built Review & Approval (Audit/BP/OP/)
+Projects & Design,PM and Design,New Build Implementation,Priority 8,Implementation of a new project,,PM Request,New Build Implementation
+Projects & Design,PM and Design,Non-Urgent: Info/Coordination Request,Priority 3,Non urgent request for information or details,,PM Request,Non-Urgent: Info/Coordination Request
+Projects & Design,PM and Design,Project Timeline Request,Priority 2,Request for gannt chart or milestones,,PM Request,Project Timeline Request
+Projects & Design,PM and Design,Site Handover Acceptance (Pre & Post Construction),Priority 2,Handover of a completed project to other entities,,PM Request,Site Handover Acceptance (Pre & Post Construction)
+Projects & Design,PM and Design,Site Punchlist Walkthrough/ Handover Assessment,Priority 1,Facilitating of punchlist though a walktrough on a scheduled day,,PM Request,Site Punchlist Walkthrough/ Handover Assessment
+Projects & Design,PM and Design,Testfit Implementation,Priority 8,new small scale project implementation,,PM Request,Testfit Implementation
+Projects & Design,PM and Design,Urgent: Info/Coordination Request,Priority 2,Urgent request for information or details,,PM Request,Urgent: Info/Coordination Request
+Projects & Design,PM and Design,Planradar App Punchlist Updating,Priority 2,Updating/raising additional punchlsit items on planradar app,,PM Request,Planradar App Punchlist Updating
+Projects & Design,PM and Design,Progress Billing Evaluation & Signature,Priority 2,Request for review and checking of the progress billing by vendors,,PM Request,Progress Billing Evaluation & Signature
+Projects & Design,PM and Design,New Material Review,Priority 2,Review and assessment of the new product to be employed in our potential project,,PM Request,New Material Review
+Projects & Design,PM and Design,Methodology Request,Priority 3,Method of statment for a particular execution of scope of works,,PM Request,Methodology Request
+Projects & Design,PM and Design,COC Evaluation & Signature,Priority 3,Review of all requirments prior to sugning of the certificate of completion by the vendors,,PM Request,COC Evaluation & Signature
+Projects & Design,PM and Design,Revise Testfit (New Build/ Refresh),Priority 2,Revise testfit due to commented,,PM Testfit request,Revise Testfit (New Build/ Refresh)
+Projects & Design,PM and Design,Revise Testfit (Office Modification),Priority 2,Revise testfit due to client's comment as submitted from the first request,,PM Testfit request,Revise Testfit (Office Modification)
+Projects & Design,PM and Design,Technical Detail Drawing Request,Priority 4,Drawing request for technical and detialed request.,,PM Design Request,Technical Detail Drawing Request
+Projects & Design,PM and Design,3D Walkthrough,Priority 6,Request walkthrough and VR view of prepared 3d skecthup,,PM Design Request,3D Walkthrough
+Projects & Design,PM and Design,Render (2 to 3 views),Priority 6,3D request rendered perspective view,,PM Design Request,Render (2 to 3 views)
+Technology Services,Product Development,Manatal,P4 - Project | P3 - Planned | P2 - General,"Any request or issue related to recruiter update, job request approver update, manatal sync issue, test tickets from Dev",,Development,Manatal
+Technology Services,Product Development,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,Product Development,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,Product Development,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,Product Development,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,Product Development,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,Product Development,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,Product Development,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Product Development,ACS,P3 - Planned,Any ticket requesting shadowing with the ACS Team,,New Hire Shadowing,ACS
+Technology Services,Product Development,Asset Management,P3 - Planned,Any ticket requesting shadowing with the Asset Team,,New Hire Shadowing,Asset Management
+Technology Services,Product Development,CCTV,P3 - Planned,Any ticket requesting shadowing with the CCTV Team,,New Hire Shadowing,CCTV
+Technology Services,Product Development,Network,P3 - Planned,Any ticket requesting shadowing with the NOC,,New Hire Shadowing,Network
+Technology Services,Product Development,OSS / Deployment,P3 - Planned,Any ticket requesting shadowing with the OSS and Deployment Team,,New Hire Shadowing,OSS / Deployment
+Technology Services,Product Development,PCO,P3 - Planned,Any ticket requesting shadowing with the PCO,,New Hire Shadowing,PCO
+Technology Services,Product Development,Procurement,P3 - Planned,Any ticket requesting shadowing with the Procurement Team,,New Hire Shadowing,Procurement
+Technology Services,Product Development,Product Development,P3 - Planned,Any ticket requesting shadowing with the Dev Team,,New Hire Shadowing,Product Development
+Technology Services,Product Development,Service Desk,P3 - Planned,Any ticket requesting shadowing with the Service Desk Team,,New Hire Shadowing,Service Desk
+Technology Services,Product Development,Systems,P3 - Planned,Any ticket requesting shadowing with the Server Team,,New Hire Shadowing,Systems
+Technology Services,Product Development,TPMO,P3 - Planned,Any ticket requesting shadowing with the TPMO,,New Hire Shadowing,TPMO
+Technology Services,Product Development,Voice / Email,P3 - Planned,Any ticket requesting shadowing with the Voice and Email Team,,New Hire Shadowing,Voice / Email
+Technology Services,Product Development,System Outage,P1 - Critical,Any outage ticket related to web portals and applications that the KMC Dev Team maintains,,Outage,System Outage
+Technology Services,Product Development,Vulnerability Remediation,P2 - General,Any tickets associated with concerns or findings in Web/Applications that require resolution from either the SOC (Security Operations Center) or the Development Team.,,Web/Application Security,Vulnerability Remediation
+Technology Services,Service Desk,New Joinee,P3 - Planned,Request to on board a new employee. This will be the tag if there's a request for bio enrollment but the enrollee has no existing bio ID yet.,,On Boarding,New Joinee
+Service Delivery External,Service Delivery External - Procurement,Vendor verification,P1 - Procurement,Any ticket related to Verification process for vendors specific to Zoom clients.,,Vendor Accreditation,Vendor verification
+Service Delivery External,Service Delivery External - Procurement,Vendor sourcing,P1 - Procurement,Any ticket related to Sourcing of vendors tailored for Zoom clients' needs.,,Vendor Accreditation,Vendor sourcing
+Service Delivery External,Service Delivery External - Procurement,Vendor Accreditation,P1 - Procurement,Any ticket related to Accreditation process for vendors exclusive to Zoom clients.,,Vendor Accreditation,Vendor Accreditation
+Service Delivery External,Service Delivery External - Procurement,Vendor Documents,P1 - Procurement,Any ticket related to Management of vendor-related documents specifically for Zoom clients.,,Vendor Accreditation,Vendor Documents
+Service Delivery External,Service Delivery External - Procurement,New - Item / Service,P1 - Procurement,Any ticket related to Adding new items or services tailored to the requirements of Zoom clients.,,Canvassing,New - Item / Service
+Service Delivery External,Service Delivery External - Procurement,Reorder - Item / Service,P1 - Procurement,Any ticket related to Reordering of items or services specifically for Zoom clients.,,Canvassing,Reorder - Item / Service
+Service Delivery External,Service Delivery External - Procurement,Canvassing,P1 - Procurement,Any ticket related to Conducting canvassing activities tailored to the needs of Zoom clients.,,Canvassing,Canvassing
+Service Delivery External,Service Delivery External - Procurement,PO Processing,P1 - Procurement,Any ticket related to Processing of purchase orders specifically for Zoom clients.,,PO Processing,PO Processing
+Service Delivery External,Service Delivery External - Procurement,Canvassing + PO Processing,P1 - Procurement,Any ticket related to Combined activities of canvassing and purchase order processing for Zoom clients.,,PO Processing,Canvassing + PO Processing
+Service Delivery External,Service Delivery External - Procurement,New Vendor Accreditation + PO Processing,P1 - Procurement,"Any ticket related to Accreditation of new vendors along with purchase order processing, customized for Zoom clients.",,PO Processing,New Vendor Accreditation + PO Processing
+Service Delivery External,Service Delivery External - Procurement,Canvassing + Vendor Accreditation + PO Processing,P1 - Procurement,"Any ticket related to comprehensive process involving canvassing, vendor accreditation, and purchase order processing for Zoom clients.",,PO Processing,Canvassing + Vendor Accreditation + PO Processing
+Service Delivery External,Service Delivery External - Procurement,Delivery Dates,P1 - Procurement,Any ticket related to Managing delivery dates for orders placed by Zoom clients.,,Delivery Confirmation,Delivery Dates
+Service Delivery External,Service Delivery External - Procurement,Notice of Incomplete Delivery,P1 - Procurement,"Any ticket related to Notification regarding incomplete deliveries, specific to Zoom clients.",,Delivery Confirmation,Notice of Incomplete Delivery
+Service Delivery External,Service Delivery External - Procurement,Delivery Documents,P1 - Procurement,Any ticket related to Management of delivery-related documents for Zoom clients.,,Delivery Confirmation,Delivery Documents
+Service Delivery External,Service Delivery External - Procurement,Invoice Posting,P1 - Procurement,Any ticket related to Posting of invoices tailored to Zoom clients' requirements.,,Vendor Payment,Invoice Posting
+Service Delivery External,Service Delivery External - Procurement,Invoice Revision,P1 - Procurement,Any ticket related to Revision of invoices as needed by Zoom clients.,,Vendor Payment,Invoice Revision
+Service Delivery External,Service Delivery External - Procurement,Other Inquiries / Requests,P1 - Procurement,Any ticket related to Handling of any other inquiries or requests specific to Zoom clients.,,Other,Other Inquiries / Requests
+Technology Services,Service Desk,BCP Testing,P3 - Planned,BCP testing-related activities.,,BCP Activation,BCP Testing
+Technology Services,Service Desk,Client,P2 - General,BCP activation by an internal employee.,,BCP Activation,Client
+Technology Services,Service Desk,Internal,P2 - General,BCP activation by a client who availed the BCP service KMC provides.,,BCP Activation,Internal
+Technology Services,Service Desk,Bio ID Request,P3 - Planned,Request for a bio ID (existing).,,Biometric,Bio ID Request
+Technology Services,Service Desk,NT Login Password Reset,P1 - Critical,An internal employee reporting a lost or stolen laptop/desktop,,Data Security Incident,NT Login Password Reset
+Technology Services,Service Desk,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,Service Desk,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,Service Desk,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,Service Desk,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Service Desk,General Inquiry,P3 - Planned,Any ticket requesting or seeking information or updates. This can be used by all technician groups except those groups that already has the 'General' sub-category on their dedicated category (i.e ACS > TS Biometric > General Biometric Services). Also used for Grab booking assistance.,,General Assistance,General Inquiry
+Technology Services,Service Desk,Employee Leaving,P3 - Planned,Off boarding ticket for a resigned or resigning employee.,,Off Boarding,Employee Leaving
+Technology Services,Service Desk,Exit Clearance,P3 - Planned,Ticket related to the signing of clearance of a resigned employee.,,Off Boarding,Exit Clearance
+Technology Services,Service Desk,Recurring Ticket Request/Removal,P3 - Planned,Request to create or delete a recurring ticket,,Ticketing Support,Recurring Ticket Request/Removal
+Technology Services,Service Desk,Report Generation,P3 - Planned,Request to generate a ticket report,,Ticketing Support,Report Generation
+Technology Services,Service Desk,Ticketing Inquiry,P3 - Planned,Any inquiry related to the ticketing system,,Ticketing Support,Ticketing Inquiry
+Technology Services,Service Desk,Test Ticket,P3 - Planned,Dedicated category for test tickets,,Ticketing Support,Test Ticket
+Technology Services,Service Desk,NT Login Account Unlock,P2 - General,Login issues that will require an account unlock in the Active Directory.,,User Account,NT Login Account Unlock
+Technology Services,Service Desk,NT Login Password Reset,P2 - General,Login issues that will require a password reset in the Active Directory.,,User Account,NT Login Password Reset
+Technology Services,Service Desk,NT Login Re-enable,P3 - Planned,Request to re-enable an already disabled account in the Active Directory.,,User Account,NT Login Re-enable
+Technology Services,Service Desk,OSP Access Disable,P3 - Planned,Request to disable access in the OSP.,,User Account,OSP Access Disable
+Technology Services,Service Desk,OSP Access Request,P3 - Planned,Request access to the OSP.,,User Account,OSP Access Request
+Technology Services,Service Desk,OSP Account Unlock,P2 - General,Account lockout issue in the OSP.,,User Account,OSP Account Unlock
+Technology Services,SOC,Malicious Email,P2 - General,Emails that are malicious in nature.,,Email Security,Malicious Email
+Technology Services,SOC,Phishing Incident,P1 - Critical,Tickets related to a phishing attempt or incident.,,Email Security,Phishing Incident
+Technology Services,SOC,Spam,P2 - General,Any tickets related to any forms of spamming.,,Email Security,Spam
+Technology Services,SOC,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,SOC,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,SOC,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,SOC,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,SOC,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,SOC,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,SOC,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,SOC,General Inquiry,P3 - Planned,Any ticket requesting or seeking information or updates. This can be used by all technician groups except those groups that already has the 'General' sub-category on their dedicated category (i.e ACS > TS Biometric > General Biometric Services). Also used for Grab booking assistance.,,General Assistance,General Inquiry
+Technology Services,SOC,Vulnerability Remediation,P2 - General,Any tickets regarding network security concerns or findings that require attention from either the SOC (Security Operations Center) or the Network Team.,,Network Security,Vulnerability Remediation
+Technology Services,SOC,Vulnerability Remediation,P2 - General,Any tickets associated with system/server security concerns or findings and evaluation results that require resolution from both the SOC (Security Operations Center) or the Systems Team.,,System Security,Vulnerability Remediation
+Technology Services,SOC,Vulnerability Remediation,P2 - General,Any tickets associated with concerns or findings in Web/Applications that require resolution from either the SOC (Security Operations Center) or the Development Team.,,Web/Application Security,Vulnerability Remediation
+Technology Services,Technical Project Management,CASA IT support,P2 - General | P3 - Planned,Any request related to CASA desktop/laptop support,,CASA,CASA IT support
+Technology Services,Technical Project Management,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,Technical Project Management,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,Technical Project Management,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,Technical Project Management,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,Technical Project Management,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,Technical Project Management,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,Technical Project Management,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Technical Project Management,Client Move out,P3 - Planned,Ticket notification regarding a client move out.,,Notification,Client Move out
+Technology Services,Technical Project Management,Lease Extension,P3 - Planned,Ticket notification regarding a clients lease extension.,,Notification,Lease Extension
+Technology Services,Technical Project Management,New Client,P3 - Planned,Ticket notification regarding a new client.,,Notification,New Client
+Technology Services,Technical Project Management,General IT Services,P3 - Planned,"Request related to inquiries, ITS concerns, discovery call, and client calls.",,TPMO,General IT Services
+Technology Services,Technical Project Management,Hardware Purchase,P3 - Planned,ITS creation for laptop and desktop purchase requests.,,TPMO,Hardware Purchase
+Technology Services,Technical Project Management,Hardware Rental,P3 - Planned,ITS creation for laptop and desktop rental requests.,,TPMO,Hardware Rental
+Technology Services,Technical Project Management,IT Storage Rental,P3 - Planned,ITS creation for IT storage rental requests.,,TPMO,IT Storage Rental
+Technology Services,Technical Project Management,Quotation for Room Modification,P3 - Planned,ITS creation for any room modification-related requests.,,TPMO,Quotation for Room Modification
+Technology Services,Technical Project Management,Quotation for Services,P3 - Planned,ITS creation for any additional IT setup/configuration.,,TPMO,Quotation for Services
+Technology Services,Technical Project Management,RFID,P3 - Planned,ITS creation for badge card requests.,,TPMO,RFID
+Technology Services,Technical Project Management,Site Build,P4 - Project,"Ticket for new/incoming site builds projects: Design & Build Layout, TPMO PR Requirement, Punchlist Completion and QA Completion.",,TPMO,Site Build
+HR,Training (People Experience),PEX Training Request (Internal),P1 - People Experience,Requests for training programs or sessions organized internally within the company for employee development.,,People Experience,PEX Training Request (Internal)
+HR,Training (People Experience),PEX Training Request (External),P1 - People Experience,Requests for training programs or sessions organized externally by third-party providers for employee development.,,People Experience,PEX Training Request (External)
+HR,Training (People Experience),PEX Training Report,P1 - People Experience,"Reports generated from training activities, including attendance, feedback, and outcomes.",,People Experience,PEX Training Report
+HR,Training (People Experience),PEX Pubmats/Collaterals Request,P1 - People Experience,Requests for promotional materials or collaterals related to training programs.,,People Experience,PEX Pubmats/Collaterals Request
+Technology Services,TS Managers,Deployment/Movement,P3 - Planned,Request for a food allowance during a deployment/movement activity (assign to either Sir Jupiter or Ms Majo),,Food Allowance,Deployment/Movement
+Technology Services,TS Managers,Maintenance,P3 - Planned,Request for a food allowance during a maintenance activity (assign to either Sir Jupiter or Ms Majo),,Food Allowance,Maintenance
+Technology Services,TS Managers,Meeting,P3 - Planned,Request for a food allowance during a meeting (assign to either Sir Jupiter or Ms Majo),,Food Allowance,Meeting
+Technology Services,TS Managers,General Inquiry,P3 - Planned,Any ticket requesting or seeking information or updates. This can be used by all technician groups except those groups that already has the 'General' sub-category on their dedicated category (i.e ACS > TS Biometric > General Biometric Services). Also used for Grab booking assistance.,,General Assistance,General Inquiry
+Technology Services,TS Procurement,BOC Clearance,P4 - Project,Tickets related to international shipments.,,Procurement,BOC Clearance
+Technology Services,TS Procurement,Calculation of Asset Value,P3 - Planned,Request to calculate the value of an asset (depreciated value or otherwise).,,Procurement,Calculation of Asset Value
+Technology Services,TS Procurement,General Procurement Inquiry,P3 - Planned,Any request handled by the TS Procurement that is not on the list.,,Procurement,General Procurement Inquiry
+Technology Services,TS Procurement,Government Permit,P3 - Planned,Ticket for government permit processing.,,Procurement,Government Permit
+Technology Services,TS Procurement,Payment/Invoices/Liquidation,P3 - Planned,"Tickets related to payments, invoices, and liquidation.",,Procurement,Payment/Invoices/Liquidation
+Technology Services,TS Procurement,Purchase Request,P4 - Project,"Ticket for purchase, replenishment, or buffer requests.",,Procurement,Purchase Request
+Technology Services,TS Procurement,Quotation Request,P4 - Project,Ticket for quotation requests and revision of quotation.,,Procurement,Quotation Request
+Technology Services,TS Procurement,Report,P3 - Planned,Ticket for purchased assets report.,,Procurement,Report
+Technology Services,TS Procurement,Vendor Coordination,P3 - Planned,Ticket TS Procurement when coordinating with a vendor regarding a concern with a purchased asset.,,Procurement,Vendor Coordination
+Technology Services,TS Procurement,Recurring Ticket Request/Removal,P3 - Planned,Request to create or delete a recurring ticket,,Ticketing Support,Recurring Ticket Request/Removal
+Technology Services,TS Procurement,Report Generation,P3 - Planned,Request to generate a ticket report,,Ticketing Support,Report Generation
+Technology Services,TS Procurement,Ticketing Inquiry,P3 - Planned,Any inquiry related to the ticketing system,,Ticketing Support,Ticketing Inquiry
+Technology Services,TS Procurement,Test Ticket,P3 - Planned,Dedicated category for test tickets,,Ticketing Support,Test Ticket
+Technology Services,TS Procurement,Delisting,P4 - Project,Ticket to process the delisting/deregistration of a site.,,Compliance,Delisting
+Technology Services,TS Procurement,Farm-In,P3 - Planned,Ticket to process the farm-in PEZA permit.,,Compliance,Farm-In
+Technology Services,TS Procurement,Farm-Out,P4 - Project,Ticket to process the farm-out PEZA permit thru disposal and movement only.,,Compliance,Farm-Out
+Technology Services,TS Procurement,ITH,P4 - Project,Request for IT assistance to process the income tax holiday activity.,,Compliance,ITH
+Technology Services,TS Procurement,Report Generation,P3 - Planned,Request to generate a report related to IT PEZA compliance.,,Compliance,Report Generation
+Technology Services,Voice and Email,Diagram Creation/Update,P3 - Planned,"Any ticket task to create or update a diagram (network, power, rack, etc)",,Document,Diagram Creation/Update
+Technology Services,Voice and Email,Floorplan Creation/Update,P3 - Planned,Any ticket task to create or update a floorplan,,Document,Floorplan Creation/Update
+Technology Services,Voice and Email,Infographics,P3 - Planned,Any ticket task to create or update an infographic or job aid,,Document,Infographics
+Technology Services,Voice and Email,Knowledgebase,P3 - Planned,Any ticket task to create or update a knowledgebase,,Document,Knowledgebase
+Technology Services,Voice and Email,Other Documentations,P3 - Planned,Any ticket related to documentations that are not available in this category,,Document,Other Documentations
+Technology Services,Voice and Email,Process Plan,P3 - Planned,Any ticket task to create a new process plan,,Document,Process Plan
+Technology Services,Voice and Email,Process Update,P3 - Planned,Any ticket task to update an existing process plan,,Document,Process Update
+Technology Services,Voice and Email,Email Password Reset,P2 - General,Any stolen/lost asset incident will require an email password reset for security purposes,,Data Security Incident,Email Password Reset
+Technology Services,Voice and Email,Access Request,P3 - Planned,"Request to access any O365 resource (email account, SharePoint folder).",,Email,Access Request
+Technology Services,Voice and Email,Calendar and Events Management,P3 - Planned,All tickets related to the Calendar and Events Management in O365.,,Email,Calendar and Events Management
+Technology Services,Voice and Email,Distrolist/Mailbox,P3 - Planned,"Tickets related to the distribution lists and mailboxes (creation, member update, access).",,Email,Distrolist / Mailbox
+Technology Services,Voice and Email,Email Detail Update,P3 - Planned,"Request to update/edit a users email account (display name, email address, job title, etc).",,Email,Email Detail Update
+Technology Services,Voice and Email,Email Issue,P2 - General,Any issue within the O365 solutions.,,Email,Email Issue
+Technology Services,Voice and Email,Email Storage,P2 - General | P3 - Planned,Ticket related to the email storage.,,Email,Email Storage
+Technology Services,Voice and Email,License Request/Removal,P3 - Planned,Request to provision/remove a license.,,Email,License Request/Removal
+Technology Services,Voice and Email,MFA Request/Concern,P2 - General | P3 - Planned,Tickets related to the O365 multi-factor authentication (MFA).,,Email,MFA Request/Concern
+Technology Services,Voice and Email,Phishing Incident,P1 - Critical,Tickets related to a phishing attempt or incident.,,Email Security,Phishing Incident
+Technology Services,Voice and Email,Spam,P2 - General,Any tickets related to any forms of spamming.,,Email Security,Spam
+Technology Services,Voice and Email,Telephony Outage,P1 - Critical,Any outage ticket related to the 3CX phone system,,Outage,Telephony Outage
+Technology Services,Voice and Email,Hardphone Issue,P2 - General,Ticket for IP phone-related issues.,,Telephony,Hardphone Issue
+Technology Services,Voice and Email,Configuration assistance,P3 - Planned,"Ticket for telephony configuration assistance, request for a 3CX extension number, etc.",,Telephony,Configuration Assistance
+Technology Services,Voice and Email,General Voice Activity/Inquiry,P3 - Planned,Any voice-related activity/inquiry that are not on the list.,,Telephony,General Voice Activity/Inquiry
+Technology Services,Voice and Email,Softphone Issue,P1 - Critical | P2 - General,Ticket for 3CX softphone issues.,,Telephony,Softphone Issue
+Technology Services,Voice and Email,Telco Coordination,P3 - Planned,Ticket for Voice team when coordinating a voice-related concern with a telco company.,,Telephony,Telco Coordination
+Operations Team,Purchasing,Vendor verification,P1 - Procurement,Any request that requires verification if a certain vendor is an existing accredited to KMC,,PRO Vendor Accreditation,Vendor verification
+Operations Team,Purchasing,Vendor sourcing,P4 - Procurement,Any request that requires specific or list of vendors capable of catering to a specific scope of work,,PRO Vendor Accreditation,Vendor sourcing
+Operations Team,Purchasing,Vendor Documents,P2 - Procurement,Any ticket endorsing a copy or additional documents that supports the legitimacy of a vendor,,PRO Vendor Accreditation,Vendor Documents
+Operations Team,Purchasing,Vendor Card Creation,P2 - Procurement,Any request for vendor card creation as long as an existing and registered vendor from other entities in NAV,,PRO Vendor Accreditation,Vendor Card Creation
+Operations Team,Purchasing,New - Item / Service,P5 - Procurement,Request to source vendor/s for a specific goods/services,,PRO Canvassing,New - Item / Service
+Operations Team,Purchasing,Reorder - Item / Service,P3 - Procurement,Request to source and purchase previous item/service. Requestor to provide previous PO and vendor for reference,,PRO Canvassing,Reorder - Item / Service
+Operations Team,Purchasing,Canvassing + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,Canvassing + PO Processing
+Operations Team,Purchasing,Canvassing + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,New Vendor Accreditation + PO Processing
+Operations Team,Purchasing,Canvassing + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,Canvassing + Vendor Accreditation + PO Processing
+Operations Team,Purchasing,New vendor Accreditation + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,Canvassing + PO Processing
+Operations Team,Purchasing,New vendor Accreditation + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,New Vendor Accreditation + PO Processing
+Operations Team,Purchasing,New vendor Accreditation + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,Canvassing + Vendor Accreditation + PO Processing
+Operations Team,Purchasing,Canvassing + Vendor Accreditation + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,Canvassing + PO Processing
+Operations Team,Purchasing,Canvassing + Vendor Accreditation + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,New Vendor Accreditation + PO Processing
+Operations Team,Purchasing,Canvassing + Vendor Accreditation + PO Processing,,For delisting. No more hybdrid request in the future,,PRO Purchase Order Processing,Canvassing + Vendor Accreditation + PO Processing
+Operations Team,Purchasing,Delivery Dates,P2 - Procurement,Inquiry on the date of delivery or the schedule of installation,,PRO Delivery Confirmation,Delivery Dates
+Operations Team,Purchasing,Notice of Incomplete Delivery,P2 - Procurement,Any request to notify the incomplete or unfinished delivery/installation/service,,PRO Delivery Confirmation,Notice of Incomplete Delivery
+Operations Team,Purchasing,Invoice Posting,P2 - Procurement,Any request that requires payment processing as long as with PO in place and/or amount above Php 20K,,PRO Vendor Payment,Invoice Posting
+Operations Team,Purchasing,Invoice Revision,P2 - Procurement,"Any request that requires changes/revision to the invoice such as amount discrepancy, quantity discrepancy and other similar issues related to invoice that requires changes",,PRO Vendor Payment,Invoice Revision
+Operations Team,Service Delivery Asset Management,PEZA Farm In,P2 - Procurement,Any tickets related to farm-in processing to PEZA.,,Non-IT Asset Compliance,PEZA Farm In
+Operations Team,Service Delivery Asset Management,PEZA Farm Out,P6-Procurement,Any tickets related to farm-out processing to PEZA.,,Non-IT Asset Compliance,PEZA Farm Out
+Operations Team,Service Delivery Asset Management,PEZA Documents or Records Retrieval,P4-Procurement,Any tickets related to records retrieval of PEZA documents.,,Non-IT Asset Compliance,PEZA Documents or Records retrieval
+Operations Team,Service Delivery Asset Management,PEZA Documents - LOA Liquidation,P1-Procurement,Any tickets related to letter of approval liquidation.,,Non-IT Asset Compliance,PEZA Documents - LOA Liquidation
+Operations Team,Service Delivery Asset Management,PEZA Documents - Late Filing: Summary List,P2-Procurement,Any tickets related to providing summary list for late filing.,,Non-IT Asset Compliance,PEZA Documents - Late Filing : Summary List
+Operations Team,Service Delivery Asset Management,PEZA Documents - Forms Liquidation,P2-Procurement,Any tickets related to form ledger liquidation.,,Non-IT Asset Compliance,PEZA Documents - Forms Liquidation
+Operations Team,Service Delivery Asset Management,PEZA Documents - Inventory List : Client assigned asset,P2-Procurement,Any tickets related to inventory list for assigned asset.,,Non-IT Asset Compliance,PEZA Documents - Inventory List : Client assigned asset
+Operations Team,Service Delivery Asset Management,PEZA Documents - Inventory List : Farm Out,P3-Procurement,Any tickets related to inventory list for farm out.,,Non-IT Asset Compliance,PEZA Documents - Inventory List : Farm Out
+Operations Team,Service Delivery Asset Management,PEZA Farm In - Assumed Assets,P5-Procurement,Any tickets related to farmed-in of assumed assets.,,Non-IT Asset Compliance,PEZA Farm In - Assumed Assets
+Operations Team,Service Delivery Asset Management,PEZA Farm In - Late Filing,P6-Procurement,Any tickets related to farmed-in for late filing of assets.,,Non-IT Asset Compliance,PEZA Farm In - Late Filing
+Operations Team,Service Delivery Asset Management,"PEZA Farm In - New Assets (Aeropark, Cebu, Iloilo, Bacolod)",P4-Procurement,Any tickets related to farm-in of new asset outside NCR or Metro Manila.,,Non-IT Asset Compliance,"PEZA Farm In - New Assets (Aeropark, Cebu, Iloilo, Bacolod)"
+Operations Team,Service Delivery Asset Management,PEZA Farm In - New Assets (NCR),P2-Procurement,Any tickets related to farm-in of new asset within NCR or Metro Manila.,,Non-IT Asset Compliance,PEZA Farm In - New Assets (NCR)
+Operations Team,Service Delivery Asset Management,PEZA Farm In - Transferred Assets,P4-Procurement,Any tickets related to farm-in of transferred asset.,,Non-IT Asset Compliance,PEZA Farm In - Transferred Assets
+Operations Team,Service Delivery Asset Management,PEZA Farm Out - Delisting,P6-Procurement,Any tickets related to farm-out delisting of site.,,Non-IT Asset Compliance,PEZA Farm Out - Delisting
+Operations Team,Service Delivery Asset Management,PEZA Farm Out - Disposal : Sell to Buyer,P6-Procurement,Any tickets related to disposal of asset through buyer.,,Non-IT Asset Compliance,PEZA Farm Out - Disposal : Sell to Buyer
+Operations Team,Service Delivery Asset Management,PEZA Farm Out - Disposal : Sell to Non PEZA,P6-Procurement,Any tickets related to disposal of asset through non-peza site.,,Non-IT Asset Compliance,PEZA Farm Out - Disposal : Sell to Non PEZA
+Operations Team,Service Delivery Asset Management,PEZA Farm Out - Transfer : Zone to Zone,P6-Procurement,Any tickets related to disposal of asset through zone to zone.,,Non-IT Asset Compliance,PEZA Farm Out - Transfer : Zone to Zone
+Operations Team,Service Delivery Asset Management,PEZA Inspection Request,P3-Procurement,Any tickets related to PEZA inspection request.,,Non-IT Asset Compliance,PEZA Inspection Request
+Operations Team,Service Delivery Asset Management,PEZA Farm Out - Transfer : Ownership,P6-Procurement,Any tickets related to disposal of asset through ownership.,,Non-IT Asset Compliance,PEZA Farm Out - Transfer : Ownership
+Operations Team,Service Delivery Asset Management,Office-to-Office Transfer,P4-Procurement,Any tickets related to asset transfer from office to office.,,Non-IT Asset Movement,Office-to-Office Transfer
+Operations Team,Service Delivery Asset Management,Site-to-Site Transfer,P4-Procurement,Any tickets related to asset transfer from site to site.,,Non-IT Asset Movement,Site-to-Site Transfer
+Operations Team,Service Delivery Asset Management,Site-to-Facilities for repair,P4-Procurement,Any tickets related to asset transfer from site to facilities.,,Non-IT Asset Movement,Site-to-Facilities for repair
+Operations Team,Service Delivery Asset Management,Facilities - Site,P4-Procurement,Any tickets related to asset transfer from facilities to site,,Non-IT Asset Movement,Facilities - Site
+Operations Team,Service Delivery Asset Management,Facilities - Vendor,P4-Procurement,Any tickets related to asset transfer from facilities to vendor.,,Non-IT Asset Movement,Facilities - Vendor
+Operations Team,Service Delivery Asset Management,KMC Casa,P4-Procurement,Any tickets related to assets for work from home clients.,,Non-IT Asset Movement,KMC Casa
+Operations Team,Service Delivery Asset Management,For disposal - Donation,P5-Procurement,Any tickets related to disposal of asset through donation.,,Non-IT Asset Movement,For disposal - Donation
+Operations Team,Service Delivery Asset Management,For disposal - Sale,P5-Procurement,Any tickets related to disposal of asset through KMC store.,,Non-IT Asset Movement,For disposal - Sale
+Operations Team,Service Delivery Asset Management,For disposal - Scrap,P5-Procurement,Any tickets related to disposal of asset through scrap buyer.,,Non-IT Asset Movement,For disposal - Scrap
+Operations Team,Service Delivery Asset Management,Warehouse-to-Site Transfer,P4-Procurement,Any tickets related to asset transfer from warehouse storage to site,,Non-IT Asset Movement,Warehouse-to-Site Transfer
+Operations Team,Service Delivery Asset Management,Site-To-Warehouse Transfer,P4-Procurement,Any tickets related to asset transfer from site to warehouse storage.,,Non-IT Asset Movement,Site-to-Warehouse Transfer
+Operations Team,Service Delivery Asset Management,Asset reservation,P1-Procurement,Any tickets related to asset inquiry and reservation of asset.,,Non-IT Asset Movement,Asset reservation
+Operations Team,Service Delivery Asset Management,Asset preparation,P3-Procurement,Any tickets related to asset preparation prior to delivery.,,Non-IT Asset Movement,Asset preparation
+Operations Team,Service Delivery Asset Management,KMC Casa - Delivery,P4-Procurement,Any tickets related to asset delivery from site to work from home client.,,Non-IT Asset Movement,KMC Casa - Delivery
+Operations Team,Service Delivery Asset Management,KMC Casa - Retrieval,P4-Procurement,Any tickets related to asset delivery from work from home client to site.,,Non-IT Asset Movement,KMC Casa - Retrieval
+Operations Team,Service Delivery Asset Management,For disposal - Adhoc Buyer Canvass,P5-Procurement,Any tickets related to canvassing of asset for buyers.,,Non-IT Asset Movement,For disposal - Adhoc Buyer Canvass
+Operations Team,Service Delivery Asset Management,For disposal - Adhoc Storage Canvass,P5-Procurement,Any tickets related to canvassing of asset storage vendors.,,Non-IT Asset Movement,For disposal - Adhoc Storage Canvass
+Operations Team,Service Delivery Asset Management,For disposal - Adhoc Shipping Canvass,P5-Procurement,Any tickets related to canvassing of asset shipping vendors.,,Non-IT Asset Movement,For disposal - Adhoc Shipping Canvass
+Operations Team,Service Delivery Asset Management,Asset record creation,P1-Procurement,Any tickets related to asset record creation in OSP/AMF.,,Non-IT Asset Record,Asset record creation
+Operations Team,Service Delivery Asset Management,Asset record update,P1-Procurement,Any tickets related to asset updating in OSP/AMF.,,Non-IT Asset Record,Asset record update
+Operations Team,Service Delivery Asset Management,Asset record retirement,P2-Procurement,Any tickets related to asset removal in OSP.,,Non-IT Asset Record,Asset record retirement
+Operations Team,Service Delivery Asset Management,Asset record retrieval,P1-Procurement,Any tickets related to asset retrieval in OSP.,,Non-IT Asset Record,Asset record retrieval
+Operations Team,Service Delivery Asset Management,Vendor Assessment,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Vendor Assessment?
+Operations Team,Service Delivery Asset Management,Vendor Assessment,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Estimate?
+Operations Team,Service Delivery Asset Management,Vendor Assessment,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Costing?
+Operations Team,Service Delivery Asset Management,Vendor Assessment,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Awarding?
+Operations Team,Service Delivery Asset Management,Project Estimate,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Vendor Assessment?
+Operations Team,Service Delivery Asset Management,Project Estimate,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Estimate?
+Operations Team,Service Delivery Asset Management,Project Estimate,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Costing?
+Operations Team,Service Delivery Asset Management,Project Estimate,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Awarding?
+Operations Team,Service Delivery Asset Management,Project Costing,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Vendor Assessment?
+Operations Team,Service Delivery Asset Management,Project Costing,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Estimate?
+Operations Team,Service Delivery Asset Management,Project Costing,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Costing?
+Operations Team,Service Delivery Asset Management,Project Costing,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Awarding?
+Operations Team,Service Delivery Asset Management,Project Awarding,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Vendor Assessment?
+Operations Team,Service Delivery Asset Management,Project Awarding,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Estimate?
+Operations Team,Service Delivery Asset Management,Project Awarding,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Costing?
+Operations Team,Service Delivery Asset Management,Project Awarding,,N/A. This is general category and breakdown is provided below.,,Non-IT Asset Service Delivery,Project Awarding?
+Operations Team,Service Delivery Asset Management,Asset tag number issuance,P3-Service Delivery Asset,"Any tickets related to asset tag number creation, printing and issuance to site.",,Non-IT Asset Tag,Asset tag number issuance
+Operations Team,Service Delivery Asset Management,Reprinting,P2-Service Deivery Asset,Any tickets related reprinting of existing asset tag number.,,Non-IT Asset Tag,Reprinting
+Operations Team,Service Delivery Asset Management,Asset tag tracing,P3-Service Delivery Asset,Any tickets related to asset tag tracing.,,Non-IT Asset Tag,Asset tag tracing
+Operations Team,Service Delivery Asset Management,Asset tag number re-issuance due to transfer ownership,P3-Service Delivery Asset,Any tickets related to asset tag number re-issuance for transfer of ownership.,,Non-IT Asset Tag,Asset tag number re-issuance due to transfer ownership
+Operations Team,Service Delivery Asset Management,Asset Counting,P3-Service Delivery Asset,Any tickets related to asset inventory.,,Non-IT Asset Tag,Asset Counting
+Operations Team,Service Delivery Asset Management,Asset tag tagging,P4-Service Delivery Asset,Any tickets related to asset tag tagging in site.,,Non-IT Asset Tag,Asset tag tagging
+Operations Team,Service Delivery Asset Management,Testing and Commissioning,P2-Service Deivery Asset,Any tickets related for testing and commissioning in site.,,PQE - Site Inspection,Testing and Commissioning
+Operations Team,Service Delivery Asset Management,Project Initial Punchlist (50%),P3-Service Delivery Asset,Any tickets related to initial punchlist of project at 50%.,,PQE - Site Inspection,Project Initial Punchlist (50%)
+Operations Team,Service Delivery Asset Management,Quality Assessment / Verification,P2-Service Deivery Asset,Any tickets related to quality checking in site.,,PQE - Site Inspection,Quality Assessment / Verification
+Operations Team,Service Delivery Asset Management,Project Initial Punchlist (80-90%),P3-Service Delivery Asset,Any tickets related to initial punchlist of project at 80%-90%.,,PQE - Site Inspection,Project Initial Punchlist (80-90%)
+Operations Team,Service Delivery Asset Management,Mechanical Plan,P3-Service Delivery Asset,Any tickets related to review of mechanical plan.,,PQE - Plan Review Request,Mechanical Plan
+Operations Team,Service Delivery Asset Management,Initial Detailed Cost Estimate,P3-Service Delivery Asset,Any tickets related to generation of initial detailed cost estimate.,,PQS - Project Estimate?,Initial Detailed Cost Estimate?
+Operations Team,Service Delivery Asset Management,Revised Detailed Cost Estimate,P2-Service Deivery Asset,Any tickets related to revision of detailed cost estimate.,,PQS - Project Estimate?,Revise Detailed Cost Estimate?
+Operations Team,Service Delivery Asset Management,OSM Quantifying,P1-Service Delivery Asset,Any tickets related to quantifying of OSM materials.,,PQS - Project Estimate?,OSM Quantifying
+Operations Team,Service Delivery Asset Management,Revise Budgetary Cost Estimate,P1-Service Delivery Asset,Any tickets related to revision of budgetary cost estimate.,,PQS - Project Estimate?,Revise Budgetary Cost Estimate
+Operations Team,Service Delivery Asset Management,Initial Budgetary Cost Estimate,P1-Service Delivery Asset,Any tickets related to generation of initial budgetary cost estimate.,,PQS - Project Estimate?,Initial Budgetary Cost Estimate?
+Operations Team,Service Delivery Asset Management,New Accredited Vendor Interview,P1-Service Delivery Asset,Any tickets related to new vendor for interview.,,PQS - Vendor Assessment?,New Accredited Vendor Interview
+Operations Team,Service Delivery Asset Management,New Accredited Vendor Ocular Vist,P1-Service Delivery Asset,Any tickets related to assisting new vendor for ocular visit.,,PQS - Vendor Assessment?,New Accredited Vendor Ocular Visit
+Operations Team,Service Delivery Asset Management,New Vendor Capability Review,P2-Service Deivery Asset,Any tickets related to reviewing the company profile of new vendor.,,PQS - Vendor Assessment?,New Vendor Capability Review?
+Operations Team,Service Delivery Asset Management,Draft of Construction Agreement,P2-Service Deivery Asset,Any tickets related to drafting of construction agreement for awarded vendor.,,PQS - Contractor Awarding?,Draft of Construction Agreement
+Operations Team,Service Delivery Asset Management,Construction Agreement Issuance & Signing,P5-Service Delivery Asset,Any tickets related to construction agreement issuance and signing of KMC and vendor.,,PQS - Contractor Awarding?,Construction Agreement Issuance & Signing
+Operations Team,Service Delivery Asset Management,Draft of Notice to Award & Rejection Notice,P1-Service Delivery Asset,Any tickets related to drafting of notice to award and rejection notice to vendors.,,PQS - Contractor Awarding?,Draft of Notice to Award & Rejection Notice
+Operations Team,Service Delivery Asset Management,Release for Bidding / Vendor Quotation,P1-Service Delivery Asset,Any tickets related to release for bidding to invited vendors.,,PQS - Pre-Project Phase,Release for Bidding / Vendor Quotation
+Operations Team,Service Delivery Asset Management,Ocular Inspection with Gencon,P1-Service Delivery Asset,Any tickets related to assisting the vendors for ocular inspection.,,PQS - Pre-Project Phase,Ocular Inspection with Gencon
+Operations Team,Service Delivery Asset Management,Project Quantifying,P2-Service Deivery Asset,Any tickets related to quantifying of project based on floor plan.,,PQS - Pre-Project Phase,Project Quantifying
+Operations Team,Service Delivery Asset Management,Respond to Bid Queries,P1-Service Delivery Asset,Any tickets related to answering the bid queries of vendors.,,PQS - Pre-Project Phase,Respond to Bid Queries
+Operations Team,Service Delivery Asset Management,Cost Comparison Review,P2-Service Deivery Asset,Any tickets related to generating and review of cost comparison based on the submitted cost of vendors.,,PQS - Pre-Project Phase,Cost Comparison Review
+Operations Team,Service Delivery Asset Management,BOM Request,P1-Service Delivery Asset,Any tickets related to asking of bill of material for the specific project.,,PQS - Pre-Project Phase,BOM Request
+Operations Team,Service Delivery Asset Management,BOM Request,P1-Service Delivery Asset,Any tickets related to asking of bill of material for the specific project.,,PQS - Pre-Project Phase,Vendor Quotation/BOM Request
+Operations Team,Service Delivery Asset Management,Initial BOM Review,P2-Service Deivery Asset,Any tickets related to review of initial bill of material.,,PQS - Pre-Project Phase,Initial BOM Review
+Operations Team,Service Delivery Asset Management,Revise BOM Review,P2-Service Deivery Asset,Any tickets related to review of revised bill of material.,,PQS - Pre-Project Phase,Revise BOM Review
+Operations Team,Service Delivery Asset Management,Vendor Quotation/BOM Request,P1-Service Delivery Asset,Any tickets related to asking of bill of material for the specific project.,,PQS - Pre-Project Phase,BOM Request
+Operations Team,Service Delivery Asset Management,Vendor Quotation/BOM Request,P1-Service Delivery Asset,Any tickets related to asking of bill of material for the specific project.,,PQS - Pre-Project Phase,Vendor Quotation/BOM Request
+Operations Team,Service Delivery Asset Management,VO Quotation Request,P3-Service Delivery Asset,Any tickets related to variation order quotation request.,,PQS - Post Project Phase,VO Quotation Request
+Operations Team,Service Delivery Asset Management,VO Quotation Request,P3-Service Delivery Asset,Any tickets related to variation order quotation request.,,PQS - Ongoing Project Phase,VO Quotation Request
+Operations Team,Service Delivery Asset Management,VO Cost Review,P2-Service Deivery Asset,Any tickets related to variation order quotation review.,,PQS - Post Project Phase,VO Cost Review
+Operations Team,Service Delivery Asset Management,VO Cost Review,P2-Service Deivery Asset,Any tickets related to variation order quotation review.,,PQS - Ongoing Project Phase,VO Cost Review
+Operations Team,Service Delivery Asset Management,Change Order Request,P3-Service Delivery Asset,Any tickets related to change order quotation review.,,PQS - Ongoing Project Phase,Change Order Request
+Operations Team,Service Delivery Asset Management,VO Quotation Request,P3-Service Delivery Asset,Any tickets related to variation order quotation request.,,PQS - Post Project Phase,VO Quotation Request
+Operations Team,Service Delivery Asset Management,VO Quotation Request,P3-Service Delivery Asset,Any tickets related to variation order quotation request.,,PQS - Ongoing Project Phase,VO Quotation Request
+Operations Team,Service Delivery Asset Management,VO Cost Review,P2-Service Deivery Asset,Any tickets related to variation order quotation review.,,PQS - Post Project Phase,VO Cost Review
+Operations Team,Service Delivery Asset Management,VO Cost Review,P2-Service Deivery Asset,Any tickets related to variation order quotation review.,,PQS - Ongoing Project Phase,VO Cost Review
+Operations Team,Service Delivery Asset Management,Post Game Analysis,P2-Service Deivery Asset,Any tickets related to inpuuting analysis for post project.,,PQS - Post Project Phase,Post Game Analysis
+Operations Team,Service Delivery Asset Management,Punchlist Insight and Summary,P2-Service Deivery Asset,Any tickets related to provide punchlist summary and insight.,,Project Quality Summary,Punchlist Insight and Summary

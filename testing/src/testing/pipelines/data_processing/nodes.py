@@ -175,47 +175,14 @@ import os
 
 def create_techgroup_df(df):
     unique_departments = df['Department'].unique()
-
-    # Create output directory if it does not exist
-    output_dir = "data/02_intermediate/techgroup_encoded_dir"
-    os.makedirs(output_dir, exist_ok=True)
-
-    for department in unique_departments:
-        df_department = df[df['Department'] == department]        
-        # Encode tech groups for the current department
-        encoded_df = one_hot_encode_column(df_department[['Description', 'Tech Group']], 'Description', 'Tech Group')
-    
-        # Save encoded DataFrame to CSV
-        output_filepath = os.path.join(output_dir, f"{department}_encoded.csv")
-        encoded_df.to_csv(output_filepath, index=False)
-
-    return output_dir
-
-def create_category_df(df):
-    unique_departments = df['Department'].unique()
-    output_dir = "data/02_intermediate/category_encoded_dir"
-    os.makedirs(output_dir, exist_ok=True)
+    partitioned_data = {}
 
     for department in unique_departments:
         df_department = df[df['Department'] == department]
-        encoded_df = one_hot_encode_column(df_department[['Description', 'Category']], 'Description', 'Category')
-        # Save encoded DataFrame to CSV
-        output_filepath = os.path.join(output_dir, f"{department}_encoded.csv")
-        encoded_df.to_csv(output_filepath, index=False)
-    return output_dir
-
-# def create_subcategory_df(df):
-#     unique_departments = df['Department'].unique()
-#     output_dir = "data/02_intermediate/subcategory_encoded_dir"
-#     os.makedirs(output_dir, exist_ok=True)
-
-#     for department in unique_departments:
-#         df_department = df[df['Department'] == department]
-#         encoded_df = one_hot_encode_column(df_department[['Description', 'Sub-Category']], 'Description', 'Sub-Category')
-#         # # Save encoded DataFrame to CSV
-#         # output_filepath = os.path.join(output_dir, f"{department}_encoded.csv")
-#         # encoded_df.to_csv(output_filepath, index=False)
-#         return 
+        encoded_df = one_hot_encode_column(
+            df_department[['Description', 'Tech Group']], 'Description', 'Tech Group')
+        partitioned_data[department] = encoded_df
+    return partitioned_data
 
 def create_subcategory_df(df):
     unique_departments = df['Department'].unique()
@@ -236,3 +203,8 @@ def create_category_df(df):
         encoded_df = one_hot_encode_column(df_department[['Description', 'Category']], 'Description', 'Category')
         partitioned_data[department] = encoded_df
     return partitioned_data
+
+def merge_datasets(department_df: pd.DataFrame, category_df: pd.DataFrame) -> pd.DataFrame:
+    merged_df = pd.merge(department_df, category_df,
+                         on='Description', how='inner')
+    return merged_df

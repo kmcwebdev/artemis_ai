@@ -21,7 +21,7 @@ def create_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=split_subcategory_data,
-                inputs=dict(encoded_dir="subcategory_encoded_dir", parameters="params:split_parameters"),
+                inputs=dict(encoded_dir="subcategory_encoded_dir", parameters="params:model_options"),
                 outputs="split_subcategory_data",
                 name="split_subcategory_data_node"
             ),

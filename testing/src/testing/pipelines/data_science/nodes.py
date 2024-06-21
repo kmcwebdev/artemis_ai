@@ -38,7 +38,7 @@ def split_subcategory_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.D
 
     # Iterate through each department's data in the encoded_dir
     for department in parameters["departments"]:
-        input_filepath = os.path.join(encoded_dir, f"{department}_encoded.csv")
+        input_filepath = os.path.join(encoded_dir, f"{department}.csv")
         df = pd.read_csv(input_filepath)
         
         # Split the data
