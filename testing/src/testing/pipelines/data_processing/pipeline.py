@@ -4,6 +4,7 @@ from .nodes import (
     preprocess_descriptions,
     create_department_df,
     create_techgroup_df,
+    create_category_df,
     create_subcategory_df
 )
 
@@ -33,6 +34,18 @@ def create_pipeline(**kwargs) -> Pipeline:
                 inputs="preprocessed_ref",
                 outputs="subcategory_encoded_dir",
                 name="create_subcategory_df_node"
+            ),
+            node(
+                func=create_category_df,
+                inputs="preprocessed_ref",
+                outputs="category_encoded_dir",
+                name="create_category_df_node"
+            ),
+            node(
+                func=preprocess_descriptions,
+                inputs="cate_ref",
+                outputs="cate_preprocessed_ref",
+                name="preprocess_cate_ref_node"
             ),
 
         ]

@@ -145,11 +145,14 @@ def stemming(sentence):
 
 # preprocess description column on cleaning and stemming
 def preprocess_descriptions(train_data: pd.DataFrame):
-    train_data['Description'] = train_data['Description'].apply(
-        lambda x: remove_stopwords(x))
-    train_data['Description'] = train_data['Description'].apply(
-        lambda x: clean_text(x))
+    # Ensure all values in 'Description' are strings and handle NaN values
+    train_data['Description'] = train_data['Description'].astype(str).fillna('')
+
+    # Apply your preprocessing functions
+    train_data['Description'] = train_data['Description'].apply(lambda x: remove_stopwords(x))
+    train_data['Description'] = train_data['Description'].apply(lambda x: clean_text(x))
     train_data['Description'] = train_data['Description'].apply(stemming)
+    
     return train_data
 
 def one_hot_encode_column(df, description_col, target_col):
@@ -221,5 +224,15 @@ def create_subcategory_df(df):
     for department in unique_departments:
         df_department = df[df['Department'] == department]
         encoded_df = one_hot_encode_column(df_department[['Description', 'Sub-Category']], 'Description', 'Sub-Category')
+        partitioned_data[department] = encoded_df
+    return partitioned_data
+
+def create_category_df(df):
+    unique_departments = df['Department'].unique()
+    partitioned_data = {}
+
+    for department in unique_departments:
+        df_department = df[df['Department'] == department]
+        encoded_df = one_hot_encode_column(df_department[['Description', 'Category']], 'Description', 'Category')
         partitioned_data[department] = encoded_df
     return partitioned_data

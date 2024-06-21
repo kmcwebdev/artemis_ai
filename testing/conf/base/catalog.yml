@@ -22,6 +22,12 @@ preprocessed_ref:
   save_args:
     index: False
 
+cate_preprocessed_ref:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/cate_preprocessed_ref.csv
+  save_args:
+    index: False
+
 department_encoded_df:
   filepath: data/02_intermediate/department_encoded_df.csv
   type: pandas.CSVDataset
@@ -33,6 +39,12 @@ techgroup_encoded_dir:
   filepath: data/02_intermediate/techgroup_encoded_dir.parquet
   # save_args:
   #   index: False
+
+category_encoded_dir:
+  type: partitions.PartitionedDataset
+  path: data/02_intermediate/category_encoded_dir
+  dataset: pandas.CSVDataset
+  filename_suffix: ".csv"
 
 # subcategory_encoded_dir:
 #   type: pandas.ParquetDataset

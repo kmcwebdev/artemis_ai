@@ -49,11 +49,11 @@ def create_pipeline(**kwargs) -> Pipeline:
                 outputs="trained_model",
                 name="train_model_node"
             ),
-            node(
-                func=split_data,
-                inputs=["techgroup_encoded_dir","params:model_options"],
-                outputs=["train", "test"]
-            )
+            # node(
+            #     func=split_data,
+            #     inputs=["techgroup_encoded_dir","params:model_options"],
+            #     outputs=["train", "test"]
+            # )
             # node(
             #     func=data_split,
             #     inputs=["model_input_table@pandas", "params:model_options"],
