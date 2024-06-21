@@ -1,6 +1,6 @@
 from kedro.pipeline import Pipeline, node, pipeline
-from kedro.io import MemoryDataset
-from kedro.runner import SequentialRunner
+# from kedro.io import MemoryDataset
+# from kedro.runner import SequentialRunner
 
 from .nodes import (split_data, 
     dataframe_to_dataset,
@@ -19,12 +19,12 @@ def create_pipeline(**kwargs) -> Pipeline:
                 outputs=["train_df","test_df"],
                 name="split_data_node"
             ),
-            node(
-                func=split_subcategory_data,
-                inputs=dict(encoded_dir="subcategory_encoded_dir", parameters="params:model_options"),
-                outputs="split_subcategory_data",
-                name="split_subcategory_data_node"
-            ),
+            # node(
+            #     func=split_subcategory_data,
+            #     inputs=dict(encoded_dir="subcategory_encoded_dir", parameters="params:model_options"),
+            #     outputs="split_subcategory_data",
+            #     name="split_subcategory_data_node"
+            # ),
             node(
                 func=dataframe_to_dataset,
                 inputs=["train_df","test_df"],

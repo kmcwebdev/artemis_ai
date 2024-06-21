@@ -1,3 +1,9 @@
+from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer, DataCollatorWithPadding
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+import numpy as np
+from torch.optim import AdamW
+from transformers.optimization import AdamW
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments, DataCollatorWithPadding
 import logging
 from typing import Dict, Tuple
 from datasets import Dataset
@@ -71,7 +77,7 @@ def department_label_encoding(train_dataset) -> Tuple[Dict[str, int], Dict[int, 
 from transformers import AutoTokenizer
 
 model_path = 'microsoft/deberta-v3-small'
-tokenizer = AutoTokenizer.from_pretrained(model_path)
+tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
 
 def preprocess_function(train_dataset, test_dataset, department2id):
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -105,50 +111,52 @@ def preprocess_function(train_dataset, test_dataset, department2id):
     
     return tokenized_train_dataset, tokenized_test_dataset
 
-from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer, DataCollatorWithPadding
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
-import numpy as np
-from torch.optim import AdamW
 
 def train_model(tokenized_train_dataset, tokenized_test_dataset, label2id, id2label, model_path='microsoft/deberta-v3-small'):
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+    # Load the model
     model = AutoModelForSequenceClassification.from_pretrained(
-        model_path, 
+        model_path,
         num_labels=len(label2id),
-        id2label=id2label, 
+        id2label=id2label,
         label2id=label2id,
         problem_type="multi_label_classification"
     )
-    
+
+    # Load the tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
+    # Define metrics computation
     def compute_metrics(eval_pred):
         labels = eval_pred.label_ids
         predictions = eval_pred.predictions.argmax(-1)
-        
-        # Compute metrics
         accuracy = accuracy_score(labels, predictions)
         f1 = f1_score(labels, predictions, average='micro')
         precision = precision_score(labels, predictions, average='micro')
         recall = recall_score(labels, predictions, average='micro')
-
         return {"accuracy": accuracy, "f1": f1, "precision": precision, "recall": recall}
-    
+
+    # Training arguments with reduced verbosity
     training_args = TrainingArguments(
         output_dir="model",
         learning_rate=2e-5,
-        per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
-        num_train_epochs=5,
+        per_device_train_batch_size=3,
+        per_device_eval_batch_size=3,
+        num_train_epochs=2,
         weight_decay=0.01,
         evaluation_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
+        logging_dir='logs',  # Reduced verbosity in logging
+        logging_strategy='steps',  # Reduced verbosity in logging
     )
+
     # Initialize the optimizer
     optimizer = AdamW(model.parameters(), lr=5e-5)
 
+    # Trainer setup
     trainer = Trainer(
         model=model,
         args=training_args,
@@ -159,9 +167,11 @@ def train_model(tokenized_train_dataset, tokenized_test_dataset, label2id, id2la
         compute_metrics=compute_metrics,
         optimizers=(optimizer, None)
     )
-    
+
+    # Train and save the model
     trainer.train()
-    trainer.save()
+    trainer.save_model()
+
     return model
 
 
