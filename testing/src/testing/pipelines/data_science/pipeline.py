@@ -7,17 +7,18 @@ from .nodes import (split_data,
     department_label_encoding, 
     preprocess_function,
     train_model,
-    split_subcategory_data
+    split_department_data,
+    # split_subcategory_data
     )
 
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline(
         [
             node(
-                func=split_data,
+                func=split_department_data,
                 inputs=["department_encoded_df","params:model_options"],
-                outputs=["train_df","test_df"],
-                name="split_data_node"
+                outputs=["train_department_df","test_department_df"],
+                name="split_department_node"
             ),
             # node(
             #     func=split_subcategory_data,
@@ -27,8 +28,8 @@ def create_pipeline(**kwargs) -> Pipeline:
             # ),
             node(
                 func=dataframe_to_dataset,
-                inputs=["train_df","test_df"],
-                outputs=["train_dataset", "test_dataset"],
+                inputs=["train_department_df","test_department_df"],
+                outputs=["train_department_dataset", "test_department_dataset"],
                 name="dataframe_to_dataset_node"
             ),
             node( 

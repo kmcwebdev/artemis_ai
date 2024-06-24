@@ -1,1 +1,1 @@
-{}
+{"department_encoded_df": {"rows": 764, "columns": 12, "file_size": 57739}, "train_department_df": {"rows": 611, "columns": 12, "file_size": 46037}, "test_department_df": {"rows": 153, "columns": 12, "file_size": 11883}}

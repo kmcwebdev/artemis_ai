@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "artemis_ai",
+			"path": "../.."
+		},
+		{
+			"name": "Ticket_classification",
+			"path": "../../../../KMC Proj/Ticket_classification"
+		}
+	],
+	"settings": {}
+}

@@ -37,8 +37,14 @@ cate_preprocessed_ref:
   save_args:
     index: False
 
+# techgroup_encoded_dir:
+#   type: partitions.PartitionedDataset
+#   path: data/02_intermediate/department_encoded_dir
+#   dataset: pandas.CSVDataset
+#   filename_suffix: ".csv"
+
 department_encoded_df:
-  filepath: data/02_intermediate/department_encoded_df.csv
+  filepath: data/02_intermediate/department_encoded_dir/department_encoded_df.csv
   type: pandas.CSVDataset
   save_args:
     index: False
@@ -61,23 +67,21 @@ subcategory_encoded_dir:
   dataset: pandas.CSVDataset
   filename_suffix: ".csv"
 
-split_subcategory_data:
-  type: partitions.PartitionedDataset
-  path: data/03_primary/split_subcategory_data
-  dataset: pandas.CSVDataset
-
-
-train_df:
-  filepath: data/03_primary/train_department.csv
+train_department_df:
+  filepath: data/03_primary/train_test_department/df/train_department.csv
   type: pandas.CSVDataset
 
-test_df:
-  filepath: data/03_primary/test_department.csv
+test_department_df:
+  filepath: data/03_primary/train_test_department/df/test_department.csv
   type: pandas.CSVDataset
 
-train_dataset:
+train_department_dataset:
   type: testing.io.huggingface_dataset.HuggingFaceDataset
-  filepath: data/03_primary/train_dataset
+  filepath: data/03_primary/train_test_department/dataset/train_department
+
+test_department_dataset:
+  type: testing.io.huggingface_dataset.HuggingFaceDataset
+  filepath: data/03_primary/train_test_department/dataset/test_department
 
 tokenized_train_dataset: 
   type: "testing.io.huggingface_dataset.HuggingFaceDataset"

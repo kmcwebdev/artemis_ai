@@ -8,53 +8,41 @@ import logging
 from typing import Dict, Tuple
 from datasets import Dataset
 from datasets import load_from_disk
+from typing import Dict
 
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import max_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 
-def split_data(df: pd.DataFrame, parameters:Dict):
+
+def split_data(encoded_dir: str, target_col: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
+    test_size = parameters["test_size"]
+    random_state = parameters["random_state"]
+    partitioned_data = {}
+    
+    unique_values = parameters[f"{target_col.lower()}s"]
+    for value in unique_values:
+        input_filepath = os.path.join(encoded_dir, f"{value}.csv")
+        df = pd.read_csv(input_filepath)
+        train_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
+        partitioned_data[f"{value}_train"] = train_df
+        partitioned_data[f"{value}_test"] = test_df
+        
+    return partitioned_data
+
+def split_department_data(df:pd.DataFrame, parameters:Dict):
     train_df, test_df = train_test_split(df, test_size=parameters["test_size"], random_state=parameters["random_state"])
     return train_df, test_df
 
-# def split_subcategory_data(encoded_dir,df, parameters:Dict):
-#     unique_departments = df['Department'].unique()
-#     output_dir = "data/03_primary/subcategory_train_test_df_dir"
-#     os.makedirs(output_dir, exist_ok=True)
-#     for department in unique_departments:
-#     # Load the encoded DataFrame for the specified department and subcategory
-#         input_filepath = os.path.join(encoded_dir, f"{department}_encoded.csv")
-#         df = pd.read_csv(input_filepath)
-#         df_subcategory = df[df['Sub-Category'] == subcategory]
-#         train_df, test_df = train_test_split(df_subcategory, test_size=parameters["test_size"], random_state=parameters["random_state"])
-#         output_filepath = os.path.join(output_dir, f"{department}_sub.csv")
-#     return 
-
-
-from typing import Dict
+def split_techgroup_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
+    return split_data(encoded_dir, target_col="Tech Group", parameters=parameters)
 
 def split_subcategory_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    # Load parameters
-    test_size = parameters["test_size"]
-    random_state = parameters["random_state"]
-    
-    # Create a dictionary to store the partitioned data
-    partitioned_data = {}
+    return split_data(encoded_dir, target_col="Sub-Category", parameters=parameters)
 
-    # Iterate through each department's data in the encoded_dir
-    for department in parameters["departments"]:
-        input_filepath = os.path.join(encoded_dir, f"{department}.csv")
-        df = pd.read_csv(input_filepath)
-        
-        # Split the data
-        train_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
-        
-        # Store the train and test data in the partitioned_data dictionary
-        partitioned_data[f"{department}_train"] = train_df
-        partitioned_data[f"{department}_test"] = test_df
-    
-    return partitioned_data
+def split_category_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
+    return split_data(encoded_dir, target_col="Category", parameters=parameters)
 
 
 def dataframe_to_dataset(train,test):
