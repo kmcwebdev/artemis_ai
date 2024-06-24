@@ -75,6 +75,42 @@ test_department_df:
   filepath: data/03_primary/train_test_department/df/test_department.csv
   type: pandas.CSVDataset
 
+train_techgroup_dir:
+  type: partitions.PartitionedDataset
+  path: data/03_primary/train_test_techgroup/df/train
+  dataset: pandas.CSVDataset
+  filename_suffix: ".csv"
+
+test_techgroup_dir:
+  type: partitions.PartitionedDataset
+  path: data/03_primary/train_test_techgroup/df/test
+  dataset: pandas.CSVDataset
+  filename_suffix: ".csv"
+
+train_category_dir:
+  type: partitions.PartitionedDataset
+  path: data/03_primary/train_test_category/df/train
+  dataset: pandas.CSVDataset
+  filename_suffix: ".csv"
+
+test_category_dir:
+  type: partitions.PartitionedDataset
+  path: data/03_primary/train_test_category/df/test
+  dataset: pandas.CSVDataset
+  filename_suffix: ".csv"
+
+train_subcategory_dir:
+  type: partitions.PartitionedDataset
+  path: data/03_primary/train_test_subcategory/dataset/train
+  dataset: testing.io.huggingface_dataset.HuggingFaceDataset
+  # filename_suffix: 
+
+test_subcategory_dir:
+  type: partitions.PartitionedDataset
+  path: data/03_primary/train_test_subcategory/dataset/test
+  dataset: testing.io.huggingface_dataset.HuggingFaceDataset
+  # filename_suffix: ".csv"
+
 train_department_dataset:
   type: testing.io.huggingface_dataset.HuggingFaceDataset
   filepath: data/03_primary/train_test_department/dataset/train_department
@@ -83,25 +119,22 @@ test_department_dataset:
   type: testing.io.huggingface_dataset.HuggingFaceDataset
   filepath: data/03_primary/train_test_department/dataset/test_department
 
-tokenized_train_dataset: 
+tokenized_train_department_dataset: 
   type: "testing.io.huggingface_dataset.HuggingFaceDataset"
-  filepath: "data/05_model_input/tokenized_train_dataset"
+  filepath: "data/05_model_input/tokenized_department_dataset/train"
 
-tokenized_test_dataset:
+tokenized_test_department_dataset:
   type: "testing.io.huggingface_dataset.HuggingFaceDataset"
-  filepath: "data/05_model_input/tokenized_test_dataset"
+  filepath: "data/05_model_input/tokenized_department_dataset/test"
     
-label2id: 
+department2id: 
     type: "pickle.PickleDataset"
     filepath: "data/04_feature/department_label_encoded_dir/label2id.pkl"
 
-id2label: 
+id2department: 
     type: "pickle.PickleDataset"
     filepath: "data/04_feature/department_label_encoded_dir/id2label.pkl"
     
-test_dataset:
-  type: testing.io.huggingface_dataset.HuggingFaceDataset
-  filepath: data/03_primary/test_dataset
 
 trained_model:
   type: pickle.PickleDataset
