@@ -26,18 +26,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-docker-
 
-      - name: Get organization name
-        id: get_org_name
-        run: echo "::set-output name=org_name::$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)"
-
       - name: Build and push Docker image
         env:
           DOCKER_BUILDKIT: 1
           IMAGE_TAG: ${{ github.ref }}
-          ORG_NAME: ${{ steps.get_org_name.outputs.org_name }}
         run: |
           docker buildx build \
             --platform linux/amd64,linux/arm64 \
             --file Dockerfile \
-            --tag ghcr.io/${ORG_NAME}/${{ github.repository }}:${IMAGE_TAG#refs/tags/} \
+            --tag ghcr.io/${{ github.repository }}:${IMAGE_TAG#refs/tags/} \
             --push .
