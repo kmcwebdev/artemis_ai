@@ -20,26 +20,10 @@ from sklearn.metrics import max_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 from kedro_datasets.partitions import PartitionedDataset
 
-
-# def split_data(encoded_dir: str, target_col: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-#     test_size = parameters["test_size"]
-#     random_state = parameters["random_state"]
-#     partitioned_data = {}
-
-#     for value in unique_values:
-#         input_filepath = os.path.join(encoded_dir, f"{value}.csv")
-#         df = pd.read_csv(input_filepath)
-#         train_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
-#         partitioned_data[f"{value}_train"] = train_df
-#         partitioned_data[f"{value}_test"] = test_df
-
-#     return partitioned_data
-
 def split_department_data(df: pd.DataFrame, parameters: Dict):
     train_df, test_df = train_test_split(
         df, test_size=parameters["test_size"], random_state=parameters["random_state"])
     return train_df, test_df
-
 
 def split_df_to_dataset(encoded_dir: PartitionedDataset, parameters: Dict) -> Dict[str, Dict[str, pd.DataFrame]]:
     test_size = parameters["test_size"]
@@ -51,7 +35,6 @@ def split_df_to_dataset(encoded_dir: PartitionedDataset, parameters: Dict) -> Di
     for tech_group, partition_load_func in encoded_dir.items():
         # Load the data for the current partition
         partition_data = partition_load_func()
-
         # Split the partitioned data into train and test sets
         train_df, test_df = train_test_split(
             partition_data, test_size=test_size, random_state=random_state)
@@ -59,20 +42,7 @@ def split_df_to_dataset(encoded_dir: PartitionedDataset, parameters: Dict) -> Di
         # Store the train and test sets in partitioned_data dictionary
         partitioned_data["train"][tech_group] = train_df
         partitioned_data["test"][tech_group] = test_df
-
     return partitioned_data["train"], partitioned_data["test"]
-
-
-def split_techgroup_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    return split_data(encoded_dir, parameters=parameters)
-
-
-def split_subcategory_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    return split_data(encoded_dir, target_col="Sub-Category", parameters=parameters)
-
-
-def split_category_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    return split_data(encoded_dir, target_col="Category", parameters=parameters)
 
 
 def dataframe_to_dataset(train, test):

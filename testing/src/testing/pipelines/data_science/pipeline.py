@@ -42,6 +42,13 @@ def create_pipeline(**kwargs) -> Pipeline:
                 name="department_tokenization_node"
             ),
             node(
+                func=train_model,
+                inputs=["tokenized_train_department_dataset",
+                        "tokenized_test_department_dataset", "department2id", "id2department"],
+                outputs="trained_model",
+                name="train_model_node"
+            ),
+            node(
                 func=split_df_to_dataset,
                 inputs=["techgroup_encoded_dir", "params:model_options"],
                 outputs=["train_techgroup_dir","test_techgroup_dir"],
@@ -60,13 +67,6 @@ def create_pipeline(**kwargs) -> Pipeline:
                 name="split_subcategory_and_transform_to_dataset_node"
             ),
             
-            
-            # node(
-            #     func=train_model,
-            #     inputs=["tokenized_train_dataset", "tokenized_test_dataset", "label2id", "id2label"],
-            #     outputs="trained_model",
-            #     name="train_model_node"
-            # ),
             # node(
             #     func=split_data,
             #     inputs=["techgroup_encoded_dir","params:model_options"],
