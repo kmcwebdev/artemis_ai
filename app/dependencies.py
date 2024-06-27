@@ -8,10 +8,6 @@ chatbot = Chatbot()
 
 client = AsyncOpenAI()
 
-class CreateAssistant(BaseModel):
-    name: str
-    instruction: str
-
 class CreateMessage(BaseModel):
     assistant_id: str
     content: str

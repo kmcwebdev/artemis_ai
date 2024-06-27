@@ -1,33 +1,22 @@
 import json
 from fastapi import APIRouter
 from app.dependencies import functions, chatbot, llm, client
-from app.dependencies import CreateAssistant
 from app.dependencies import CreateMessage
 
 router = APIRouter()
 
-@router.get("/api/assistant/{assistant_id}")
-async def get_assistant_info(assistant_id: str):
-    assistant = await client.beta.assistants.retrieve(assistant_id=assistant_id)
-
-    return {
-        "assistant_id": assistant.id,
-        "name": assistant.name,
-        "instruction": assistant.instructions
-    }
-
-@router.post("/api/assistant")
-async def create_new_assistant(data: CreateAssistant):
+@router.get("/api/assistant")
+async def create_new_assistant():
     assistant = await client.beta.assistants.create(
-        name=data.name,
-        instructions=data.instruction,
+        name="Customer FAQ Assistant",
+        instructions="You are an assistant specialized in answering customer queries",
         tools=functions,
-        temperature=0,
+        temperature=0.1,
         model=llm,
     )
 
     return {
-        "assistant_id": assistant.id
+        "Assistant_id": assistant.id
     }
 
 @router.post("/api/threads/{assistant_id}")
