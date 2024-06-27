@@ -64,10 +64,6 @@ functions = [
 # Initialize the AsyncOpenAI client
 client = AsyncOpenAI()
 
-class CreateAssistant(BaseModel):
-    name: str
-    instruction: str
-
 class CreateMessage(BaseModel):
     assistant_id: str
     content: str
@@ -130,28 +126,18 @@ async def is_user_confused(user_message):
 async def read_root():
     return {"Hello": "World"}
 
-@app.get("/api/assistant/{assistant_id}")
-async def get_assistant_info(assistant_id: str):
-    assistant = await client.beta.assistants.retrieve(assistant_id=assistant_id)
-
-    return {
-        "assistant_id": assistant.id,
-        "name": assistant.name,
-        "instruction": assistant.instructions
-    }
-
-@app.post("/api/assistant")
-async def create_new_assistant(data: CreateAssistant):
+@app.get("/api/assistant")
+async def create_new_assistant():
     assistant = await client.beta.assistants.create(
-        name=data.name,
-        instructions=data.instruction,
+        name="Customer FAQ Assistant",
+        instructions="You are an assistant specialized in answering customer queries",
         tools=functions,
-        temperature=0.5,
+        temperature=0.1,
         model=llm,
     )
 
     return {
-        "assistant_id": assistant.id
+        "Assistant_id": assistant.id
     }
 
 @app.post("/api/threads/{assistant_id}")
