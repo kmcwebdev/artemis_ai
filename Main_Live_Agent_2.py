@@ -5,7 +5,8 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi.responses import JSONResponse
 from fastapi.testclient import TestClient
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -129,6 +130,9 @@ def connect_to_live_agent():
     response = test_client.post("/api/live_agent")
     return response.json()
     
+
+connected_clients = []
+
 
 @app.get("/")
 async def read_root():
@@ -270,4 +274,15 @@ async def get_thread_messages(thread_id: str):
 
 @app.post("/api/live_agent")
 async def live_agent():
-    return json.dumps({"message": "Connecting you to a live agent..."})
+    return JSONResponse({"message": "Connecting you to a live agent..."})
+
+
+@app.websocket("/ws/notify")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    connected_clients.append(websocket)
+    try:
+        while True:
+            await websocket.receive_text()
+    except WebSocketDisconnect:
+        connected_clients.remove(websocket)
