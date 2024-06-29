@@ -58,7 +58,7 @@ def department_label_encoding(train_dataset) -> Tuple[Dict[str, int], Dict[int, 
 
     label2id = {label: idx for idx, label in enumerate(labels)}
     id2label = {idx: label for label, idx in label2id.items()}
-
+    print(label2id, id2label)
     return label2id, id2label
 
 
