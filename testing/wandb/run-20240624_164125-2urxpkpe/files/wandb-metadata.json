@@ -1,0 +1,39 @@
+{
+    "os": "macOS-13.5.1-arm64-arm-64bit",
+    "python": "3.10.6",
+    "heartbeatAt": "2024-06-24T08:41:26.274656",
+    "startedAt": "2024-06-24T08:41:25.279913",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "run",
+        "--nodes=train_model_node"
+    ],
+    "state": "running",
+    "program": "/Library/Frameworks/Python.framework/Versions/3.10/bin/kedro",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/kmcwebdev/artemis_ai.git",
+        "commit": "d6023622c372295995beea6f5354015449fa6987"
+    },
+    "email": "57570218+tangminhanh@users.noreply.github.com",
+    "root": "/Users/tangminhanh/Documents/artemis_ai",
+    "host": "Tangs-MacBook-Pro.local",
+    "username": "tangminhanh",
+    "executable": "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 440.662296295166
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

@@ -1,3 +1,6 @@
+from transformers import AutoTokenizer
+import json
+import os
 from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer, DataCollatorWithPadding
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 import numpy as np
@@ -9,49 +12,45 @@ from typing import Dict, Tuple
 from datasets import Dataset
 from datasets import load_from_disk
 from typing import Dict
+from kedro.io import AbstractDataset
 
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import max_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
+from kedro_datasets.partitions import PartitionedDataset
 
-
-def split_data(encoded_dir: str, target_col: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    test_size = parameters["test_size"]
-    random_state = parameters["random_state"]
-    partitioned_data = {}
-    
-    unique_values = parameters[f"{target_col.lower()}s"]
-    for value in unique_values:
-        input_filepath = os.path.join(encoded_dir, f"{value}.csv")
-        df = pd.read_csv(input_filepath)
-        train_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
-        partitioned_data[f"{value}_train"] = train_df
-        partitioned_data[f"{value}_test"] = test_df
-        
-    return partitioned_data
-
-def split_department_data(df:pd.DataFrame, parameters:Dict):
-    train_df, test_df = train_test_split(df, test_size=parameters["test_size"], random_state=parameters["random_state"])
+def split_department_data(df: pd.DataFrame, parameters: Dict):
+    train_df, test_df = train_test_split(
+        df, test_size=parameters["test_size"], random_state=parameters["random_state"])
     return train_df, test_df
 
-def split_techgroup_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    return split_data(encoded_dir, target_col="Tech Group", parameters=parameters)
+def split_df_to_dataset(encoded_dir: PartitionedDataset, parameters: Dict) -> Dict[str, Dict[str, pd.DataFrame]]:
+    test_size = parameters["test_size"]
+    random_state = parameters["random_state"]
+    partitioned_data = {
+        "train": {},
+        "test": {}
+    }
+    for tech_group, partition_load_func in encoded_dir.items():
+        # Load the data for the current partition
+        partition_data = partition_load_func()
+        # Split the partitioned data into train and test sets
+        train_df, test_df = train_test_split(
+            partition_data, test_size=test_size, random_state=random_state)
+        train_df, test_df = dataframe_to_dataset(train_df, test_df)
+        # Store the train and test sets in partitioned_data dictionary
+        partitioned_data["train"][tech_group] = train_df
+        partitioned_data["test"][tech_group] = test_df
+    return partitioned_data["train"], partitioned_data["test"]
 
-def split_subcategory_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    return split_data(encoded_dir, target_col="Sub-Category", parameters=parameters)
 
-def split_category_data(encoded_dir: str, parameters: Dict) -> Dict[str, pd.DataFrame]:
-    return split_data(encoded_dir, target_col="Category", parameters=parameters)
-
-
-def dataframe_to_dataset(train,test):
+def dataframe_to_dataset(train, test):
     train_dataset = Dataset.from_pandas(train)
     test_dataset = Dataset.from_pandas(test)
     return train_dataset, test_dataset
 
-import os
-import json
+
 def department_label_encoding(train_dataset) -> Tuple[Dict[str, int], Dict[int, str]]:
     output_dir = "data/04_feature/department_label_encoded_dir"
     os.makedirs(output_dir, exist_ok=True)
@@ -59,19 +58,21 @@ def department_label_encoding(train_dataset) -> Tuple[Dict[str, int], Dict[int, 
 
     label2id = {label: idx for idx, label in enumerate(labels)}
     id2label = {idx: label for label, idx in label2id.items()}
-    
+    print(label2id, id2label)
     return label2id, id2label
 
-from transformers import AutoTokenizer
 
 model_path = 'microsoft/deberta-v3-small'
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
 
+
 def preprocess_function(train_dataset, test_dataset, department2id):
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
     def process_dataset(dataset, department2id):
         texts = dataset["Description"]
-        departments = [col for col in dataset.column_names if col != 'Description']
+        departments = [
+            col for col in dataset.column_names if col != 'Description']
         labels_list = []
 
         for example in dataset:
@@ -93,10 +94,10 @@ def preprocess_function(train_dataset, test_dataset, department2id):
         encoded_dict['labels'] = labels_list
 
         return Dataset.from_dict(encoded_dict)
-    
+
     tokenized_train_dataset = process_dataset(train_dataset, department2id)
     tokenized_test_dataset = process_dataset(test_dataset, department2id)
-    
+
     return tokenized_train_dataset, tokenized_test_dataset
 
 
@@ -161,21 +162,6 @@ def train_model(tokenized_train_dataset, tokenized_test_dataset, label2id, id2la
     trainer.save_model()
 
     return model
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> LinearRegression:
