@@ -25,7 +25,7 @@ async def create_thread(assistant_id: str):
 
     await client.beta.threads.messages.create(
         thread_id=thread.id,
-        content="Greet the user and tell it about yourself and ask how you can help.",
+        content="Greet the user and ask how you can help.",
         role="user",
         metadata={
             "type": "hidden"
