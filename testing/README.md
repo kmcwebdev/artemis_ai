@@ -1,8 +1,9 @@
-# testing
+# Kedro -  Pipeline in Data Processing and Model Training
+
+Kedro is an open-source framework to manage a data science project.
+It provides a pipeline visualization to keep track of machine-learning experiments, and makes it easier to collaborate with business stakeholders.
 
 ## Overview
-
-This is your new Kedro project with Kedro-Viz and PySpark setup, which was generated using `kedro 0.19.6`.
 
 Take a look at the [Kedro documentation](https://docs.kedro.org) to get started.
 
@@ -15,39 +16,52 @@ In order to get the best out of the template:
 * Don't commit data to your repository
 * Don't commit any credentials or your local configuration to your repository. Keep all your credentials and local configuration in `conf/local/`
 
-## How to install dependencies
 
-Declare any dependencies in `requirements.txt` for `pip` installation.
+## Run Locally
 
-To install them, run:
+Clone the project and go to the `kedro-test` branch
 
-```
-pip install -r requirements.txt
-```
-
-## How to run your Kedro pipeline
-
-You can run your Kedro project with:
-
-```
-kedro run
+```bash
+  git clone https://github.com/kmcwebdev/artemis_ai.git
 ```
 
-## How to test your Kedro project
+Go to the project directory
 
-Have a look at the files `src/tests/test_run.py` and `src/tests/pipelines/data_science/test_pipeline.py` for instructions on how to write your tests. Run the tests as follows:
-
+```bash
+  cd testing
 ```
-pytest
+### Set up environment
+##### Creating a Virtual Environment with venv
+1/ To create an environment:
+```bash
+  python3.10 -m venv myenv
+```
+2/ Activate environment
+##### On macOS and Linux:
+```bash
+  source myenv/bin/activate
+```
+##### On Windows:
+```bash
+  myenv\Scripts\activate
 ```
 
-To configure the coverage threshold, look at the `.coveragerc` file.
+Install dependencies
 
-## Project dependencies
+```bash
+  pip install -r requirements.txt
+```
 
-To see and update the dependency requirements for your project use `requirements.txt`. Install the project requirements with `pip install -r requirements.txt`.
+To view the pipeline
+```bash
+  kedro viz run
+```
+To run the nodes in each pipeline. Replace the node_name with some node name such as: ``, ``,``
+```bash
+  kedro run --nodes=node_name
+```
 
-[Further information about project dependencies](https://docs.kedro.org/en/stable/kedro_project_setup/dependencies.html#project-specific-dependencies)
+
 
 ## How to work with Kedro and notebooks
 
