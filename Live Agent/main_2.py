@@ -215,7 +215,7 @@ async def get_status(thread_id: str, run_id: str):
                 function_response = function_to_call()
 
             elif function_name == "connect_to_live_agent":
-                function_response = function_to_call() 
+                function_response = function_to_call()
 
             tools_output.append({
                 "tool_call_id": tool_call.id,
