@@ -1,18 +1,17 @@
-from dotenv import load_dotenv
-from openai import AsyncOpenAI
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-import json
-from fastapi.middleware.cors import CORSMiddleware
-from openai.types.beta.threads.run_submit_tool_outputs_params import ToolOutput
-from langchain_openai import ChatOpenAI
-from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings
-from langchain_community.vectorstores import Chroma
 from langchain import hub
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.vectorstores import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from fastapi import FastAPI, HTTPException
+from fastapi.testclient import TestClient
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from dotenv import load_dotenv
+from openai import AsyncOpenAI
+import json
 
 app = FastAPI()
 
@@ -49,23 +48,21 @@ functions = [
         "type": "function",
         "function": {
             "name": "request_to_connect_to_live_agent",
-            "description": "Request the user to connect to a live agent if the user is confused or needs further assistance",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "user_message": {"type": "string", "description": "The user's message indicating confusion or the need for more assistance, indicating the need to connect to a live agent."},
-                },
-                "required": ["user_message"]
-            }
+            "description": "Request the user to connect to a live agent if the user expresses confusion, frustration, or requests for further assistance., indicating the need to connect to a live agent. Examples: 'I don't understand', 'I am confused', 'I need help', 'I want to speak to a live agent'"
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "connect_to_live_agent",
+            "description": "Connect the user to a live agent after the user agrees to connect"
         }
     }
 ]
 
 client = AsyncOpenAI()
 
-class CreateAssistant(BaseModel):
-    name: str
-    instruction: str
+test_client = TestClient(app)
 
 class CreateMessage(BaseModel):
     assistant_id: str
@@ -107,16 +104,22 @@ class Chatbot:
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
 
-
 chatbot = Chatbot()
 
-def request_to_connect_to_live_agent(user_message):
+
+def request_to_connect_to_live_agent():
     return json.dumps({"message": "Would you like to connect to a live agent to assist you further?"})
+
+
+def connect_to_live_agent():
+    response = test_client.post("/api/live_agent")
+    return response.json()
 
 
 @app.get("/")
 async def read_root():
     return {"Hello": "World"}
+
 
 @app.get("/api/assistant")
 async def create_new_assistant():
@@ -131,6 +134,7 @@ async def create_new_assistant():
     return {
         "Assistant_id": assistant.id
     }
+
 
 @app.post("/api/threads/{assistant_id}")
 async def create_thread(assistant_id: str):
@@ -156,6 +160,7 @@ async def create_thread(assistant_id: str):
         "status": run.status
     }
 
+
 @app.post("/api/threads/{thread_id}/messages")
 async def create_message(thread_id: str, message: CreateMessage):
     await client.beta.threads.messages.create(
@@ -176,6 +181,7 @@ async def create_message(thread_id: str, message: CreateMessage):
         "last_error": run.last_error
     }
 
+
 @app.get("/api/threads/{thread_id}/runs/{run_id}/status")
 async def get_status(thread_id: str, run_id: str):
     run = await client.beta.threads.runs.retrieve(
@@ -184,12 +190,15 @@ async def get_status(thread_id: str, run_id: str):
     )
 
     if (run.status == "requires_action"):
+        
         tools_output = []
+        
         tool_calls = run.required_action.submit_tool_outputs.tool_calls
-
+        
         available_functions = {
             "answer_query": chatbot.get_response,
-            "request_to_connect_to_live_agent": request_to_connect_to_live_agent
+            "request_to_connect_to_live_agent": request_to_connect_to_live_agent,
+            "connect_to_live_agent": connect_to_live_agent
         }
 
         for tool_call in tool_calls:
@@ -200,11 +209,13 @@ async def get_status(thread_id: str, run_id: str):
             if function_name == "answer_query":
                 function_response = function_to_call(
                     user_input=function_args.get("question")
-                )    
+                )  
+
             elif function_name == "request_to_connect_to_live_agent":
-                function_response = function_to_call(
-                    user_message=function_args.get("user_message")
-                )
+                function_response = function_to_call()
+
+            elif function_name == "connect_to_live_agent":
+                function_response = function_to_call()
 
             tools_output.append({
                 "tool_call_id": tool_call.id,
@@ -223,6 +234,7 @@ async def get_status(thread_id: str, run_id: str):
         "status": run.status
     }
 
+
 @app.get("/api/threads/{thread_id}/messages")
 async def get_thread_messages(thread_id: str):
     messages = await client.beta.threads.messages.list(
@@ -240,3 +252,8 @@ async def get_thread_messages(thread_id: str):
         for message in messages.data
     ]
     return result
+
+
+@app.post("/api/live_agent")
+async def live_agent():
+    return json.dumps({"message": "Connecting you to a live agent. Please hold on a moment..."})

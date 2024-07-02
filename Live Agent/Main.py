@@ -6,7 +6,6 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import JSONResponse
 from fastapi.testclient import TestClient
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -49,28 +48,14 @@ functions = [
         "type": "function",
         "function": {
             "name": "request_to_connect_to_live_agent",
-            "description": "Request the user to connect to a live agent if the user is confused or needs further assistance",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "user_message": {"type": "string", "description": "The user's message indicating confusion or the need for more assistance, indicating the need to connect to a live agent."},
-                },
-                "required": ["user_message"]
-            }
+            "description": "Request the user to connect to a live agent if the user expresses confusion, frustration, or requests for further assistance., indicating the need to connect to a live agent. Examples: 'I don't understand', 'I am confused', 'I need help', 'I want to speak to a live agent'"
         }
     },
     {
         "type": "function",
         "function": {
             "name": "connect_to_live_agent",
-            "description": "Connect the user to a live agent after the user agrees to connect",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "confirmation": {"type": "string", "description": "The user's confirmation to connect to a live agent"},
-                },
-                "required": ["confirmation"]
-            }
+            "description": "Connect the user to a live agent after the user agrees to connect"
         }
     }
 ]
@@ -271,4 +256,4 @@ async def get_thread_messages(thread_id: str):
 
 @app.post("/api/live_agent")
 async def live_agent():
-    return JSONResponse({"message": "Connecting you to a live agent. Please hold on a moment..."})
+    return json.dumps({"message": "Connecting you to a live agent. Please hold on a moment..."})
