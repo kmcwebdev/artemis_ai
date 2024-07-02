@@ -209,18 +209,18 @@ async def get_status(thread_id: str, run_id: str):
             if function_name == "answer_query":
                 function_response = function_to_call(
                     user_input=function_args.get("question")
-                )  
+                    )
 
             elif function_name == "request_to_connect_to_live_agent":
                 function_response = function_to_call()
 
             elif function_name == "connect_to_live_agent":
-                function_response = function_to_call()
+                function_response = function_to_call() 
 
             tools_output.append({
                 "tool_call_id": tool_call.id,
                 "output": json.dumps(function_response)
-            })
+                })
 
         run = await client.beta.threads.runs.submit_tool_outputs(
             run_id=run_id,
@@ -232,7 +232,7 @@ async def get_status(thread_id: str, run_id: str):
         "thread_id": thread_id,
         "run_id": run.id,
         "status": run.status
-    }
+        }
 
 
 @app.get("/api/threads/{thread_id}/messages")
@@ -257,3 +257,63 @@ async def get_thread_messages(thread_id: str):
 @app.post("/api/live_agent")
 async def live_agent():
     return json.dumps({"message": "Connecting you to a live agent. Please hold on a moment..."})
+
+
+@app.get("/api/threads/{thread_id}/runs/{run_id}/status/completed")
+async def get_status_completed(thread_id: str, run_id: str):
+    run = await client.beta.threads.runs.retrieve(
+        thread_id=thread_id, 
+        run_id=run_id
+    )
+
+    while run.status != 'completed':
+        
+        if (run.status == "requires_action"):
+            
+            tools_output = []
+
+            tool_calls = run.required_action.submit_tool_outputs.tool_calls
+
+            available_functions = {
+                "answer_query": chatbot.get_response,
+                "request_to_connect_to_live_agent": request_to_connect_to_live_agent,
+                "connect_to_live_agent": connect_to_live_agent
+                }
+            
+            for tool_call in tool_calls:
+                function_name = tool_call.function.name
+                function_to_call = available_functions[function_name]
+                function_args = json.loads(tool_call.function.arguments)
+                
+                if function_name == "answer_query":
+                    function_response = function_to_call(
+                        user_input=function_args.get("question")
+                        )
+                
+                elif function_name == "request_to_connect_to_live_agent":
+                    function_response = function_to_call()
+
+                elif function_name == "connect_to_live_agent":
+                    function_response = function_to_call() 
+
+                tools_output.append({
+                    "tool_call_id": tool_call.id,
+                    "output": json.dumps(function_response)
+                    })
+                
+            run = await client.beta.threads.runs.submit_tool_outputs(
+                run_id=run_id,
+                thread_id=thread_id,
+                tool_outputs=tools_output
+                )
+            
+        run = await client.beta.threads.runs.retrieve(
+            thread_id=thread_id, 
+            run_id=run_id
+            )
+
+    return {
+        "thread_id": thread_id,
+        "run_id": run.id,
+        "status": run.status
+        }
