@@ -108,7 +108,7 @@ chatbot = Chatbot()
 
 
 def request_to_connect_to_live_agent():
-    return json.dumps({"message": "Would you like to connect to a live agent to assist you further?"})
+    return {"message": "Would you like to connect to a live agent to assist you further?"}
 
 
 def connect_to_live_agent():
@@ -215,7 +215,7 @@ async def get_status(thread_id: str, run_id: str):
                 function_response = function_to_call()
 
             elif function_name == "connect_to_live_agent":
-                function_response = function_to_call() 
+                function_response = function_to_call()
 
             tools_output.append({
                 "tool_call_id": tool_call.id,
@@ -256,7 +256,7 @@ async def get_thread_messages(thread_id: str):
 
 @app.post("/api/live_agent")
 async def live_agent():
-    return json.dumps({"message": "Connecting you to a live agent. Please hold on a moment..."})
+    return {"message": "Connecting you to a live agent. Please hold on a moment..."}
 
 
 @app.get("/api/threads/{thread_id}/runs/{run_id}/status/completed")
